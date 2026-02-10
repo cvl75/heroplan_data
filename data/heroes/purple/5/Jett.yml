@@ -43,7 +43,7 @@ costume:
   - ' * Deals 300% damage to the target.'
   - ' * The target receives 858 Poison damage over 3 turns. The caster absorbs 100% of dealt Poison damage as boosted health.'
   - 'x2 Mana Charge:'
-  - ' * Deals 300% damage to all enemies.
+  - ' * Deals 300% damage to all enemies.'
   - ' * All enemies receive 1085 Poison damage over 5 turns. The caster and all their allies absorb 30% of dealt Poison damage as boosted health.'
   types:
   - Charge
