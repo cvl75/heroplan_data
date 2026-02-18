@@ -1,23 +1,23 @@
 ---
-name: Wei Qi
+name: Ling Long
 source: fortune
 family: fortunedancer
 speed: Dancer
-class: Wizard
-power: 1282
-attack: 1353
-defense: 1303
-health: 2276
-skill: Slash of the Vibrant Lion
+class: Fighter
+power: 799
+attack: 822
+defense: 799
+health: 1449
+skill: Spirited Splash
 effects:
-- Deals 700% Spirit Slash damage to the target. Spirit Slash safely removes buffs
-  before dealing damage. (Damage is reduced by -50% for each removed buff. Undispellable
+- Deals 400% Spirit Slash damage to the target. Spirit Slash safely removes buffs
+  before dealing damage. (Damage is reduced by -40% for each removed buff. Undispellable
   buffs are also removed.)
 - Nearby allies dance the Vibrant Fortune Dance for 4 turns.
 - Vibrant Fortune Dance
-- ' * +50% defense.'
-- ' * Dealt damage is increased by +20%. The effect is +30% against Ice targets.'
-- ' * Received damage is reduced by -20%. The effect is -30% against Fire Special
+- ' * +40% defense.'
+- ' * Dealt damage is increased by +15%. The effect is +20% against Ice targets.'
+- ' * Received damage is reduced by -15%. The effect is -20% against Fire Special
   Skills.'
 - ' * Fortune Dances stack with other Dance effects. (All existing status effects
   will be removed when Fortune Dance status effects is added, except other Dance status
@@ -31,5 +31,5 @@ types:
 passives:
 - 'Fierce Dancer: If any allies are Dancing, this character''s Special Skill deals
   +30% more damage.'
-image: https://imgur.com/sX96ELk.jpg
+image: https://imgur.com/mKc1xR3.jpg
 ...
