@@ -25,7 +25,7 @@ passives:
 - ' * All enemies get -34% attack for 3 turns.'
 image: https://i.imgur.com/0Yedhet.jpg
 dtReleased: "2022-05-19"
-dtModified: "2026-03-20"
+dtModified: "2026-04-26"
 fancy_name: God of the Hunt
 aetherPower: dodge
 lb1:
@@ -40,7 +40,7 @@ lb2:
   health: 1971
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Monk
   power: 1200
   attack: 1190
@@ -68,7 +68,7 @@ costume:
     an enemy casts a Special Skill that directly boosts health.'
   image: https://i.imgur.com/fLHpPl2.jpg
   dtReleased: "2024-04-01"
-  dtModified: "2026-03-20"
+  dtModified: "2026-04-26"
   fancy_name: Golden Hunter
   aetherPower: special_boost
   lb1:

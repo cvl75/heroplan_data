@@ -26,7 +26,7 @@ passives:
 - ' * All enemies get -24% mana generation for 3 turns.'
 image: https://i.imgur.com/8kUB8ir.jpg
 dtReleased: "2022-09-29"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Dark Usurper
 aetherPower: mana_boost
 lb1:
@@ -41,7 +41,7 @@ lb2:
   health: 1950
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Cleric
   power: 1210
   attack: 1212
@@ -55,9 +55,9 @@ costume:
   - If the caster is defeated in the next 4 turns, all enemies' mana is reduced by
     -100%. This effect can't be dispelled.
   types:
-  - Summoner
+  - Summoner All
   - DoT All
-  - Mana Reduction All on Defeat
+  - Mana Reduction All on Defeat Self
   passives:
   - 'Effects on Special Skill: 70% chance to perform the following actions when this
     character casts their Special Skill'
@@ -66,10 +66,10 @@ costume:
   - 'Extra Chance for Effects on Special Skill: When this character casts their Special
     Skill, any of their Passive Skills that grant extra effects on cast have 3 chances
     to activate.'
-  - 'Resist Sand Damage: This character has innate resistance against Sand damage.'
+  - 'Resist Sand: This character is immune to status ailments that deal Sand damage.'
   image: https://imgur.com/olt8i8H.jpg
   dtReleased: "2025-05-14"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Dark Tyrant
   aetherPower: boosted_regen
   lb1:

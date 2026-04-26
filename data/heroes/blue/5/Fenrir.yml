@@ -17,11 +17,11 @@ effects:
 - Heals the caster for 50% of damage dealt.
 types:
 - Hit 1
-- Mana Boost on kill
+- Boost Mana Self on kill
 - Heal Self
 image: https://i.imgur.com/jTbJkeI.jpg
 dtReleased: "2020-02-27"
-dtModified: "2026-04-16"
+dtModified: "2026-04-26"
 fancy_name: Leader of Niflheim
 aetherPower: rage
 lb1:
@@ -52,10 +52,10 @@ costume:
   types:
   - Hit 1
   - Heal Self
-  - Boost Mana Self
+  - Boost Mana Self on kill
   image: https://i.imgur.com/ZPobGZa.jpg
   dtReleased: "2023-04-10"
-  dtModified: "2026-04-16"
+  dtModified: "2026-04-26"
   fancy_name: Guardian of Niflheim
   aetherPower: special_boost
   lb1:

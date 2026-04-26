@@ -14,7 +14,7 @@ effects:
 - Heals all allies for 30% of the damage dealt
 types:
 - Hit 1
-- Damage Heal
+- Damage Heal All
 passives:
 - 'Effects on Special Skill: 50% chance to perform the following actions when this
   character casts their Special Skill'
@@ -22,7 +22,7 @@ passives:
 - ' * All enemies get -24% mana generation for 3 turns.'
 image: https://i.imgur.com/9XxU54s.jpg
 dtReleased: "2022-04-21"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Sworn Soldier
 aetherPower: special_boost
 lb1:
@@ -37,7 +37,7 @@ lb2:
   health: 1587
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 2/2/4/1
   class: Paladin
   power: 700
   attack: 719
@@ -49,7 +49,7 @@ costume:
   - Heals all allies for 40% of damage dealt.
   types:
   - Hit 1
-  - Damage Heal
+  - Damage Heal All
   passives:
   - 'Effects on Special Skill: 50% chance to perform the following actions when this
     character casts their Special Skill'
@@ -58,10 +58,10 @@ costume:
   - 'Extra Chance for Effects On Special Skill: When this character casts their Special
     Skill, any of their Passive Skills that grant extra effects on cast have 3 chances
     to activate.'
-  - 'Resist Sand Damage: This character has innate resistance against sand damage.'
+  - 'Resist Sand: This character is immune to status ailments that deal Sand damage.'
   image: https://i.imgur.com/4PhQKkZ.jpg
   dtReleased: "2024-11-01"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Sworn Champion
   aetherPower: attack_up
   lb1:

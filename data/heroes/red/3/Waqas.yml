@@ -24,7 +24,7 @@ passives:
 - ' * All enemies get -34% attack for 3 turns.'
 image: https://i.imgur.com/CWQ9rw6.jpg
 dtReleased: "2022-04-21"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Pharaoh's Shield
 aetherPower: regen
 lb1:
@@ -39,7 +39,7 @@ lb2:
   health: 993
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 2/2/4/1
   class: Barbarian
   power: 494
   attack: 575
@@ -66,7 +66,7 @@ costume:
     an enemy casts a Special Skill that directly boosts health.'
   image: https://imgur.com/W7OyLyj.jpg
   dtReleased: "2025-04-14"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Pharaoh's Blade
   aetherPower: rage
   lb1:

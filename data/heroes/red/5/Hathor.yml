@@ -22,7 +22,7 @@ passives:
 - ' * All allies gain a small amount of mana.'
 image: https://i.imgur.com/sV7BVbk.jpg
 dtReleased: "2022-12-22"
-dtModified: "2026-03-20"
+dtModified: "2026-04-26"
 fancy_name: Goddess of Motherhood
 aetherPower: attack_up
 lb1:
@@ -37,7 +37,7 @@ lb2:
   health: 1986
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Cleric
   power: 1178
   attack: 1116
@@ -63,7 +63,7 @@ costume:
     that stop mana generation.'
   image: https://i.imgur.com/blidD7L.jpg
   dtReleased: "2024-02-05"
-  dtModified: "2026-03-20"
+  dtModified: "2026-04-26"
   fancy_name: Starlit Mother
   aetherPower: defense_up
   lb1:
