@@ -4,10 +4,10 @@ source: valiant
 family: vegetable
 speed: Average
 class: Monk
-power: 1278
-attack: 1349
-defense: 1289
-health: 2288
+power: 1283
+attack: 1353
+defense: 1293
+health: 2303
 skill: Brand of Reckoning
 effects:
 - Deals 300% damage to all enemies.
@@ -33,7 +33,7 @@ passives:
 - ' 3) Blossom Mega Fiend: 250% attack, 60% health'
 image: https://imgur.com/sr4g80Y.jpg
 dtReleased: "2026-02-04"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Furious Mushroom Champion
 aetherPower: attack_up
 lb1:

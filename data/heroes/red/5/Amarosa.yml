@@ -4,10 +4,10 @@ source: shadow
 family: forsaken
 speed: Average
 class: Paladin
-power: 1297
-attack: 1374
-defense: 1314
-health: 2315
+power: 1322
+attack: 1396
+defense: 1339
+health: 2383
 skill: Sword of Xu'Vhosh
 effects:
 - Deals 525% damage to the enemy with the lowest remaining HP. Deals 300% damage to
@@ -30,7 +30,7 @@ passives:
   by this character is increased by 6% per 10 Insanity on this character, up to 60%.'
 image: https://imgur.com/oNPbjwJ.jpg
 dtReleased: "2026-04-14"
-dtModified: ""
+dtModified: "2026-04-28"
 aetherPower: vampire
 lb1:
   power: 1388

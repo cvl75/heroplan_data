@@ -1,10 +1,10 @@
 name: Primula
 source: ancientUnderroot
 speed: Slow
-attack: 13884
-defense: 14012
-health: 12343
-power: 11140
+power: 11400
+attack: 14220
+defense: 14347
+health: 12685
 skill: Pie of Protection
 effects:
   - Recovers 8800 health for all allies.

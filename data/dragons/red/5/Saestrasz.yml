@@ -1,10 +1,10 @@
 name: Saestrasz
 source: season1
 speed: Slow
+power: 11104
 attack: 13876
 defense: 14038
 health: 12055
-power: 11104
 skill: Blessing of the Evergrove
 effects:
   - Recovers 4250 health for all allies.

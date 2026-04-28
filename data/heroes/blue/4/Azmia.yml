@@ -16,7 +16,7 @@ effects:
   maxing out at 130%.
 types:
 - Heal All
-- Counterattack
+- Counterattack 3
 passives:
 - 'Effects on Special Skill: 60% chance to perform the following actions when this
   character casts their Special Skill'
@@ -24,7 +24,7 @@ passives:
 - ' * Cleanses the latest cleansable status ailments from all allies.'
 image: https://i.imgur.com/VnnI4Om.jpg
 dtReleased: "2022-04-21"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Tough-as-Nails Tavern Keeper
 aetherPower: damage_reduction
 lb1:
@@ -39,7 +39,7 @@ lb2:
   health: 1670
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 2/2/4/1
   class: Cleric
   power: 699
   attack: 634
@@ -53,7 +53,7 @@ costume:
     maxing out at 135%.
   types:
   - Heal All
-  - Counterattack
+  - Counterattack 3
   passives:
   - 'Effects on Special Skill: 60% chance to perform the following actions when this
     character casts their Special Skill'
@@ -65,7 +65,7 @@ costume:
     a buff or positive stack.'
   image: https://i.imgur.com/CmCVc5Z.jpg
   dtReleased: "2024-06-24"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Dancing Tavern Keeper
   aetherPower: special_armor
   lb1:

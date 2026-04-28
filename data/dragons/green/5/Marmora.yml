@@ -1,10 +1,10 @@
 name: Marmora
 source: season1
 speed: Average
+power: 11105
 attack: 13867
 defense: 14016
 health: 12123
-power: 11105
 skill: Emerald Wind
 effects:
   - Recovers 6500 health for all allies.

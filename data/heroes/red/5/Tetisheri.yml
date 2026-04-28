@@ -24,7 +24,7 @@ passives:
 - ' * Dispells the latest dispellable buff from all enemies.'
 image: https://i.imgur.com/vkAXXiK.jpg
 dtReleased: "2022-10-27"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Mummy Queen
 aetherPower: revive
 lb1:
@@ -39,7 +39,7 @@ lb2:
   health: 1963
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Wizard
   power: 1207
   attack: 1254
@@ -53,6 +53,7 @@ costume:
   types:
   - Hit 3
   - Defense Debuff 1
+  - Mana Boost All if target defeated
   passives:
   - 'Effects on Special Skill: 50% chance to perform the following actions when this
     character casts their Special Skill'
@@ -65,7 +66,7 @@ costume:
     a status ailment or negative stack.'
   image: https://i.imgur.com/TVr5JnF.jpg
   dtReleased: "2024-05-27"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Molten Queen
   aetherPower: rage
   lb1:

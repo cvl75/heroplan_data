@@ -4,29 +4,29 @@ source: thebraveandthebeautiful
 family: beautyandthebeast
 speed: Fast
 class: Sorcerer
-power: 1281
-attack: 1320
-defense: 1332
-health: 2294
+power: 1301
+attack: 1341
+defense: 1351
+health: 2350
 skill: Spell of Camaraderie
 effects:
 - 'If the caster has 60 or more Humility:'
-- Boosts health of the caster and nearby allies by 1450. Boosted health can exceed
+- Boosts health of the caster and nearby allies by 1550. Boosted health can exceed
   max HP.
 - 'Stack +2(Max: 10): All damage the caster and nearby allies receive is reduced by
   -8%.'
-- For the next 4 turns, this character recovers 750 boosted health to the caster and
+- For the next 4 turns, this character recovers 850 boosted health to the caster and
   nearby allies each time any other ally casts their Special Skill. (Each character
   can trigger this effect once per turn.)
-- The caster and nearby allies get +30% mana generation for 4 turns. (Affects only
+- The caster and nearby allies get +35% mana generation for 4 turns. (Affects only
   mana generated from matching tiles or mana gained by the defense team at the end
   of their turn.)
 - 'Otherwise:'
-- Boosts health of the caster and nearby allies by 1100. Boosted health can exceed
+- Boosts health of the caster and nearby allies by 1200. Boosted health can exceed
   max HP.
 - 'Stack (Max: 10): All damage the caster and nearby allies receive is reduced by
-  -4%.'
-- For the next 4 turns, this character recovers 550 boosted health to the caster and
+  -5%.'
+- For the next 4 turns, this character recovers 650 boosted health to the caster and
   nearby allies each time any other ally casts their Special Skill. (Each character
   can trigger this effect once per turn.)
 types:
@@ -44,7 +44,7 @@ passives:
   or from a negative stack, they will recover that much health instead.'
 image: https://imgur.com/tJa3U9O.jpg
 dtReleased: "2026-02-20"
-dtModified: "2026-04-13"
+dtModified: "2026-04-28"
 fancy_name: Gracious Fairy of the Bewitched Castle
 aetherPower: heal_increase
 lb1:

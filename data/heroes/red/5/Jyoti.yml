@@ -4,15 +4,15 @@ source: temple
 family: mahayoddha
 speed: Average
 class: Sorcerer
-power: 1268
-attack: 1303
-defense: 1314
-health: 2282
+power: 1283
+attack: 1318
+defense: 1328
+health: 2325
 skill: Fiery Performance
 effects:
-- Recovers 37% health for all allies.
+- Recovers 42% health for all allies.
 - 'Growth Boon: Recovers 2x extra for each point of modified defense. (Up to a maximum
-  800 additional  healing. Status effects affecting healing received do affect the
+  600 additional  healing. Status effects affecting healing received do affect the
   healing scaling.)'
 - All allies are immune to new status ailments for 4 turns, and recovers 205 health
   for each attempted status ailment.
@@ -34,7 +34,7 @@ passives:
   effects and damage from Minions and Mega Minions.'
 image: https://imgur.com/vK0I9hS.jpg
 dtReleased: "2026-01-01"
-dtModified: "2026-03-24"
+dtModified: "2026-04-28"
 fancy_name: Chari Dancer
 aetherPower: special_armor
 lb1:

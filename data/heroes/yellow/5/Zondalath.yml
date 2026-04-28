@@ -4,17 +4,17 @@ source: astral
 family: astraldemons
 speed: Average
 class: Monk
-power: 1286
-attack: 1312
-defense: 1359
-health: 2301
+power: 1296
+attack: 1322
+defense: 1367
+health: 2327
 skill: Solar Shroud
 effects:
-- Recovers 45% health for all allies.
+- Recovers 46% health for all allies.
 - All allies reduce all received damage by -50% for 4 turns.
-- All allies except the caster get an additional +30% attack power for the next Special
+- All allies except the caster get an additional +35% attack power for the next Special
   Skill they cast. The additional attack power increases +30% each turn, up to a maximum
-  of +120% in total.
+  of +125% in total.
 types:
 - Healer All
 - Damage Reduction All
@@ -30,7 +30,7 @@ passives:
   healing.'
 image: https://imgur.com/s4AyFHC.jpg
 dtReleased: "2026-03-07"
-dtModified: "2026-03-22"
+dtModified: "2026-04-28"
 fancy_name: Astral Demon Sun-Wielder
 aetherPower: fiend_resist
 lb1:

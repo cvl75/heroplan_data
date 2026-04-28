@@ -26,7 +26,7 @@ passives:
   20% of the received damage on all enemies.'
 image: https://i.imgur.com/BwYaSTj.jpg
 dtReleased: "2022-12-14"
-dtModified: "2026-04-16"
+dtModified: "2026-04-28"
 fancy_name: Jolly Musketeer
 aetherPower: attack_up
 lb1:
@@ -41,7 +41,7 @@ lb2:
   health: 1953
 costume:
   design: costume1
-  bonuses: 53/53/53/5
+  bonuses: 55/55/60/5
   class: Monk
   power: 1273
   attack: 1309
@@ -49,11 +49,11 @@ costume:
   health: 2412
   skill: Musketeer's Deal
   effects:
-  - Deals 485% damage to all enemies.
+  - Deals 515% damage to all enemies.
   - Alters the power of all Ice shields on the board. When an attacking Hero casts
-    the special, the shields become enchanced with +64% attack. When a defending Hero
+    the special, the shields become enhanced with +64% attack. When a defending Hero
     casts the special, the shields become weakened with -57% attack.
-  - The caster regenerates 1530 boosted health over 6 turns. Boosted health can exceed
+  - The caster regenerates 1620 boosted health over 6 turns. Boosted health can exceed
     max HP.
   - Deals extra damage against Fire.
   types:
@@ -69,7 +69,7 @@ costume:
     to deal 50% of the received damage to all enemies.'
   image: https://imgur.com/ohUYwDY.jpg
   dtReleased: "2026-01-23"
-  dtModified: "2026-04-16"
+  dtModified: "2026-04-28"
   fancy_name: Merchant Musketeer
   aetherPower: regen
   lb1:

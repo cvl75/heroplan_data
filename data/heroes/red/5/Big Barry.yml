@@ -4,10 +4,10 @@ source: valiant
 family: vegetable
 speed: Fast
 class: Barbarian
-power: 1300
-attack: 1369
-defense: 1328
-health: 2317
+power: 1305
+attack: 1374
+defense: 1332
+health: 2331
 skill: Spiked Bat Thrashing
 effects:
 - Deals 560% damage to the target.
@@ -34,7 +34,7 @@ passives:
 - '3) Blossom Mega Fiend: 250% attack, 60% health.'
 image: https://imgur.com/bVjv5D4.jpg
 dtReleased: "2026-04-25"
-dtModified: ""
+dtModified: "2026-04-28"
 aetherPower: rage
 lb1:
   power: 1391

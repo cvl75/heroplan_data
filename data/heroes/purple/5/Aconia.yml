@@ -29,7 +29,7 @@ passives:
 - ' * Received elemental damage -10%'
 image: https://i.imgur.com/VT78aoB.jpg
 dtReleased: "2023-05-22"
-dtModified: "2026-04-13"
+dtModified: "2026-04-28"
 fancy_name: Cyber Rogue
 aetherPower: fiend_resist
 lb1:
@@ -44,7 +44,7 @@ lb2:
   health: 2103
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 50/50/50/5
   class: Barbarian
   power: 1278
   attack: 1289
@@ -53,12 +53,12 @@ costume:
   skill: Lacerating Letters
   effects:
   - Summons a Dagger Fiend for the target and Holy enemies. The Fiend damages its
-    target with 200% attack every turn.
+    target with 240% attack every turn.
   - The Dagger Fiend absorbs healing. It disappears after absorbing a healing amount
-    equal to 30% of its target's max health.
+    equal to 35% of its target's max health.
   - When the Dagger Fiend disappears after it has absorbed enough healing, the owner
-    receives 1011 Bleed damage over 3 turns.
-  - All enemies take +30% increased damage from status ailments and negative stacks
+    receives 1125 Bleed damage over 3 turns.
+  - All enemies take +35% increased damage from status ailments and negative stacks
     for 6 turns.
   types:
   - Fiend Summoner 1
@@ -76,7 +76,7 @@ costume:
     stacks cast by Holy characters.'
   image: https://imgur.com/cjiqk4D.jpg
   dtReleased: "2026-02-19"
-  dtModified: "2026-04-13"
+  dtModified: "2026-04-28"
   fancy_name: Cyber Courier
   aetherPower: damage_reduction
   lb1:

@@ -16,7 +16,7 @@ effects:
   are hit during 4 turns.
 types:
 - Hit 1
-- Chain
+- Chain hit
 - Elemental Defense Debuff 1
 passives:
 - 'Effects on Special Skill: 70% chance to perform the following actions when this
@@ -25,7 +25,7 @@ passives:
 - ' * All enemies receive 243 Sand damage over 3 turns.'
 image: https://i.imgur.com/waF0HXl.jpg
 dtReleased: "2022-04-21"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Acute Androsphinx
 aetherPower: regen
 lb1:
@@ -40,7 +40,7 @@ lb2:
   health: 1958
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Rogue
   power: 1200
   attack: 1229
@@ -54,8 +54,8 @@ costume:
     they are hit during 5 turns.
   types:
   - Hit 1
-  - Chain
-  - Elemental Defense Debuff
+  - Chain hit
+  - Elemental Defense Debuff 1
   passives:
   - 'Effects on Special Skill: 70% chance to perform the following actions when this
     character casts their Special Skill'
@@ -68,7 +68,7 @@ costume:
     Skill that deals damage, an additional 50% is added to its power.'
   image: https://i.imgur.com/5tsbayA.jpg
   dtReleased: "2024-11-01"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Aquatic Androsphinx
   aetherPower: defense_up
   lb1:

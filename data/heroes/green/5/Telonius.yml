@@ -33,7 +33,7 @@ passives:
   two stacks. An enemy can have up to 10 stacks.'
 image: https://i.imgur.com/WMPKV4S.jpg
 dtReleased: "2023-05-03"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Centaur of the Woodlands
 aetherPower: defense_up
 lb1:
@@ -48,7 +48,7 @@ lb2:
   health: 1884
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 50/50/52/1
   class: Sorcerer
   power: 1263
   attack: 1323
@@ -81,7 +81,7 @@ costume:
   - 'Weaker Mega Minions: Enemy Mega Minions have -75% HP.'
   image: https://imgur.com/oES7PTn.jpg
   dtReleased: "2025-12-27"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Centaur of the Taproom
   aetherPower: bulwark
   lb1:

@@ -1,10 +1,10 @@
 name: Veneno
 source: season1
 speed: Slow
+power: 11024
 attack: 13812
 defense: 13847
 health: 12022
-power: 11024
 skill: Venomous Spores
 effects:
   - All enemies receive 8000 Poison damage over 5 turns.

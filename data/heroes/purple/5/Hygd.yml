@@ -4,10 +4,10 @@ source: beowulf
 family: beowulf
 speed: Average
 class: Cleric
-power: 1270
-attack: 1291
-defense: 1336
-health: 2286
+power: 1285
+attack: 1306
+defense: 1349
+health: 2329
 skill: Generous Gifts
 effects:
 - Cleanses status ailments from all allies.
@@ -31,7 +31,7 @@ passives:
   from receiving new status effect buffs.'
 image: https://imgur.com/KK21TKX.jpg
 dtReleased: "2026-01-09"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Queen of the Geats
 aetherPower: defense_up
 lb1:

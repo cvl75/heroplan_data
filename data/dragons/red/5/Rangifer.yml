@@ -1,10 +1,10 @@
 name: Rangifer
 source: ancientUnderroot
 speed: Slow
-power: 11190
-attack: 13987
-defense: 14073
-health: 12316
+power: 12400
+attack: 15559
+defense: 15645
+health: 13888
 skill: Urgent Gift Delivery
 effects:
   - Deals 330% damage to the target and 140% damage to all other enemies.
@@ -37,3 +37,4 @@ assist:
     - Recovers 210 health for all allies.
     - All enemies resist new Minions for 5 turns.
 image: https://imgur.com/Gs7g7J4.jpg
+dtReleased: "2025-12-24"

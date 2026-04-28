@@ -1,10 +1,10 @@
 name: Bonefang
 source: season1
 speed: Fast
+power: 11021
 attack: 13837
 defense: 13744
 health: 12145
-power: 11021
 skill: Unchained Jaws
 effects:
   - Deals 300% damage to the target.

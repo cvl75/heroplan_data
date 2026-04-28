@@ -4,25 +4,25 @@ source: ninja
 family: ronin
 speed: Charge
 class: Paladin
-power: 1288
-attack: 1316
-defense: 1357
-health: 2307
+power: 1313
+attack: 1341
+defense: 1382
+health: 2371
 skill: Two Sword Technique
 effects:
 - 'Special Skill has a different effect when charged with 100% / 200% / 300% mana:'
 - 'x1 Mana Charge:'
-- Deals 250% damage to the target.
+- Deals 280% damage to the target.
 - The attack chains through all the enemies who are adjacent to any hit enemy.
-- 'Growth: All allies get 75 attack and 75 defense.'
+- 'Growth: All allies get 100 attack and 100 defense.'
 - 'x2 Mana Charge:'
-- Deals 400% damage to the target.
+- Deals 430% damage to the target.
 - The attack chains through all the enemies who are adjacent to any hit enemy.
-- 'Growth: All allies get 150 attack and 150 defense.'
+- 'Growth: All allies get 175 attack and 175 defense.'
 - 'x3 Mana Charge:'
-- Deals 600% damage to the target.
+- Deals 650% damage to the target.
 - The attack chains through all the enemies who are adjacent to any hit enemy.
-- 'Growth: All allies get 600 attack and 600 defense.'
+- 'Growth: All allies get 650 attack and 650 defense.'
 types:
 - Charge
 - Hit 1
@@ -37,7 +37,7 @@ passives:
 - ' * The attacker receives 1500 Bleed damage over 3 turns.'
 image: https://imgur.com/z1SbTyh.jpg
 dtReleased: "2026-03-10"
-dtModified: "2026-04-13"
+dtModified: "2026-04-28"
 fancy_name: Enraged Ronin
 aetherPower: damage_reduction
 lb1:

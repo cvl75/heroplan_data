@@ -26,7 +26,7 @@ passives:
 - ' * All enemies get -24% mana generation for 3 turns.'
 image: https://i.imgur.com/4zzp1TD.jpg
 dtReleased: "2022-11-24"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Mummy Pharaoh
 aetherPower: revive
 lb1:
@@ -41,7 +41,7 @@ lb2:
   health: 1935
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Druid
   power: 1211
   attack: 1167
@@ -66,10 +66,10 @@ costume:
   - 'Extra Chance for Effects on Special Skill: When this character casts their Special
     Skill, any of their Passive Skills that grant extra effects on cast have 3 chances
     to activate.'
-  - 'Resist Sand Damage: This character has innate resistance against Sand damage.'
+  - 'Resist Sand: This character is immune to status ailments that deal Sand damage.'
   image: https://i.imgur.com/hOov8Aa.jpg
   dtReleased: "2024-03-04"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Pharaoh Reborn
   aetherPower: boosted_regen
   lb1:

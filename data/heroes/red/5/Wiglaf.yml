@@ -4,15 +4,15 @@ source: beowulf
 family: beowulf
 speed: Fast
 class: Paladin
-power: 1252
-attack: 1310
-defense: 1256
-health: 2263
+power: 1267
+attack: 1324
+defense: 1271
+health: 2307
 skill: Stalwart to the End
 effects:
 - Deals 400% damage to the target and nearby enemies.
 - The damage is increased by 30% per each defeated ally.
-- The target and nearby enemies receives 687 Burn damage over 3 turns.
+- The target and nearby enemies receives 693 Burn damage over 3 turns.
 - All allies who have 50% or less HP left get additional +50% power to Special Skill
   attacks for 3 turns. This effect cannot be dispelled.
 types:
@@ -26,7 +26,7 @@ passives:
   Skills, they gain +30% attack Stack (Max: 10). One Stack can be gained per turn.'
 image: https://imgur.com/6NG9n7Q.jpg
 dtReleased: "2025-11-08"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Son of Weohstan
 aetherPower: attack_up
 lb1:

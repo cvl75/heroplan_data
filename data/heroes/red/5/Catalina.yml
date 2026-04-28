@@ -4,17 +4,17 @@ source: wilderness
 family: wildcat
 speed: Average
 class: Cleric
-power: 1267
-attack: 1402
-defense: 1196
-health: 2263
+power: 1282
+attack: 1417
+defense: 1211
+health: 2305
 skill: Regal Claws
 effects:
-- Deals 550% Clawing damage to the target. (Deals 825% damage against enemies with
+- Deals 580% Clawing damage to the target. (Deals 825% damage against enemies with
   any defensive buffs, Minions or Mega Minions. Enemies with any defensive buffs,
   Minions or Mega Minions receive -35% defense for 6 turns.)
-- All allies except the caster get +40% attack for 4 turns.
-- All allies except the caster get +40% critical chance for 4 turns.
+- All allies except the caster get +45% attack for 4 turns.
+- All allies except the caster get +45% critical chance for 4 turns.
 - All allies except the caster heal 100% of dealt normal damage for 4 turns.
 types:
 - Hit 1
@@ -35,7 +35,7 @@ passives:
 - ' * - Growth and Wither effects.'
 image: https://imgur.com/Z8JMmbH.jpg
 dtReleased: "2025-12-30"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: The Crown of the Jungle
 aetherPower: attack_up
 lb1:

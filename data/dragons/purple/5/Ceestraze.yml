@@ -1,10 +1,10 @@
 name: Ceestraze
 source: ancientUnderroot
 speed: Average
-power: 11188
-attack: 13991
-defense: 14065
-health: 12310
+power: 12350
+attack: 15499
+defense: 15573
+health: 13824
 skill: Cheese Wheel Rampage
 effects:
   - Deals 200% damage to all enemies.
@@ -35,3 +35,4 @@ assist:
     - Recovers 200 health for all allies.
     - All enemies get -30% decrease for any healing received for 5 turns.
 image: https://imgur.com/0dxgAvD.jpg
+dtReleased: "2025-12-09"

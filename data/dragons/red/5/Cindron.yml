@@ -1,10 +1,10 @@
 name: Cindron
 source: season1
 speed: Fast
+power: 11023
 attack: 13822
 defense: 13847
 health: 11989
-power: 11023
 skill: Fiery Charge
 effects:
   - Deals 300% damage to the target.

@@ -4,14 +4,14 @@ source: birthday
 family: rodent
 speed: Fast
 class: Wizard
-power: 1290
-attack: 1365
-defense: 1322
-health: 2268
+power: 1310
+attack: 1384
+defense: 1341
+health: 2323
 skill: Blazing Matchstick
 effects:
 - Deals 390% damage to the target and nearby enemies.
-- 'Wild: For 3 turns, the target and nearby enemies receive 204 or 408 Burn damage
+- 'Wild: For 3 turns, the target and nearby enemies receive 207 or 414 Burn damage
   each turn. (Wild adds a chance each turn for this effect to be more powerful. This
   Wild effect has a 50% chance to deal +100% extra damage that turn. When extra damage
   is dealt, the effect also reduces enemies'' max health and is stronger against boosted
@@ -32,7 +32,7 @@ passives:
   and Wither effects.'
 image: https://imgur.com/8Ssw7iT.jpg
 dtReleased: "2026-03-18"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: The Pyromouse
 aetherPower: damage_reduction
 lb1:

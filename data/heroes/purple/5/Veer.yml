@@ -4,10 +4,10 @@ source: temple
 family: mahayoddha
 speed: Fast
 class: Fighter
-power: 1275
-attack: 1345
-defense: 1287
-health: 2282
+power: 1290
+attack: 1359
+defense: 1301
+health: 2325
 skill: Bagh Nakh Thrust
 effects:
 - Deals 370% damage to the target and nearby enemies.
@@ -17,7 +17,7 @@ effects:
   damage. Defense stats does not affect the extra damage. Status effect affecting
   attack stat do not affect the extra damage.)'
 - All allies get +45% chance to dodge Special Skills for 3 turns. Each Dodge damages
-  the attacker for 250 damage.
+  the attacker for 300 damage.
 types:
 - Hit 3
 - Hit Growth Boon
@@ -32,7 +32,7 @@ passives:
   and Mega Minions.'
 image: https://imgur.com/fZFlVJW.jpg
 dtReleased: "2026-01-28"
-dtModified: "2026-04-21"
+dtModified: "2026-04-28"
 fancy_name: Prideful Assassin
 aetherPower: special_boost
 lb1:

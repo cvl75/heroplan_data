@@ -11,14 +11,14 @@ health: 2263
 skill: Astral Assistance
 effects:
 - Destroys all Fiends from all allies. The effect damages Mega Fiends.
-- Boosts health of all allies by 1300. Boosted health can exceed max HP.
+- Recovers 50% health for all allies.
 - At the end of each turn, all allies shot an Astral Beam at a random enemy for 4
   turns.
-- Each Astral Beam deals 200% damage.
-- Each Astral Beam reduces the Max Health of the hit enemy by 200.
+- Each Astral Beam deals 100% damage.
+- Each Astral Beam reduces the Max Health of the hit enemy by 100.
 types:
 - Fiend Destroyer
-- Boosted Heal All
+- Heal All
 - Astral Beam hit All
 passives:
 - 'Hinder Mana: Reduces the amount of mana increased by Special Skills, Passive Skills,
@@ -31,7 +31,7 @@ passives:
   healing.'
 image: https://imgur.com/KuucEcX.jpg
 dtReleased: "2025-11-29"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Astral Demon Socialite
 aetherPower: regen
 lb1:

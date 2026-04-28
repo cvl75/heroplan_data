@@ -4,10 +4,10 @@ source: kingdom
 family: outlaws
 speed: Slow
 class: Monk
-power: 1276
-attack: 1310
-defense: 1326
-health: 2301
+power: 1291
+attack: 1324
+defense: 1341
+health: 2342
 skill: Gallant Stance
 effects:
 - This Special Skill has a chance to deal Critical hits. (The chance of dealing a
@@ -39,7 +39,7 @@ passives:
 - 'Resist Bleed: This character is immune to status ailments that deal Bleed damage.'
 image: https://imgur.com/b7rZLXf.jpg
 dtReleased: "2026-02-01"
-dtModified: "2026-03-28"
+dtModified: "2026-04-28"
 fancy_name: Fair-Faced Gentleman of Water Margin
 aetherPower: regen
 lb1:

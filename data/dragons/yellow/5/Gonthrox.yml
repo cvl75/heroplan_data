@@ -1,10 +1,10 @@
 name: Gonthrox
 source: ancientUnderroot
 speed: Average
-power: 11195
-attack: 13991
-defense: 14080
-health: 12327
+power: 12500
+attack: 15686
+defense: 15775
+health: 14022
 skill: Aerial Ram
 effects:
   - Deals 300% damage to the target.
@@ -35,3 +35,4 @@ assist:
     - Recovers 200 health for all allies.
     - All enemies get -20% attack for 5 turns.
 image: https://imgur.com/WcrhbCt.jpg
+dtReleased: "2026-01-20"

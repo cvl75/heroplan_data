@@ -4,10 +4,10 @@ source: titanhunter
 family: titanhunter
 speed: Average
 class: Paladin
-power: 1274
-attack: 1339
-defense: 1291
-health: 2282
+power: 1284
+attack: 1349
+defense: 1301
+health: 2307
 skill: Arctic Guard
 effects:
 - Deals 250% damage to all enemies.
@@ -32,7 +32,7 @@ passives:
   Flare receives additional 150 damage when they receive a critical hit.'
 image: https://imgur.com/tYMi9YT.jpg
 dtReleased: "2026-01-25"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Warden of the Tundra
 aetherPower: defense_up
 lb1:

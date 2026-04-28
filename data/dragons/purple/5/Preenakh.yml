@@ -2,10 +2,10 @@
 name: Preenakh
 source: ancientUnderroot
 speed: Average
-power: 11203
-attack: 13913
-defense: 14166
-health: 12409
+power: 12650
+attack: 15791
+defense: 16045
+health: 14294
 skill: Feathered Embrace
 effects:
 - Recovers 10000 health for all allies who have less than 50% health.
@@ -37,4 +37,5 @@ assist:
     - All enemies receive 1300 Burn damage over 5 turns.
     - Dispels buffs from all enemies.
 image: https://imgur.com/jx8wFUH.jpg
+dtReleased: "2026-03-03"
 ...

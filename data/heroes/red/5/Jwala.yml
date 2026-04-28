@@ -4,15 +4,15 @@ source: magic
 family: magiccarpet
 speed: Average
 class: Barbarian
-power: 1266
-attack: 1324
-defense: 1289
-health: 2263
+power: 1281
+attack: 1339
+defense: 1303
+health: 2307
 skill: Magmatic Burns
 effects:
 - Deals 350% damage to all enemies.
 - The duration of status ailments is reset for all enemies.
-- All enemies receive Corrosive Burn for 4 turn. The Corrosive Burn deals 443 Burn
+- All enemies receive Corrosive Burn for 4 turn. The Corrosive Burn deals 448 Burn
   damage and lowers the target's defense by -14% each turn. Deals extra damage against
   heroes with Minions or a Mega Minion.
 types:
@@ -35,7 +35,7 @@ passives:
 - 'Weaker Mega Minions: Enemy Mega Minions have -75% HP.'
 image: https://imgur.com/vVFDc5F.jpg
 dtReleased: "2025-12-27"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Lava Magic Girl
 aetherPower: rage
 lb1:

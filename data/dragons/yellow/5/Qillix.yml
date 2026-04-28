@@ -2,10 +2,10 @@
 name: Qillix
 source: ancientUnderroot
 speed: Fast
-power: 11208
-attack: 14271
-defense: 13843
-health: 12199
+power: 12750
+attack: 16274
+defense: 15845
+health: 14201
 skill: Acorn Bombardment
 effects:
 - Deals 200% damage to 4 random enemies.
@@ -40,4 +40,5 @@ assist:
     with boosted health.
   - All enemies get -20% defense for 5 turns.
 image: https://imgur.com/zxM4hEc.jpg
+dtReleased: "2026-03-31"
 ...

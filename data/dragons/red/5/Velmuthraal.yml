@@ -2,10 +2,10 @@
 name: Velmuthraal
 source: ancientUnderroot
 speed: Average
-power: 11210
-attack: 13639
-defense: 14424
-health: 12627
+power: 12800
+attack: 15705
+defense: 16490
+health: 14693
 skill: Rite of Protection
 effects:
 - Deals 300% damage to the target and nearby enemies.
@@ -40,4 +40,5 @@ assist:
   - All allies heal 40% of dealt normal damage for 5 turns.
   - Cleanses status ailments from all allies.
 image: https://i.imgur.com/ope6Lo0.jpg
+dtReleased: "2026-04-14"
 ...

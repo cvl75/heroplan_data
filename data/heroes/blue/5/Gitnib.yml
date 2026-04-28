@@ -4,22 +4,22 @@ source: wilderness
 family: wildcat
 speed: Slow
 class: Monk
-power: 1273
-attack: 1380
-defense: 1236
-health: 2280
+power: 1288
+attack: 1384
+defense: 1262
+health: 2325
 skill: The Piranha Incident
 effects:
 - 'All enemies receive 1500 Surge Bleed damage over 6 turns. (If the target already
   has this effect, the duration will be refreshed and the damage will be increased
   by 300, Max total damage: 3000.)'
-- Summons a Piranha Fiend to all enemies. The Fiend damages the enemy with 80% attack
+- Summons a Piranha Fiend to all enemies. The Fiend damages the enemy with 90% attack
   every turn.
 - The Piranha Fiend absorbs healing. It disappears after absorbing a healing amount
-  equal to 55% of its targets max health.
-- Deals 400 - 800 damage to all enemies after 3 turns or if the caster is defeated,
+  equal to 60% of its targets max health.
+- Deals 500 - 900 damage to all enemies after 3 turns or if the caster is defeated,
   based on the damage the caster had taken while this effect was active. The effect
-  cannot be dispelled. (Maximmum effect is achieved upon taking 50% of max health  in
+  cannot be dispelled. (Maximum effect is achieved upon taking 50% of max health  in
   damage.)
 types:
 - DoT All
@@ -39,7 +39,7 @@ passives:
 - ' * - Growth and Wither effects.'
 image: https://imgur.com/0J3oat0.jpg
 dtReleased: "2026-01-20"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Unlucky Tigris Fisher
 aetherPower: boosted_regen
 lb1:

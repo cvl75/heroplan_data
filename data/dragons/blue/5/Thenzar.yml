@@ -1,0 +1,39 @@
+---
+name: Thenzar
+source: ancientUnderroot
+speed: Average
+power: 12850
+attack: 16255
+defense: 16103
+health: 14448
+skill: The Scent of Blood
+effects:
+- Dispels buffs from the target.
+- Deals 375% damage to the target.
+- Deals additional 50% damage per removed status effect, up to 525% damage in total.
+types:
+- Dispeller 1
+- Hit 1
+spiritBonus:
+  spiritClass: Barbarian
+  all:
+    attack: "+250"
+    defense: "+200"
+    health: "+100"
+  elementalBond:
+    attack: "+35"
+    defense: "+30"
+    health: "+30"
+  classLink:
+    attack: "+35"
+    defense: "+30"
+    health: "+30"
+assist:
+  name: Wrecking Blaze
+  effects:
+  - Deals 870 damage to all enemies.
+  - Recovers 220 health for all allies.
+  - All enemies resist new Minions for 5 turns.
+image: https://imgur.com/zzMJlN5.jpg
+dtReleased: "2026-04-28"
+...

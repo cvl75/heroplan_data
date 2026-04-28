@@ -4,10 +4,10 @@ source: superelemental
 family: slime
 speed: Average
 class: Cleric
-power: 1249
-attack: 1254
-defense: 1316
-health: 2263
+power: 1264
+attack: 1268
+defense: 1330
+health: 2307
 skill: Minion Scrutiny
 effects:
 - Destroys all Minions from all enemies and damages Mega Minions.
@@ -32,7 +32,7 @@ passives:
   they summon a Slime Mega Minion for themselves with 50% HP and 40% attack.'
 image: https://imgur.com/izJsbny.jpg
 dtReleased: "2025-10-27"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Curious Scientist Slime
 aetherPower: ailment_immunity
 lb1:

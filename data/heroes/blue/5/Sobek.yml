@@ -22,7 +22,7 @@ passives:
 - ' * All enemies receive 255 Sand damage over 3 turns.'
 image: https://i.imgur.com/3Y3v4bs.jpg
 dtReleased: "2022-04-21"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: God of the River
 aetherPower: defense_up
 lb1:
@@ -37,7 +37,7 @@ lb2:
   health: 1973
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Rogue
   power: 1201
   attack: 1212
@@ -64,7 +64,7 @@ costume:
     Skill that deals damage an additional 50% is added to its power.'
   image: https://i.imgur.com/E4kLEt9.jpg
   dtReleased: "2024-07-13"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Guardian of the River
   aetherPower: attack_up
   lb1:

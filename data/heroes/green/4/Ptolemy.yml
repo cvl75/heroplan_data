@@ -23,7 +23,7 @@ passives:
 - ' * Cleanses the latest cleansable status ailments from all allies.'
 image: https://i.imgur.com/3gaWwFG.jpg
 dtReleased: "2022-04-21"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Elder Pharaoh
 aetherPower: defense_up
 lb1:
@@ -38,7 +38,7 @@ lb2:
   health: 1809
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 2/2/4/1
   class: Druid
   power: 699
   attack: 576
@@ -64,7 +64,7 @@ costume:
   - ' * Cleanses that latest cleansable status ailment from all allies.'
   image: https://i.imgur.com/xEySNN6.jpg
   dtReleased: "2024-10-05"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Elder Log
   aetherPower: special_armor
   lb1:

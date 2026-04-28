@@ -1,10 +1,10 @@
 name: Doombringer
 source: season1
 speed: Average
+power: 10924
 attack: 13709
 defense: 13637
 health: 11989
-power: 10924
 skill: Rain of Fire
 effects:
   - Deals 150% damage to all enemies.

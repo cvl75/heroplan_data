@@ -4,10 +4,10 @@ source: superelemental
 family: slime
 speed: Average
 class: Paladin
-power: 1289
-attack: 1310
-defense: 1369
-health: 2303
+power: 1304
+attack: 1324
+defense: 1384
+health: 2346
 skill: Viscous Shield
 effects:
 - Deals 350% damage to all enemies.
@@ -27,7 +27,7 @@ passives:
   they summon a Slime Mega Minion for themselves with 50% HP and 40% attack.'
 image: https://imgur.com/vWCdBcv.jpg
 dtReleased: "2026-03-17"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Protector Slime
 aetherPower: taunt
 lb1:

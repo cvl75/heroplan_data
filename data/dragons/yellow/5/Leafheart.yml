@@ -1,10 +1,10 @@
 name: Leafheart
 source: season1
 speed: Average
+power: 10922
 attack: 13626
 defense: 13742
 health: 11970
-power: 10922
 skill: Wings of Thorn
 effects:
   - Deals 300% damage to the target and 175% damage to nearby enemies.

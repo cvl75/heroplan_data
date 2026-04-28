@@ -4,10 +4,10 @@ source: titanhunter
 family: titanhunter
 speed: Fast
 class: Sorcerer
-power: 1281
-attack: 1341
-defense: 1306
-health: 2294
+power: 1291
+attack: 1351
+defense: 1316
+health: 2325
 skill: Verdant Trap
 effects:
 - Deals 275% damage to 3 random enemies.
@@ -33,7 +33,7 @@ passives:
   Flare receives additional 150 damage when they receive a critical hit.'
 image: https://imgur.com/QlpsKs5.jpg
 dtReleased: "2026-02-16"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Trapper from the Grove
 aetherPower: regen
 lb1:

@@ -14,14 +14,15 @@ effects:
 - If the target is defeated in the next 3 turns, all caster's allies get +20 mana.
 types:
 - Hit 3
+- Boost Mana All on kill
 passives:
-- |-
-  Effects on Special Skill: 60% chance to perform the following actions when this character casts their Special Skill
-   * Deals 70% damage to all enemies.
-   * Dispels the latest dispellable buff from enemies.
+- 'Effects on Special Skill: 60% chance to perform the following actions when this
+  character casts their Special Skill'
+- ' * Deals 70% damage to all enemies.'
+- ' * Dispels the latest dispellable buff from enemies.'
 image: https://i.imgur.com/MLXGUOi.jpg
 dtReleased: "2022-04-21"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Mummy Warrior
 aetherPower: revive
 lb1:
@@ -36,7 +37,7 @@ lb2:
   health: 1552
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 2/2/4/1
   class: Fighter
   power: 699
   attack: 660
@@ -48,11 +49,12 @@ costume:
   - If the target is defeated in the next 3 turns, all caster's allies get +15% mana.
   types:
   - Hit 3
+  - Boost Mana All on kill
   passives:
-  - |-
-    Effects on Special Skill: 60% chance to perform the following actions when this character casts their Special Skill
-     * Deals 70% damage to all enemies.
-     * Dispels the latest dispellable buff from enemies.
+  - 'Effects on Special Skill: 60% chance to perform the following actions when this
+    character casts their Special Skill'
+  - ' * Deals 70% damage to all enemies.'
+  - ' * Dispels the latest dispellable buff from enemies.'
   - 'Extra Chance for Effects On Special Skill: When this character casts their Special
     Skill, any of their Passive Skills that grant extra effects on cast have 3 chances
     to activate.'
@@ -60,7 +62,7 @@ costume:
     receive a status ailment or negative stack.'
   image: https://i.imgur.com/ph6Gczr.jpg
   dtReleased: "2024-07-13"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Mummy Champion
   aetherPower: boosted_regen
   lb1:

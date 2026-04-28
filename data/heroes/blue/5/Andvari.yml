@@ -34,7 +34,7 @@ passives:
   exhausted when the Core is activated.'
 image: https://i.imgur.com/MVPiXPz.jpg
 dtReleased: "2024-12-28"
-dtModified: "2026-04-07"
+dtModified: "2026-04-28"
 fancy_name: Dwarven Oracle
 aetherPower: defense_up
 lb1:
@@ -49,7 +49,7 @@ lb2:
   health: 2766
 costume:
   design: costume1
-  bonuses: 11/11/12/5
+  bonuses: 13/13/13/5
   class: Cleric
   power: 1287
   attack: 1257
@@ -62,7 +62,7 @@ costume:
   - All enemies resist new Minions for 4 turns.
   - All allies are immune to new Fiends for 4 turns.
   - All allies get a Firestorm Ward for 4 turns, that reduces incoming Special Skill
-    damage by up to -1450. Reduces damage by additional 30% when the attacker is of
+    damage by up to -1500. Reduces damage by additional 30% when the attacker is of
     the Nature element.
   types:
   - Minion Destroyer All
@@ -82,7 +82,7 @@ costume:
     is exhausted when the Core is activated.'
   image: https://imgur.com/MIeBXAK.jpg
   dtReleased: "2026-03-14"
-  dtModified: "2026-04-07"
+  dtModified: "2026-04-28"
   fancy_name: Dwarven Restorer
   aetherPower: bulwark
   lb1:

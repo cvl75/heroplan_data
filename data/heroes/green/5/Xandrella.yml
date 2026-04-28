@@ -32,7 +32,7 @@ passives:
 - ' * Received elemental damage: -10%'
 image: https://i.imgur.com/KaW9HIP.jpg
 dtReleased: "2022-12-05"
-dtModified: "2026-04-13"
+dtModified: "2026-04-28"
 fancy_name: Master of Elemental Creations
 aetherPower: defense_up
 lb1:
@@ -47,7 +47,7 @@ lb2:
   health: 2125
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 49/49/50/5
   class: Cleric
   power: 1260
   attack: 1235
@@ -55,13 +55,13 @@ costume:
   health: 2518
   skill: Melody of Mana Control
   effects:
-  - Deals 480% damage to the target and all Ice enemies.
-  - Automatically does 555 damage to the target and all Ice enemies when their mana
+  - Deals 500% damage to the target and all Ice enemies.
+  - Automatically does 630 damage to the target and all Ice enemies when their mana
     gets full and reduces their mana by 50% for 4 turns.
   - Alters the power of all Nature shields on the board. When an attacking Hero casts
     the special, the shields become enhanced and give +40% more mana. When a defending
     Hero casts the special, the shields become weakened and give -33% less mana.
-  - All Ice enemies get -20% defense against Nature for 4 turns.
+  - All Ice enemies get -25% defense against Nature for 4 turns.
   types:
   - Hit 1
   - Hit All Ice
@@ -81,7 +81,7 @@ costume:
     stacks cast by Ice characters.'
   image: https://imgur.com/qGN516v.jpg
   dtReleased: "2025-12-07"
-  dtModified: "2026-04-13"
+  dtModified: "2026-04-28"
   fancy_name: Idol of Elemental Creations
   aetherPower: special_armor
   lb1:

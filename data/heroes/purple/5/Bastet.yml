@@ -23,7 +23,7 @@ passives:
 - ' * Dispells the latest dispellable buff from all enemies.'
 image: https://i.imgur.com/4N9tjf5.jpg
 dtReleased: "2022-08-04"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Eye of the Moon
 aetherPower: fiend_resist
 lb1:
@@ -38,7 +38,7 @@ lb2:
   health: 1925
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Druid
   power: 1206
   attack: 1146
@@ -51,7 +51,7 @@ costume:
     +10% defense stack (Max: 10).'
   types:
   - Hit All
-  - Dodge buff
+  - Dodge Chance Buff All
   passives:
   - 'Effects on Special Skill: 50% chance to perform the following actions when this
     character casts their Special Skill:'
@@ -64,7 +64,7 @@ costume:
     a status ailment or negative stack.'
   image: https://i.imgur.com/21HSfR4.jpg
   dtReleased: "2024-08-10"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Eye of the Forest
   aetherPower: special_armor
   lb1:

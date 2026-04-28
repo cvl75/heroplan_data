@@ -22,7 +22,7 @@ passives:
 - ' * All enemies get -34% attack for 3 turns.'
 image: https://i.imgur.com/8oISZes.jpg
 dtReleased: "2022-09-01"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Eye of the Sun
 aetherPower: counterattack
 lb1:
@@ -37,7 +37,7 @@ lb2:
   health: 1833
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Wizard
   power: 1206
   attack: 1328
@@ -62,7 +62,7 @@ costume:
     an enemy casts a Special Skill that directly boosts health.'
   image: https://i.imgur.com/ykQVLB2.jpg
   dtReleased: "2025-03-17"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Warden of the Sun
   aetherPower: special_boost
   lb1:

@@ -27,7 +27,7 @@ passives:
 - ' * All enemies get -24% mana generation for 3 turns.'
 image: https://i.imgur.com/Z6trZDL.jpg
 dtReleased: "2022-06-09"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Scarab God
 aetherPower: fiend_resist
 lb1:
@@ -42,7 +42,7 @@ lb2:
   health: 1955
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Fighter
   power: 1205
   attack: 1218
@@ -68,10 +68,10 @@ costume:
   - 'Extra Chance for Effects on Special Skill: When this character casts their Special
     Skill, any of their Passive Skills that grant extra effects on cast have 3 chances
     to activate.'
-  - 'Resist Sand Damage: This character has innate resistance against sand damage.'
+  - 'Resist Sand: This character is immune to status ailments that deal Sand damage.'
   image: https://i.imgur.com/j3u49nY.jpg
   dtReleased: "2025-02-17"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Scarab Overlord
   aetherPower: special_boost
   lb1:

@@ -4,10 +4,10 @@ source: birthday
 family: rodent
 speed: Average
 class: Cleric
-power: 1290
-attack: 1322
-defense: 1363
-health: 2294
+power: 1310
+attack: 1341
+defense: 1382
+health: 2350
 skill: Vibrant Whistle
 effects:
 - 'Wild: For 4 turns, all allies regenerate 400 HP or receive 800 boosted health each
@@ -31,7 +31,7 @@ passives:
   and Wither effects.'
 image: https://imgur.com/54wGetD.jpg
 dtReleased: "2026-03-18"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: The Dark-furred Cleric
 aetherPower: regen
 lb1:

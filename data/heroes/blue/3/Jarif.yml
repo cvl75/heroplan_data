@@ -15,7 +15,8 @@ effects:
   for each attempted buff.
 types:
 - Hit 1
-- Buff Immunity
+- Buff Immunity Debuff 1
+- Damage 1 on each attempted buff
 passives:
 - 'Effects on Special Skill: 60% chance to perform the following actions when this
   character casts their Special Skill'
@@ -23,7 +24,7 @@ passives:
 - ' * All enemies get -24% mana generation for 3 turns.'
 image: https://i.imgur.com/ntCu0sS.jpg
 dtReleased: "2022-04-21"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Stressed-Out Scribe
 aetherPower: attack_up
 lb1:
@@ -51,7 +52,8 @@ costume:
     damage for each attempted buff.
   types:
   - Hit 1
-  - Buff Immunity
+  - Buff Immunity Debuff 1
+  - Damage 1 on each attempted buff
   passives:
   - 'Effects on Special Skill: 60% chance to perform the following actions when this
     character casts their Special Skill'
@@ -60,10 +62,10 @@ costume:
   - 'Extra Chance for Effects on Special Skill: When this character casts their Special
     Skill, any of their Passive Skills that grant extra effects on cast have 3 chances
     to activate.'
-  - 'Resist Sand Damage: This character has innate resistance against sand damage.'
+  - 'Resist Sand: This character is immune to status ailments that deal Sand damage.'
   image: https://i.imgur.com/o4H256x.jpg
   dtReleased: "2025-03-17"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Stressed-Out Curator
   aetherPower: defense_up
   lb1:

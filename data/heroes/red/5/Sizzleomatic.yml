@@ -4,16 +4,16 @@ source: covenant
 family: construct
 speed: Slow
 class: Wizard
-power: 1265
-attack: 1308
-defense: 1306
-health: 2261
+power: 1285
+attack: 1328
+defense: 1326
+health: 2317
 skill: Burning Wok
 effects:
-- Deals 475% damage to all enemies.
-- Deals additional 20% damage per each Fire shield on the board, up to 635% damage
+- Deals 500% damage to all enemies.
+- Deals additional 20% damage per each Fire shield on the board, up to 660% damage
   in total.
-- All allies get +50% attack for 5 turns.
+- All allies get +55% attack for 5 turns.
 - All allies reflect status ailments and negative stacks for 5 turns. (Status effects
   cast by characters, Minions and Fiends on the same side cannot be reflected.)
 types:
@@ -37,7 +37,7 @@ passives:
 - ' * Wither: Each hit from a Killer Bot Minion gives its target -50 attack.'
 image: https://imgur.com/5bw98dE.jpg
 dtReleased: "2025-12-23"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Enthusiastic Chef Construct
 aetherPower: regen
 lb1:

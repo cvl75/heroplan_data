@@ -4,10 +4,10 @@ source: harvest
 family: vegetable
 speed: Fast
 class: Paladin
-power: 1277
-attack: 1332
-defense: 1303
-health: 2294
+power: 1282
+attack: 1336
+defense: 1308
+health: 2309
 skill: Guard the Garden!
 effects:
 - Deals 600% damage to the target.
@@ -39,7 +39,7 @@ passives:
 - ' 3) Blossom Mega Fiend: 250% attack, 60% health'
 image: https://imgur.com/8NPRXYy.jpg
 dtReleased: "2025-09-02"
-dtModified: "2026-03-26"
+dtModified: "2026-04-28"
 fancy_name: Beetroot Knight
 aetherPower: knights_endurance
 lb1:

@@ -31,7 +31,7 @@ passives:
   exhausted when the Core is activated.'
 image: https://i.imgur.com/hNiWYCE.jpg
 dtReleased: "2024-12-03"
-dtModified: "2026-04-07"
+dtModified: "2026-04-28"
 fancy_name: Dwarven Wind Warrior
 aetherPower: ailment_immunity
 lb1:
@@ -46,7 +46,7 @@ lb2:
   health: 2705
 costume:
   design: costume1
-  bonuses: 10/10/12/5
+  bonuses: 12/12/13/5
   class: Paladin
   power: 1277
   attack: 1291
@@ -54,11 +54,11 @@ costume:
   health: 2444
   skill: Regal Spearhead
   effects:
-  - Attacks all enemies with Firestorm Strike, dealing up to 2500 damage. Deals 40%
+  - Attacks all enemies with Firestorm Strike, dealing up to 2600 damage. Deals 40%
     more damage if the target is of the Nature element. This Special Skill never misses
     its targets.
   - Boosts all allies' health by 27% of damage dealt.
-  - All allies counterattack with 70% of the damage received for 5 turns.
+  - All allies counterattack with 75% of the damage received for 5 turns.
   types:
   - Hit All
   - Boosted Heal All
@@ -75,7 +75,7 @@ costume:
     is exhausted when the Core is activated.'
   image: https://imgur.com/mgjd5V3.jpg
   dtReleased: "2026-02-18"
-  dtModified: "2026-04-07"
+  dtModified: "2026-04-28"
   fancy_name: Dwarven Regal Soldier
   aetherPower: mana_boost
   lb1:

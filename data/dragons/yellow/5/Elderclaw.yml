@@ -1,10 +1,10 @@
 name: Elderclaw
 source: ancientUnderroot
 speed: Average
-power: 11165
-attack: 14018
-defense: 13966
-health: 12277
+power: 11900
+attack: 14972
+defense: 14920
+health: 13237
 skill: Kitten Stampede
 effects:
   - Deals 230% damage to the target and nearby enemies.

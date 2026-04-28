@@ -16,7 +16,7 @@ effects:
 - The caster and nearby allies reduce all received damage by -50% for 5 turns.
 types:
 - Counterattack 3
-- Received Damage Reduced 3
+- Reduced Received Damage 3
 passives:
 - 'Effects on Special Skill: 60% chance to perform the following actions when this
   character casts their Special Skill'
@@ -24,7 +24,7 @@ passives:
 - ' * Cleanses the latest cleansable status ailment from all allies.'
 image: https://i.imgur.com/GdX7t3H.jpg
 dtReleased: "2022-07-07"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Spirit of Creation
 aetherPower: regen
 lb1:
@@ -39,7 +39,7 @@ lb2:
   health: 1927
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 45/45/50/5
   class: Cleric
   power: 1203
   attack: 1149
@@ -53,7 +53,7 @@ costume:
   - The caster and nearby allies reduce all received damage by -30% for 5 turns.
   types:
   - Counterattack 3
-  - Received Damage Reduced 3
+  - Reduced Received Damage 3
   passives:
   - 'Effects on Special Skill: 60% chance to perform the following actions when this
     character casts their Special Skill'
@@ -66,7 +66,7 @@ costume:
     a buff or positive stack.'
   image: https://i.imgur.com/2RfW9P4.jpg
   dtReleased: "2024-12-10"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Heron of Creation
   aetherPower: damage_reduction
   lb1:

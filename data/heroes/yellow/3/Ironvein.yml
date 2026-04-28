@@ -16,7 +16,7 @@ effects:
 types:
 - Hit Random 2
 - Self Heal on Kill
-- Self Mana Boost on Kill
+- Boost Mana Self on kill
 passives:
 - 'Empowered Resist Special Skill Blocking: This character is immune to status ailments
   that prevent the use of Special Skills. They also gain 450 boosted health and 5%
@@ -33,7 +33,7 @@ passives:
 - ' * Wither: Each hit from a Killer Bot Minion gives its target -50 attack.'
 image: https://imgur.com/2MFF2kU.jpg
 dtReleased: "2025-12-23"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Holy Squire Construct
 aetherPower: attack_up
 lb1:

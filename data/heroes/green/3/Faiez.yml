@@ -24,7 +24,7 @@ passives:
 - ' * Cleanses the latest cleansable status ailments from all allies.'
 image: https://i.imgur.com/vZiyZG9.jpg
 dtReleased: "2022-04-21"
-dtModified: ""
+dtModified: "2026-04-26"
 fancy_name: Fortuitous Farmer
 aetherPower: heal_increase
 lb1:
@@ -39,7 +39,7 @@ lb2:
   health: 1190
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 2/2/4/1
   class: Fighter
   power: 495
   attack: 456
@@ -66,7 +66,7 @@ costume:
     receive a buff or a positive stack.'
   image: https://i.imgur.com/TFnsKJy.jpg
   dtReleased: "2024-09-07"
-  dtModified: ""
+  dtModified: "2026-04-26"
   fancy_name: Fortuitous Miner
   aetherPower: special_armor
   lb1:

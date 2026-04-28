@@ -4,17 +4,17 @@ source: wilderness
 family: wildcat
 speed: Fast
 class: Druid
-power: 1285
-attack: 1392
-defense: 1252
-health: 2307
+power: 1300
+attack: 1406
+defense: 1266
+health: 2350
 skill: Greeting of the Sun
 effects:
-- Reduces max health  of the target by 1500. The effect is stronger against targets
+- Reduces max health  of the target by 1600. The effect is stronger against targets
   with boosted health. (Max health can't get lower than 30% of the original max health.
-  Any boosted health is reduced by an additional 1300.)
+  Any boosted health is reduced by an additional 1600.)
 - The target gets silenced for 3 turns.
-- 'Growth: Nearby allies get 400 attack.'
+- 'Growth: Nearby allies get 450 attack.'
 types:
 - Max Health Reduction 1
 - Silence 1
@@ -33,7 +33,7 @@ passives:
 - ' * Growth and Wither effects.'
 image: https://imgur.com/VCijAQe.jpg
 dtReleased: "2026-03-04"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Cat of the Sun-Blessed Valley
 aetherPower: regen
 lb1:

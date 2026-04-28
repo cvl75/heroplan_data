@@ -1,10 +1,10 @@
 name: Regium
 source: ancientUnderroot
 speed: Slow
-attack: 13905
-defense: 14028
-health: 12316
-power: 11148
+power: 11550
+attack: 14426
+defense: 14549
+health: 12837
 skill: Bites of Disorientation
 effects:
   - Deals 180% damage 6 random enemies.
