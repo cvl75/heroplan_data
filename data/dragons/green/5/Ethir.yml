@@ -2,9 +2,9 @@ name: Ethir
 source: ancientUnderroot
 speed: Slow
 power: 11850
-attack: 13946
-defense: 14026
-health: 12322
+attack: 14838
+defense: 14918
+health: 13214
 skill: Toxic Gas Clound
 effects:
   - Deals 200% damage to all enemies.

@@ -2,9 +2,9 @@ name: Firewing
 source: ancientUnderroot
 speed: Fast
 power: 11950
-attack: 13975
-defense: 13987
-health: 12362
+attack: 14990
+defense: 15002
+health: 13383
 skill: Invigorating Soup
 effects:
   - Recovers 3600 health for all allies.

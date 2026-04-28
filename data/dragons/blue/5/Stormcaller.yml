@@ -1,10 +1,10 @@
 name: Stormcaller
 source: ancientUnderroot
 speed: Fast
-attack: 13946
-defense: 14005
-health: 12127
 power: 11300
+attack: 14166
+defense: 14226
+health: 12353
 skill: Eye of the Storm
 effects:
   - Deals 280% damage to the target.

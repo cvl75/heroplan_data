@@ -2,9 +2,9 @@ name: Trezoro
 source: ancientUnderroot
 speed: Average
 power: 12250
-attack: 13917
-defense: 14102
-health: 12384
+attack: 15301
+defense: 15487
+health: 13775
 skill: Gleaming Gemstones
 effects:
   - Boosts health for the caster and nearby allies by 5000. Boosted health can exceed max HP.
@@ -36,3 +36,4 @@ assist:
     - Boosts health of all allies by 455. Boosted health can exceed max HP.
     - All allies get +15% attack and a further 1% increase every time they are hit during 5 turns, up to +25% attack.
 image: https://imgur.com/xRpNKYZ.jpg
+dtReleased: "2025-11-20"

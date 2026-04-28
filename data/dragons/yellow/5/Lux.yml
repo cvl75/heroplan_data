@@ -1,10 +1,10 @@
 name: Lux
 source: season1
 speed: Slow
+power: 11025
 attack: 13775
 defense: 13859
 health: 12096
-power: 11025
 skill: Sanctuary of Light
 effects:
   - Recovers 8000 health for all allies.

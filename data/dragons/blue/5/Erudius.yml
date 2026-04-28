@@ -2,9 +2,9 @@ name: Erudius
 source: ancientUnderroot
 speed: Slow
 power: 12450
-attack: 13925
-defense: 14123
-health: 12395
+attack: 15557
+defense: 15754
+health: 14032
 skill: Bound by Knowledge 
 effects:
   - Recovers 6000 health for all allies.
@@ -37,3 +37,4 @@ assist:
     - Deals 400 damage to all enemies.
     - All allies get +10% mana generation for 5 turns.
 image: https://imgur.com/ZGuM8nS.jpg
+dtReleased: "2026-01-05"

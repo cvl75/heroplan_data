@@ -1,10 +1,10 @@
 name: Ardentis
 source: ancientUnderroot
 speed: Average
-attack: 13909
-defense: 14032
-health: 12098
 power: 11200
+attack: 14012
+defense: 14135
+health: 12201
 skill: Electric Dragonfire
 effects:
   - Deals 350% damage to all enemies.

@@ -1,10 +1,10 @@
 name: Glacio
 source: season1
 speed: Average
+power: 11103
 attack: 13841
 defense: 14071
 health: 12067
-power: 11103
 skill: Arctic Breeze
 effects:
   - Recovers 6000 health for all allies.

@@ -1,10 +1,10 @@
 name: Spiculum
 source: ancientUnderroot
 speed: Slow
-attack: 13855
-defense: 14049
-health: 12378
 power: 11500
+attack: 14314
+defense: 14508
+health: 12844
 skill: Aggravating Gaze
 effects:
   - Recovers 5000 health for the caster.

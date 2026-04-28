@@ -1,10 +1,10 @@
 name: Aranth
 source: season1
 speed: Average
+power: 10921
 attack: 13756
 defense: 13497
 health: 12125
-power: 10921
 skill: Frozen Orb
 effects:
   - Deals 150% damage to all enemies.

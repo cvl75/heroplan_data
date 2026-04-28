@@ -1,10 +1,10 @@
 name: Doomweaver
 source: ancientUnderroot
 speed: Average
-attack: 14008
-defense: 13909
-health: 12308
 power: 11600
+attack: 14590
+defense: 14492
+health: 12899
 skill: Loom of Destruction
 effects:
   - Deals 200% damage to all enemies.

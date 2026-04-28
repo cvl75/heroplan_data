@@ -1,10 +1,10 @@
 name: Noctur
 source: season1
 speed: Fast
+power: 10923
 attack: 13705
 defense: 13637
 health: 11985
-power: 10923
 skill: Wings of Laceration
 effects:
   - Deals 250% damage to the target and 150% damage to all other enemies.

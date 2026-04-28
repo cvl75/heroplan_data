@@ -2,9 +2,9 @@ name: Pearlwing
 source: ancientUnderroot
 speed: Fast
 power: 11800
-attack: 13997
-defense: 14008
-health: 12211
+attack: 14827
+defense: 14838
+health: 13048
 skill: Pearls of Rejuvenation
 effects:
   - Recovers 3500 health for all allies.

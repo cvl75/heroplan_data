@@ -2,9 +2,9 @@ name: Wildheart
 source: ancientUnderroot
 speed: Average
 power: 12300
-attack: 13993
-defense: 14053
-health: 12306
+attack: 15441
+defense: 15501
+health: 13754
 skill: Doomrend
 effects:
   - Deals 300% damage to the enemies on the edges of the enemy formation. If there is only one enemy, the damage is doubled.
@@ -33,3 +33,4 @@ assist:
     - Recovers 200 health for all allies.
     - All enemies get -20% accuracy for  5 turns.
 image: https://imgur.com/DES0Py0.jpg
+dtReleased: "2025-11-28"

@@ -3,9 +3,9 @@ name: Froastyx
 source: ancientUnderroot
 speed: Very_fast
 power: 12700
-attack: 14424
-defense: 13744
-health: 11993
+attack: 16366
+defense: 15686
+health: 13933
 skill: Claws of the North
 effects:
 - Deals 300% damage to the target.
@@ -37,4 +37,5 @@ assist:
   - Recovers 200 health for all allies.
   - All enemies get -30% decrease of any healing received for 5 turns.
 image: https://imgur.com/Ns9ubC4.jpg
+dtReleased: "2026-03-17"
 ...
