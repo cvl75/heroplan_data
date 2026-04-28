@@ -1,0 +1,39 @@
+---
+name: Cruug
+source: ancientUnderroot
+speed: Fast
+power: 7831
+attack: 9769
+defense: 9395
+health: 8658
+skill: Frantic Pincers
+effects:
+- Deals 250% damage to the enemies on the edges of the enemy formation. If there is
+  only one enemy, the damage is doubled.
+- The enemies on the edges of the enemy formation get -30% healing received for 3
+  turns.
+types:
+- Hit 2
+- Healing Debuff 2
+spiritBonus:
+  spiritClass: Fighter
+  all:
+    attack: "+100"
+    defense: "+80"
+    health: "+30"
+  elementalBond:
+    attack: "+15"
+    defense: "+10"
+    health: "+12"
+  classLink:
+    attack: "+15"
+    defense: "+10"
+    health: "+12"
+assist:
+  name: Empowering Breath
+  effects:
+  - Recovers 300 health for all allies.
+  - Deals 100 damage to all enemies.
+  - All allies get +10% attack for 5 turns.
+image: https://imgur.com/YP28Qh5.jpg
+...
