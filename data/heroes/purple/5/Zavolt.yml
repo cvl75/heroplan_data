@@ -13,7 +13,6 @@ effects:
 - Deals 500% damage to all enemies.
 - All enemies get -20% accuracy, and a further -5% decrease per each Dark shield on
   the board for 5 turns, up to -60% accuracy.
-- All enemies get silenced for 5 turns.
 - All allies are immune to new negative mana effects for 5 turns, and their mana is
   increased by 15% for each resisted effect.
 types:
