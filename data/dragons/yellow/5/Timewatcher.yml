@@ -4,7 +4,7 @@ speed: Slow
 attack: 13900
 defense: 14049
 health: 12335
-power: 11155
+power: 11700
 skill: Time Rewind
 effects:
   - Recovers 8000 health for all allies.

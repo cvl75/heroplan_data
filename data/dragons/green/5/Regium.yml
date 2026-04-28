@@ -4,7 +4,7 @@ speed: Slow
 attack: 13905
 defense: 14028
 health: 12316
-power: 11148
+power: 11550
 skill: Bites of Disorientation
 effects:
   - Deals 180% damage 6 random enemies.

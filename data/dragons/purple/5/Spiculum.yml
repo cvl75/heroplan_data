@@ -4,7 +4,7 @@ speed: Slow
 attack: 13855
 defense: 14049
 health: 12378
-power: 11145
+power: 11500
 skill: Aggravating Gaze
 effects:
   - Recovers 5000 health for the caster.

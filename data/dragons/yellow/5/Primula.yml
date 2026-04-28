@@ -4,7 +4,7 @@ speed: Slow
 attack: 13884
 defense: 14012
 health: 12343
-power: 11140
+power: 11400
 skill: Pie of Protection
 effects:
   - Recovers 8800 health for all allies.
