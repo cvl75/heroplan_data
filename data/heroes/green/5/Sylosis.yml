@@ -38,13 +38,13 @@ dtReleased: "2026-04-28"
 dtModified: ""
 aetherPower: counterattack
 lb1:
-  power: 1
-  attack: 1
-  defense: 1
-  health: 1
+  power: 1416
+  attack: 1474
+  defense: 1489
+  health: 2564
 lb2:
-  power: 1
-  attack: 1
-  defense: 1
-  health: 1
+  power: 1602
+  attack: 1686
+  defense: 1704
+  health: 2933
 ...
