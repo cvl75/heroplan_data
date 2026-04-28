@@ -4,16 +4,16 @@ source: valiant
 family: vegetable
 speed: Very Slow
 class: Wizard
-power: 1294
-attack: 1334
-defense: 1351
-health: 2317
+power: 1299
+attack: 1339
+defense: 1355
+health: 2329
 skill: Bitter Wilting
 effects:
-- Deals 500% damage to all enemies.
-- Reduces max health for all enemies by 700. The effect is stronger against targets
+- Deals 530% damage to all enemies.
+- Reduces max health for all enemies by 800. The effect is stronger against targets
   with boosted health. (Max health can't get lower than 30% of the original max health.
-  Any boosted health is reduced by an additional 700.)
+  Any boosted health is reduced by an additional 800.)
 - Harvests buffs from all enemies. (Harvest safely removes 2 buffs, positive Stacks
   or Growth effects from each target. This includes uncleansable buffs and dance effects.
   The caster receives 7% boosted health for each effect removed. Boosted health can
@@ -21,7 +21,7 @@ effects:
   from the removed status effect buffs. External effects such as passive skills and
   family effects can still activate. Growth effects are removed first. Other effects,
   the latest is removed first.)
-- 'Wither: All enemies get -400 defense.'
+- 'Wither: All enemies get -450 defense.'
 types:
 - Hit All
 - Max Health Reduction All
@@ -41,7 +41,7 @@ passives:
 - '3) Blossom Mega Fiend: 250% attack, 60% health.'
 image: https://imgur.com/STxIDPc.jpg
 dtReleased: "2026-04-02"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Aubergine Wizard
 aetherPower: special_armor
 lb1:

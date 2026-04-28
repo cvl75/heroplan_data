@@ -4,16 +4,16 @@ source: astral
 family: astraldemons
 speed: Fast
 class: Barbarian
-power: 1248
+power: 1258
 attack: 1322
-defense: 1233
-health: 2255
+defense: 1260
+health: 2268
 skill: Lance of Torment
 effects:
-- Deals 610% damage to the target.
-- Boosts the caster's health by 45% of damage dealt.
-- The target receives Resonance for 3 turns. Each turn, Resonance deals 429 damage
-  to the afflicted enemies and 214 damage to nearby enemies.
+- Deals 630% damage to the target.
+- Boosts the caster's health by 50% of damage dealt.
+- The target receives Resonance for 3 turns. Each turn, Resonance deals 456 damage
+  to the afflicted enemies and 228 damage to nearby enemies.
 - Deals 250% damage to a random enemy at the end of each turn for as long as the caster
   has boosted health. This effect can't be dispelled.
 types:
@@ -31,7 +31,7 @@ passives:
 - 'Perfect Accuracy: This character''s Special Skill never misses its targets.'
 image: https://imgur.com/U7jQZdn.jpg
 dtReleased: "2025-10-23"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Astral Demon Warlord
 aetherPower: attack_up
 lb1:

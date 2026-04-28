@@ -4,24 +4,24 @@ source: thebraveandthebeautiful
 family: beautyandthebeast
 speed: Very Fast
 class: Druid
-power: 1254
-attack: 1289
-defense: 1293
-health: 2257
+power: 1274
+attack: 1308
+defense: 1314
+health: 2313
 skill: Beautiful Petals
 effects:
 - 'If the caster has 60 or more Humility:'
-- ' * Recovers 30% health for all allies.'
+- ' * Recovers 32% health for all allies.'
 - ' * Cleanses status ailments from all allies.'
-- ' * Growth: All allies get 150 attack.'
+- ' * Growth: All allies get 200 attack.'
 - ' * All allies regenerate 1440 HP over 3 turns.'
-- ' * The caster gets +74% defense against Special Skills for 3 turns.'
+- ' * The caster gets +84% defense against Special Skills for 3 turns.'
 - 'Otherwise:'
-- ' * Recovers 20% health for all allies.'
+- ' * Recovers 25% health for all allies.'
 - ' * Cleanses 1 status ailment from all allies. (Status ailments are cleansed in
   the order they have been received. The latest status ailments are cleansed first.)'
-- ' * Growth: All allies get 100 attack.'
-- ' * All allies regenerate 900 HP over 3 turns.'
+- ' * Growth: All allies get 150 attack.'
+- ' * All allies regenerate 1005 HP over 3 turns.'
 types:
 - Humility
 - Healer All
@@ -39,7 +39,7 @@ passives:
   they will recover that much health instead.'
 image: https://imgur.com/XgPwLFu.jpg
 dtReleased: "2025-11-12"
-dtModified: "2026-04-13"
+dtModified: "2026-04-28"
 fancy_name: Bloom of the Bewitched Castle
 aetherPower: fiend_resist
 lb1:

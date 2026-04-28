@@ -4,10 +4,10 @@ source: thebraveandthebeautiful
 family: beautyandthebeast
 speed: Fast
 class: Fighter
-power: 1263
-attack: 1330
-defense: 1271
-health: 2263
+power: 1283
+attack: 1349
+defense: 1289
+health: 2321
 skill: Righteous Revenge
 effects:
 - 'If the caster has 40 or more Humility:'
@@ -16,8 +16,8 @@ effects:
 - The caster and nearby allies counterattack with 150% of the damage received for
   4 turns.
 - 'Otherwise:'
-- Deals 405% damage to the target and nearby enemies.
-- The target and nearby enemies receive 960 Bleed damage over 4 turns.
+- Deals 415% damage to the target and nearby enemies.
+- The target and nearby enemies receive 1060 Bleed damage over 4 turns.
 types:
 - Humility
 - Hit 3
@@ -33,7 +33,7 @@ passives:
   they will recover that much health instead.'
 image: https://imgur.com/q6O7NPM.jpg
 dtReleased: "2025-12-19"
-dtModified: "2026-04-13"
+dtModified: "2026-04-28"
 fancy_name: The Faithful Protector
 aetherPower: regen
 lb1:

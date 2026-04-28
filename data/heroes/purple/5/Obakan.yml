@@ -17,7 +17,7 @@ types:
 - Counterattack 1
 image: https://i.imgur.com/0JU9Ii1.jpg
 dtReleased: "2017-03-01"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Praetorian Bodyguard
 aetherPower: counterattack
 lb1:
@@ -48,7 +48,7 @@ costume:
   - Counterattack 3
   image: https://i.imgur.com/SB2N0Vj.jpg
   dtReleased: "2021-01-18"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Praetorian Gladiator
   aetherPower: damage_reduction
   lb1:
@@ -63,7 +63,7 @@ costume:
     health: 1932
 costume2:
   design: costume2
-  bonuses: 5/5/10/5
+  bonuses: 25/25/25/5
   class: Fighter
   power: 859
   attack: 829
@@ -82,7 +82,7 @@ costume2:
   - Mana on Counterattack
   image: https://i.imgur.com/jA79vt4.jpg
   dtReleased: "2022-09-05"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Praetorian Vampire
   aetherPower: vampire
   lb1:
@@ -97,7 +97,7 @@ costume2:
     health: 2355
 costume3:
   design: toon
-  bonuses: 5/5/10/5
+  bonuses: 55/55/70/5
   class: Barbarian
   power: 1110
   attack: 1114
@@ -116,7 +116,7 @@ costume3:
     dispels.'
   image: https://i.imgur.com/YICnCq4.jpg
   dtReleased: "2023-11-27"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Praetorian Toon
   aetherPower: counterattack
   lb1:
@@ -131,7 +131,7 @@ costume3:
     health: 2733
 costume4:
   design: glass
-  bonuses: 5/5/10/5
+  bonuses: 75/75/78/5
   class: Barbarian
   power: 1237
   attack: 1303
@@ -150,7 +150,7 @@ costume4:
   - 'Glass: 60% extra chance to reflect status ailments back to the attacker.'
   image: https://i.imgur.com/pN1Axne.jpg
   dtReleased: "2025-01-14"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Praetorian Vitrail
   aetherPower: counterattack
   lb1:
@@ -165,7 +165,7 @@ costume4:
     health: 2870
 costume5:
   design: stylish
-  bonuses: 5/5/10/5
+  bonuses: 90/90/95/5
   class: Barbarian
   power: 1299
   attack: 1385
@@ -184,7 +184,7 @@ costume5:
     ones.'
   image: https://imgur.com/hiS5mXD.jpg
   dtReleased: "2026-01-26"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Stylish Bodyguard
   aetherPower: counterattack
   lb1:

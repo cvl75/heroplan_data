@@ -4,10 +4,10 @@ source: kingdom
 family: outlaws
 speed: Slow
 class: Wizard
-power: 1249
-attack: 1256
-defense: 1316
-health: 2263
+power: 1264
+attack: 1271
+defense: 1330
+health: 2305
 skill: Clever Stratagem
 effects:
 - This Special Skill has a chance to deal critical hits. (The chance of dealing a
@@ -39,7 +39,7 @@ passives:
 - 'Resist Bleed: This character is immune to status ailments that deal Bleed damage.'
 image: https://imgur.com/t88vH1u.jpg
 dtReleased: "2025-10-28"
-dtModified: "2026-03-28"
+dtModified: "2026-04-28"
 fancy_name: Knowledge Star of Water Margin
 aetherPower: ailment_immunity
 lb1:

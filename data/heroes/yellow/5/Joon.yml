@@ -18,7 +18,7 @@ types:
 - Blind 1
 image: https://i.imgur.com/d5mevmf.jpg
 dtReleased: "2017-03-01"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Flame of the Sun
 aetherPower: dodge
 lb1:
@@ -49,7 +49,7 @@ costume:
   - Blind 1
   image: https://i.imgur.com/YXbYHIl.jpg
   dtReleased: "2020-01-01"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Fury of the Sun
   aetherPower: damage_reduction
   lb1:
@@ -64,7 +64,7 @@ costume:
     health: 1972
 costume2:
   design: costume2
-  bonuses: 5/5/10/5
+  bonuses: 25/25/25/5
   class: Barbarian
   power: 855
   attack: 865
@@ -82,7 +82,7 @@ costume2:
   - Blind 3
   image: https://i.imgur.com/rJxyTcK.jpg
   dtReleased: "2022-12-26"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Might of the Sun
   aetherPower: ailment_immunity
   lb1:
@@ -97,7 +97,7 @@ costume2:
     health: 2344
 costume3:
   design: toon
-  bonuses: 5/5/10/5
+  bonuses: 55/55/70/5
   class: Monk
   power: 1105
   attack: 1126
@@ -116,7 +116,7 @@ costume3:
     dispels.'
   image: https://i.imgur.com/6UDBHvu.jpg
   dtReleased: "2024-02-12"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Toon of the Sun
   aetherPower: dodge
   lb1:
@@ -131,7 +131,7 @@ costume3:
     health: 2798
 costume4:
   design: glass
-  bonuses: 5/5/10/5
+  bonuses: 75/75/78/5
   class: Monk
   power: 1232
   attack: 1340
@@ -151,7 +151,7 @@ costume4:
   - 'Glass: 60% extra chance to reflect status ailments back to the attacker.'
   image: https://imgur.com/7d9tXzA.jpg
   dtReleased: "2025-04-08"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Vitrail of the Sun
   aetherPower: dodge
   lb1:
@@ -166,7 +166,7 @@ costume4:
     health: 2907
 costume5:
   design: stylish
-  bonuses: 5/5/10/5
+  bonuses: 90/90/95/5
   class: Monk
   power: 1291
   attack: 1443
@@ -185,7 +185,7 @@ costume5:
     ones.'
   image: https://imgur.com/uvRw5hV.jpg
   dtReleased: "2026-04-10"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Stylish Sun Monk
   aetherPower: dodge
   lb1:

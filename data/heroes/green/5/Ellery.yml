@@ -4,17 +4,17 @@ source: shadow
 family: theinstitute
 speed: Average
 class: Sorcerer
-power: 1259
-attack: 1310
-defense: 1283
-health: 2259
+power: 1284
+attack: 1334
+defense: 1308
+health: 2333
 skill: Mutated Specimen
 effects:
-- 'Growth: The caster and nearby allies get 400 attack and 400 defense.'
-- Summon an Aberration Mega Minion with 40% HP and 170% attack inherited from the
+- 'Growth: The caster and nearby allies get 450 attack and 450 defense.'
+- Summon an Aberration Mega Minion with 45% HP and 180% attack inherited from the
   caster.
 - 'Each hit from an Aberration Mega Minion gives the target the following status ailment:'
-- ' * The target receives 489 Toxin damage over 3 turns. Damage is increased against
+- ' * The target receives 552 Toxin damage over 3 turns. Damage is increased against
   targets with boosted health, Minions or a Mega Minion.  (The Toxin damage is increased
   by +100% against targets with boosted health. The Toxin damage is increased by +33%
   per Minion or Mega Minion owned by target. Maximum increased damage is +199%.)'
@@ -46,7 +46,7 @@ passives:
 - ' * Deals 400% damage to the target and inflicts 35 Insanity on them.'
 image: https://imgur.com/tlI5XWl.jpg
 dtReleased: "2025-12-03"
-dtModified: "2026-03-22"
+dtModified: "2026-04-28"
 fancy_name: Aberrant Biologist
 aetherPower: ailment_immunity
 lb1:

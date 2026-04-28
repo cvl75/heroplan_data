@@ -4,7 +4,7 @@ description: Mahayoddha
 image: https://i.imgur.com/dTUL83w.png
 bonus:
   - "Bonus for 1/2/3 Heroes:"
-  - "At the end of each turn heroes in the Mahayoddha family gain Growth 100 / 110 / 120 attack and 100 / 110 / 120 defense."
+  - "At the end of each turn heroes in the Mahayoddha family gain Growth 75 / 85 / 100 attack and 75 / 85 / 100 defense."
   - 'Limits for modified Ability Scores:'
   - ' * Min 30% and max 170% of their original values.'
 bonuscostume-5star: 

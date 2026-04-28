@@ -4,10 +4,10 @@ source: titanhunter
 family: titanhunter
 speed: Fast
 class: Monk
-power: 1298
-attack: 1355
-defense: 1341
-health: 2315
+power: 1308
+attack: 1365
+defense: 1349
+health: 2340
 skill: Desert Hunt
 effects:
 - Deals 600% damage to the target.
@@ -30,8 +30,7 @@ passives:
   Flare receives additional 150 damage when they receive a critical hit.'
 image: https://imgur.com/MQqbtl5.jpg
 dtReleased: "2026-04-18"
-dtModified: "2026-04-19"
-fancy_name: Vanguard of the Wilds
+dtModified: "2026-04-28"
 aetherPower: attack_up
 lb1:
   power: 1389

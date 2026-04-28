@@ -4,25 +4,25 @@ source: ninja
 family: ronin
 speed: Charge
 class: Sorcerer
-power: 1288
-attack: 1351
-defense: 1318
-health: 2296
+power: 1313
+attack: 1374
+defense: 1343
+health: 2366
 skill: Iaijutsu
 effects:
 - 'Special Skill has a different effect when charged with 100% / 200% / 300% mana:'
 - 'x1 Mana Charge:'
-- Deals 310% damage to the target.
-- Deals additional 310% damage to 1 random enemies.
+- Deals 320% damage to the target.
+- Deals additional 320% damage to 1 random enemies.
 - Dispel 1 buffs from each hit enemy.
 - 'x2 Mana Charge:'
-- Deals 320% damage to the target.
-- Deals additional 320% damage to 4 random enemies.
+- Deals 330% damage to the target.
+- Deals additional 330% damage to 4 random enemies.
 - 'Stack (Max: 10): Each hit gives its target -5% defense.'
 - Dispel 1 buffs from each hit enemy.
 - 'x3 Mana Charge:'
-- Deals 330% damage to the target.
-- Deals additional 330% damage to 10 random enemies.
+- Deals 340% damage to the target.
+- Deals additional 340% damage to 10 random enemies.
 - 'Stack (Max: 10): Each hit gives its target -5% defense.'
 - Safely Dispels 1 buff from each hit enemy.
 types:
@@ -39,7 +39,7 @@ passives:
 - ' * The attacker receives 1500 Bleed damage over 3 turns.'
 image: https://imgur.com/Qq5yN3I.jpg
 dtReleased: "2026-03-10"
-dtModified: "2026-04-13"
+dtModified: "2026-04-28"
 fancy_name: Demon Ronin
 aetherPower: attack_up
 lb1:

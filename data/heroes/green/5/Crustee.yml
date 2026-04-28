@@ -4,10 +4,10 @@ source: magic
 family: magiccarpet
 speed: Average
 class: Wizard
-power: 1272
-attack: 1318
-defense: 1320
-health: 2263
+power: 1287
+attack: 1332
+defense: 1334
+health: 2307
 skill: Juggling Trials
 effects:
 - Rearranges the enemy positions randomly.
@@ -36,7 +36,7 @@ passives:
 - 'Weaker Mega Minions: Enemy Mega Minions have -75% HP.'
 image: https://imgur.com/hwMIKuX.jpg
 dtReleased: "2026-01-18"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Magic Lab Genius
 aetherPower: special_boost
 lb1:

@@ -31,7 +31,7 @@ passives:
   exhausted when the Core is activated.'
 image: https://i.imgur.com/IX7uDP5.jpg
 dtReleased: "2024-12-03"
-dtModified: "2026-04-07"
+dtModified: "2026-04-28"
 fancy_name: Dwarven Fabled Prince
 aetherPower: counterattack
 lb1:
@@ -46,7 +46,7 @@ lb2:
   health: 2705
 costume:
   design: costume1
-  bonuses: 10/10/11/5
+  bonuses: 12/12/12/5
   class: Rogue
   power: 1273
   attack: 1313
@@ -55,7 +55,7 @@ costume:
   skill: Cursed Plan
   effects:
   - Dispels buffs from the target and nearby enemies.
-  - Attacks the target and nearby enemies with Firestorm Strike, dealing up to 2220
+  - Attacks the target and nearby enemies with Firestorm Strike, dealing up to 2300
     damage. Deals 40% more damage if the target is of the Nature element. This Special
     Skill never misses its targets.
   - The target and nearby enemies are immune to new status effect buffs for 3 turns.
@@ -75,7 +75,7 @@ costume:
     is exhausted when the Core is activated.'
   image: https://imgur.com/Pn28cus.jpg
   dtReleased: "2025-10-15"
-  dtModified: "2026-04-07"
+  dtModified: "2026-04-28"
   fancy_name: Dwarven Fallen Prince
   aetherPower: ailment_immunity
   lb1:

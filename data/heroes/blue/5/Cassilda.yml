@@ -4,19 +4,19 @@ source: shadow
 family: forsaken
 speed: Average
 class: Sorcerer
-power: 1283
-attack: 1326
-defense: 1336
-health: 2288
+power: 1308
+attack: 1351
+defense: 1359
+health: 2356
 skill: Discordant Incantation
 effects:
-- Deals 325% damage to the target.
 - The target succumbs to Fear for 4 turns. (The target gets -40% defense. Removes
   all dispellable buffs and Growth effects when a Fear status effect is added. The
   target cannot gain new buffs or Growth effects for the duration. Target with Fear
-  deals 160% damage to random ally each time any other ally casts their Special Skill.
+  deals 250% damage to random ally each time any other ally casts their Special Skill.
   Each character can trigger this effect once per turn.)
-- Deals 275% damage to 5 random enemies. (This effect targets the same enemy as the
+- Deals 285% damage to the target.
+- Deals 285% damage to 5 random enemies. (This effect targets the same enemy as the
   first hit if there are no other valid targets.)
 - All hit targets get 10 Insanity every time they are hit.
 - All hit targets cannot activate their Talent Skills for 4 turns.
@@ -47,7 +47,7 @@ passives:
 - ' * Deals 400% damage to the target and inflicts 35 Insanity on them.'
 image: https://imgur.com/YXQrg7U.jpg
 dtReleased: "2026-02-24"
-dtModified: "2026-03-22"
+dtModified: "2026-04-28"
 fancy_name: Frenzied Archpriestess
 aetherPower: counterattack
 lb1:

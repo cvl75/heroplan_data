@@ -4,10 +4,10 @@ source: magic
 family: magiccarpet
 speed: Slow
 class: Sorcerer
-power: 1279
-attack: 1306
-defense: 1341
-health: 2301
+power: 1294
+attack: 1320
+defense: 1355
+health: 2344
 skill: Eternal Ishq
 effects:
 - Deals 485% damage to all enemies.
@@ -37,7 +37,7 @@ passives:
 - 'Weaker Mega Minions: Enemy Mega Minions have -75% HP.'
 image: https://imgur.com/KV0bCQc.jpg
 dtReleased: "2026-02-10"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Enchantress of Al-Layl
 aetherPower: special_boost
 lb1:

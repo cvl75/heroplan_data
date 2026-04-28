@@ -32,7 +32,7 @@ passives:
   exhausted when the Core is activated.'
 image: https://i.imgur.com/XIyQFXu.jpg
 dtReleased: "2024-12-03"
-dtModified: "2026-04-07"
+dtModified: "2026-04-28"
 fancy_name: Dwarven Merry Trickster
 aetherPower: regen
 lb1:
@@ -47,7 +47,7 @@ lb2:
   health: 2755
 costume:
   design: costume1
-  bonuses: 10/10/11/5
+  bonuses: 12/12/12/5
   class: Monk
   power: 1273
   attack: 1236
@@ -55,9 +55,9 @@ costume:
   health: 2483
   skill: Guarding Tunes
   effects:
-  - Boosts health of all allies by 800. Boosted health can exceed max HP.
+  - Boosts health of all allies by 900. Boosted health can exceed max HP.
   - All allies get a Firestorm Ward for 3 turns, that reduces incoming Special Skill
-    damage by up to -1280. Reduces damage by additional 30% when the attacker is of
+    damage by up to -1350. Reduces damage by additional 30% when the attacker is of
     the Nature element.
   - All allies are immune to buff dispel and reallocations for 3 turns. (The immunity
     also includes this effect itself.)
@@ -77,7 +77,7 @@ costume:
     is exhausted when the Core is activated.'
   image: https://imgur.com/xREyScg.jpg
   dtReleased: "2025-10-15"
-  dtModified: "2026-04-07"
+  dtModified: "2026-04-28"
   fancy_name: Dwarven Maestro Trickster
   aetherPower: boosted_regen
   lb1:

@@ -4,10 +4,10 @@ source: beowulf
 family: beowulf
 speed: Slow
 class: Monk
-power: 1260
-attack: 1291
-defense: 1312
-health: 2261
+power: 1275
+attack: 1306
+defense: 1326
+health: 2303
 skill: Gleaming Sword and Iron Mail
 effects:
 - Deals 475% damage to all enemies.
@@ -30,7 +30,7 @@ passives:
   Skills, they gain +30% attack Stack (Max: 10). One Stack can be gained per turn.'
 image: https://imgur.com/MXIFsEd.jpg
 dtReleased: "2025-12-06"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Skillful Smith
 aetherPower: bulwark
 lb1:

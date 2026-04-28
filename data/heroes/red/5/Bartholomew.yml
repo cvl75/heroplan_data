@@ -4,10 +4,10 @@ source: harvest
 family: vegetable
 speed: Average
 class: Barbarian
-power: 1277
-attack: 1336
-defense: 1306
-health: 2278
+power: 1282
+attack: 1341
+defense: 1310
+health: 2292
 skill: Capsicum Charge
 effects:
 - Deals 300% damage to the target and nearby enemies.
@@ -39,7 +39,7 @@ passives:
 - ' 3) Blossom Mega Fiend: 250% attack, 60% health'
 image: https://imgur.com/jASZVDz.jpg
 dtReleased: "2025-09-02"
-dtModified: "2026-04-02"
+dtModified: "2026-04-28"
 fancy_name: Bell Pepper Barbarian
 aetherPower: rage
 lb1:

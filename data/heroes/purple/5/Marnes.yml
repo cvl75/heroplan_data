@@ -4,20 +4,20 @@ source: wilderness
 family: wildcat
 speed: Very Fast
 class: Rogue
-power: 1252
-attack: 1324
+power: 1267
+attack: 1345
 defense: 1254
-health: 2233
+health: 2288
 skill: Blade of Horrid Affliction
 effects:
 - Deals 300% Clawing damage to the enemies on the edges of the formation. If there
   is only one enemy, the damage is doubled. (Deals 400% damage against enemies with
   any defensive buffs, Minions or Mega Minions. Enemies with any defensive buffs,
   Minions or Mega Minions receive -35% defense for 5 turns.)
-- 'The enemies on the edges of the enemy formation receive 1500 Surge Bleed damage
+- 'The enemies on the edges of the enemy formation receive 1600 Surge Bleed damage
   over 5 turns. (If a target already has this effect, the duration will be refreshed
   and the damage will be increased by 250. Max total damage: 3000.)'
-- The enemies on the edges of the enemy formation receive 625 Poison damage over 5
+- The enemies on the edges of the enemy formation receive 705 Poison damage over 5
   turns.
 types:
 - Hit 2
@@ -37,7 +37,7 @@ passives:
 - ' * Growth and Wither effects.'
 image: https://imgur.com/erU6rbP.jpg
 dtReleased: "2025-11-07"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Flank-Stabbing Panther
 aetherPower: attack_up
 lb1:

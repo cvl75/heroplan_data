@@ -4,10 +4,10 @@ source: magic
 family: magiccarpet
 speed: Average
 class: Druid
-power: 1246
-attack: 1266
-defense: 1295
-health: 2255
+power: 1261
+attack: 1281
+defense: 1310
+health: 2298
 skill: Herbal Remedies
 effects:
 - Destroys all Fiends from all allies. This effect damages Mega Fiends.
@@ -34,7 +34,7 @@ passives:
 - 'Weaker Mega Minions: Enemy Mega Minions have -75% HP.'
 image: https://imgur.com/0ZWHhJd.jpg
 dtReleased: "2025-10-19"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Magic Carpet Botanist
 aetherPower: defense_up
 lb1:

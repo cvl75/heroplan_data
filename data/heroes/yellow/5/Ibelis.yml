@@ -4,10 +4,10 @@ source: astral
 family: astraldemons
 speed: Very Fast
 class: Fighter
-power: 1273
-attack: 1359
-defense: 1299
-health: 2210
+power: 1283
+attack: 1367
+defense: 1310
+health: 2235
 skill: Sickle Trouble
 effects:
 - Deals 310% damage to  enemies on the edges of the enemy formation. If there is only
@@ -15,7 +15,7 @@ effects:
 - Reduces the mana of the enemies on the edges of the enemy formation by 20%. If there
   is only one enemy, the mana reduction is doubled.
 - Enemies on the edges of the formation receive Resonance for 2 turns. Each turn,
-  Resonance deals 716 damage to the afflicted enemies and 358 damage to nearby enemies.
+  Resonance deals 720 damage to the afflicted enemies and 360 damage to nearby enemies.
 types:
 - Hit 2
 - Mana Reducer 2
@@ -30,7 +30,7 @@ passives:
 - 'Perfect Accuracy: This character''s Special Skill never misses its targets.'
 image: https://imgur.com/M2yOZiy.jpg
 dtReleased: "2026-01-21"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Astral Demon Shadowguard
 aetherPower: attack_up
 lb1:

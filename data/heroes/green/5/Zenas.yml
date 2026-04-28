@@ -4,17 +4,17 @@ source: shadow
 family: theinstitute
 speed: Fast
 class: Druid
-power: 1277
-attack: 1332
-defense: 1303
-health: 2294
+power: 1302
+attack: 1357
+defense: 1328
+health: 2362
 skill: Moldavite Wings
 effects:
-- Deals 360% damage to the target and nearby enemies and inflicts 35 Insanity on them.
+- Deals 390% damage to the target and nearby enemies and inflicts 35 Insanity on them.
 - Summons a Moldavite Owl Fiend for the target and nearby enemies. The Fiend damage
-  the enemy with 60% attack every turn.
+  the enemy with 70% attack every turn.
 - The Moldavite Owl Fiend absorbs healing. It disappears after absorbing a healing
-  equal to 25% of its target's max health.
+  equal to 30% of its target's max health.
 - The Moldavite Owl Fiend inflicts 5 Insanity on the owner on every turn.
 - At the end of each turn, the Moldavite Owl Fiend dispels one of its target's dispellable
   buffs.
@@ -43,7 +43,7 @@ passives:
 - ' * Deals 400% damage to the target and inflicts 35 Insanity on them.'
 image: https://imgur.com/0GRQ93S.jpg
 dtReleased: "2026-02-06"
-dtModified: "2026-03-22"
+dtModified: "2026-04-28"
 fancy_name: Expert Mineralogist
 aetherPower: fiend_resist
 lb1:

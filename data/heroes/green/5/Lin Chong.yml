@@ -4,10 +4,10 @@ source: kingdom
 family: outlaws
 speed: Very Fast
 class: Ranger
-power: 1262
-attack: 1328
-defense: 1273
-health: 2259
+power: 1277
+attack: 1343
+defense: 1287
+health: 2303
 skill: Punishing Strike
 effects:
 - This Special Skill has a chance to deal Critical hits. (The chance of dealing a
@@ -37,7 +37,7 @@ passives:
 - 'Resist Bleed: This character is immune to status ailments that deal Bleed damage.'
 image: https://imgur.com/DJhVYTD.jpg
 dtReleased: "2025-12-14"
-dtModified: "2026-03-28"
+dtModified: "2026-04-28"
 fancy_name: Panther Head of Water Margin
 aetherPower: special_boost
 lb1:

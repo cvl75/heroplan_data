@@ -4,10 +4,10 @@ source: covenant
 family: construct
 speed: Average
 class: Druid
-power: 1291
-attack: 1318
-defense: 1374
-health: 2292
+power: 1311
+attack: 1336
+defense: 1392
+health: 2348
 skill: Ancient Technology
 effects:
 - Recovers 45% health for all allies.
@@ -35,7 +35,7 @@ passives:
 - ' * Wither: Each hit from a Killer Bot Minion gives its target -50 attack.'
 image: https://imgur.com/IBA3W2a.jpg
 dtReleased: "2026-03-26"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Ancient Colossus Construct
 aetherPower: damage_reduction
 lb1:

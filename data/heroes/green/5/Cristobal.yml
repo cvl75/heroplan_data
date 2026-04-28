@@ -27,7 +27,7 @@ passives:
   Special Skill is fully charged, the chance is 100%.'
 image: https://i.imgur.com/H1Awz0g.jpg
 dtReleased: "2021-09-15"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Charms Professor
 aetherPower: special_boost
 lb1:
@@ -42,7 +42,7 @@ lb2:
   health: 1747
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 65/65/66/1
   class: Cleric
   power: 1249
   attack: 1302
@@ -68,7 +68,7 @@ costume:
   - 'Weaker Mega Minions: Enemy Mega Minions have -75% HP.'
   image: https://imgur.com/1pcXfJf.jpg
   dtReleased: "2025-11-03"
-  dtModified: ""
+  dtModified: "2026-04-28"
   fancy_name: Enchantments Professor
   aetherPower: counterattack
   lb1:

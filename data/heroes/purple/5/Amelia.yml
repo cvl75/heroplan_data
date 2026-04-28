@@ -4,10 +4,10 @@ source: magic
 family: magiccarpet
 speed: Very Fast
 class: Fighter
-power: 1257
-attack: 1301
-defense: 1308
-health: 2222
+power: 1272
+attack: 1316
+defense: 1322
+health: 2263
 skill: Swift Maneuvers
 effects:
 - Recovers 26% health for all allies.
@@ -33,7 +33,7 @@ passives:
 - 'Weaker Mega Minions: Enemy Mega Minions have -75% HP.'
 image: https://imgur.com/XsBc2Vs.jpg
 dtReleased: "2025-11-30"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Magical Aviator
 aetherPower: regen
 lb1:

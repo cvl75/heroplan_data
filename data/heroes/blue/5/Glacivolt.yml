@@ -4,15 +4,15 @@ source: covenant
 family: construct
 speed: Fast
 class: Cleric
-power: 1242
-attack: 1273
-defense: 1277
-health: 2245
+power: 1262
+attack: 1291
+defense: 1295
+health: 2305
 skill: Wrath of Frozen Soul
 effects:
-- Deals 270% damage to all enemies.
-- All enemies get -25% defense, and a further -5% decrease per each Ice shield on
-  the board for 3 turns, up to -50% defense.
+- Deals 280% damage to all enemies.
+- All enemies get -30% defense, and a further -5% decrease per each Ice shield on
+  the board for 3 turns, up to -55% defense.
 - All enemies receive 456 Frost damage over 3 turns.
 types:
 - Hit All
@@ -34,7 +34,7 @@ passives:
 - ' * Wither: Each hit from a Killer Bot Minion gives its target -50 attack.'
 image: https://imgur.com/a0lLWEF.jpg
 dtReleased: "2025-10-03"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Icy Overseer Construct
 aetherPower: defense_up
 lb1:

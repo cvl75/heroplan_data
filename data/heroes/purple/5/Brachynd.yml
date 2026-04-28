@@ -4,10 +4,10 @@ source: titanhunter
 family: titanhunter
 speed: Average
 class: Paladin
-power: 1287
-attack: 1355
-defense: 1306
-health: 2303
+power: 1297
+attack: 1365
+defense: 1316
+health: 2333
 skill: Venom Guard
 effects:
 - Deals 250% damage to all  enemies.
@@ -31,7 +31,7 @@ passives:
   Flare receives additional 150 damage when they receive a critical hit.'
 image: https://imgur.com/sN4V5j6.jpg
 dtReleased: "2026-03-09"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Warden of the Cove
 aetherPower: defense_up
 lb1:

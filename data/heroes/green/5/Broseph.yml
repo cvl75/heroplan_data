@@ -4,10 +4,10 @@ source: valiant
 family: vegetable
 speed: Fast
 class: Druid
-power: 1278
-attack: 1320
-defense: 1322
-health: 2294
+power: 1283
+attack: 1324
+defense: 1328
+health: 2307
 skill: Superfood Purification
 effects:
 - Recovers 50% health for the caster and nearby allies.
@@ -37,7 +37,7 @@ passives:
 - ' 3) Blossom Mega Fiend: 250% attack, 60% health'
 image: https://imgur.com/xolMwFa.jpg
 dtReleased: "2026-02-04"
-dtModified: "2026-04-02"
+dtModified: "2026-04-28"
 fancy_name: Broccoli Shaman
 aetherPower: ailment_immunity
 lb1:

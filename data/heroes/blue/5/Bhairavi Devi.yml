@@ -4,16 +4,16 @@ source: temple
 family: mahayoddha
 speed: Slow
 class: Cleric
-power: 1289
-attack: 1328
-defense: 1351
-health: 2296
+power: 1304
+attack: 1343
+defense: 1365
+health: 2340
 skill: Thandai Trance
 effects:
-- Recovers 44% health for all allies.
+- Recovers 49% health for all allies.
 - 'Growth Boon: Recovers 2x extra health for each point of modified defense. (Extra
   health is based on the modified defense on the caster when healing is applied. Up
-  to maximum 800 of additional healing. Status effects affecting healing received
+  to maximum 600 of additional healing. Status effects affecting healing received
   do affect the healing scaling.)'
 - Cleanses status ailments from all allies.
 - All enemies fall into Deep Sleep and receive +80% increased damage while in Deep
@@ -33,7 +33,7 @@ passives:
   effects and damage from Minions and Mega Minions.'
 image: https://imgur.com/evg5S2S.jpg
 dtReleased: "2026-03-24"
-dtModified: "2026-04-21"
+dtModified: "2026-04-28"
 fancy_name: Jestful Thakurain
 aetherPower: heal_increase
 lb1:

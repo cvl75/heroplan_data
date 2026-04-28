@@ -4,10 +4,10 @@ source: thebraveandthebeautiful
 family: beautyandthebeast
 speed: Average
 class: Paladin
-power: 1274
-attack: 1312
-defense: 1324
-health: 2282
+power: 1294
+attack: 1332
+defense: 1343
+health: 2338
 skill: Unyielding Stance
 effects:
 - 'If the caster has 60 or more Humility:'
@@ -18,7 +18,7 @@ effects:
 - The caster activates Stoneskin that drops all damage dealt to the caster to 1 but
   is removed after 5 hits. This effect can't be dispelled.
 - 'Otherwise:'
-- Deals 460% damage to the target and minor damage to nearby enemies.
+- Deals 490% damage to the target and minor damage to nearby enemies.
 - The caster gets Taunt that prevents enemies from using Special Skills on the caster's
   allies for 4 turns.
 - The caster activates Stoneskin that drops all damage dealt to the caster to 1 but
@@ -39,7 +39,7 @@ passives:
   they will recover that much health instead.'
 image: https://imgur.com/w9K0HkI.jpg
 dtReleased: "2026-01-23"
-dtModified: "2026-04-13"
+dtModified: "2026-04-28"
 fancy_name: Petrified Guard of the Bewitched Castle
 aetherPower: taunt
 lb1:

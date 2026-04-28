@@ -4,10 +4,10 @@ source: superelemental
 family: slime
 speed: Slow
 class: Cleric
-power: 1263
-attack: 1299
-defense: 1312
-health: 2261
+power: 1278
+attack: 1314
+defense: 1326
+health: 2305
 skill: Debt Drain
 effects:
 - Deals 500% damage to all enemies.
@@ -31,7 +31,7 @@ passives:
   they summon a Slime Mega Minion for themselves with 50% HP and 40% attack.'
 image: https://imgur.com/xFgwrK8.jpg
 dtReleased: "2025-12-21"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Elder Peddler Slime
 aetherPower: ailment_immunity
 lb1:

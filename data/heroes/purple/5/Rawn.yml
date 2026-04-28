@@ -4,13 +4,13 @@ source: wilderness
 family: wildcat
 speed: Slow
 class: Barbarian
-power: 1296
-attack: 1417
-defense: 1273
-health: 2276
+power: 1311
+attack: 1431
+defense: 1287
+health: 2321
 skill: Caught and Vicious
 effects:
-- Deals 400% Clawing damage to all enemies. (Deals 600% damage against enemies with
+- Deals 410% Clawing damage to all enemies. (Deals 600% damage against enemies with
   any defensive buffs, Minions or Mega Minions. Enemies with any defensive buffs,
   Minions or Mega Minions receive -35% defense for 6 turns.)
 - The caster gets Taunt that prevents enemies from using Special Skills on the caster's
@@ -38,7 +38,7 @@ passives:
 - ' * - Growth and Wither effects.'
 image: https://imgur.com/11Mvel1.jpg
 dtReleased: "2026-04-09"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Cougar Burglar
 aetherPower: taunt
 lb1:

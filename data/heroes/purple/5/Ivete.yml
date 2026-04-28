@@ -4,10 +4,10 @@ source: thebraveandthebeautiful
 family: beautyandthebeast
 speed: Slow
 class: Wizard
-power: 1298
-attack: 1361
-defense: 1336
-health: 2309
+power: 1308
+attack: 1380
+defense: 1355
+health: 2364
 skill: Bewitching Blast
 effects:
 - 'If the caster has 40 or more Humility:'
@@ -39,8 +39,7 @@ passives:
   or from a negative stack, they will recover that much health instead.'
 image: https://imgur.com/qtnsAeQ.jpg
 dtReleased: "2026-04-16"
-dtModified: ""
-fancy_name: Jealous Fairy of the Bewitched Castle
+dtModified: "2026-04-28"
 aetherPower: counterattack
 lb1:
   power: 1389

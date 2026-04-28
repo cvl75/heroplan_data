@@ -4,10 +4,10 @@ source: kingdom
 family: outlaws
 speed: Fast
 class: Ranger
-power: 1271
-attack: 1291
-defense: 1341
-health: 2278
+power: 1286
+attack: 1306
+defense: 1355
+health: 2321
 skill: Double Strike
 effects:
 - This Special Skill has a chance to deal Critical hits. (The chance of dealing a
@@ -41,7 +41,7 @@ passives:
 - 'Resist Bleed: This character is immune to status ailments that deal Bleed damage.'
 image: https://imgur.com/BtiEGep.jpg
 dtReleased: "2026-01-13"
-dtModified: "2026-03-28"
+dtModified: "2026-04-28"
 fancy_name: Bright Star of Water Margin
 aetherPower: attack_up
 lb1:

@@ -4,13 +4,13 @@ source: valiant
 family: vegetable
 speed: Slow
 class: Ranger
-power: 1285
-attack: 1336
-defense: 1322
-health: 2305
+power: 1290
+attack: 1341
+defense: 1326
+health: 2317
 skill: Teargas Roulette
 effects:
-- Deals 375% damage to the target and 5 random enemies.
+- Deals 385% damage to the target and 5 random enemies.
 - 'Summons a Seedling Fiend to each hit enemy. (The Seeding Fiend evolves into a Sprout
   Fiend after 2 turns. The Sprout Fiend evolves into a Blossom Mega Fiend after 2
   turns. * Seedling Fiend: 50% attack, 20% health. * Sprout Fiend: 75% attack, 30%
@@ -18,7 +18,7 @@ effects:
   every turn. A Fiend disappears after absorbing healing. Amount of healing required
   depends on the target''s max health. The Evolution of the Fiends is delayed with
   1 turn each time they are absorb healing.)'
-- All hit target gets -49% accuracy for 6 turns. (Chance to miss also applies to offensive
+- All hit target gets -55% accuracy for 6 turns. (Chance to miss also applies to offensive
   Special Skills.)
 types:
 - Hit 1
@@ -38,7 +38,7 @@ passives:
 - '3) Blossom Mega Fiend: 250% attack, 60% health.'
 image: https://imgur.com/ePndCAl.jpg
 dtReleased: "2026-03-06"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Onion Bandit
 aetherPower: counterattack
 lb1:

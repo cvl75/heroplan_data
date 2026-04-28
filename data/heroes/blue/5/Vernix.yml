@@ -4,19 +4,19 @@ source: wilderness
 family: wildcat
 speed: Fast
 class: Wizard
-power: 1247
-attack: 1359
+power: 1262
+attack: 1378
 defense: 1207
-health: 2206
+health: 2268
 skill: Iceshatter
 effects:
 - 'If the enemy has the Frost status ailment:'
-- ' * Deals 310% damage to all enemies.'
+- ' * Deals 320% damage to all enemies.'
 - ' * Reduces the mana to of all enemies by 5%.'
-- ' * All enemies receive 1630 Frost damage over 5 turns.'
+- ' * All enemies receive 1685 Frost damage over 5 turns.'
 - 'Otherwise:'
-- ' * Deals 260% damage to all enemies.'
-- ' * All enemies receive 1275 Frost damage over 5 turns.'
+- ' * Deals 270% damage to all enemies.'
+- ' * All enemies receive 1340 Frost damage over 5 turns.'
 types:
 - Hit All
 - DoT All
@@ -35,7 +35,7 @@ passives:
 - ' * - Growth and Wither effects.'
 image: https://imgur.com/QEdADnb.jpg
 dtReleased: "2025-10-20"
-dtModified: ""
+dtModified: "2026-04-28"
 fancy_name: Snow Leopard Magus
 aetherPower: heal_increase
 lb1:
