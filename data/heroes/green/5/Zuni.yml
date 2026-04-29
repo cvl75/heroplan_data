@@ -80,6 +80,7 @@ costume:
   image: https://imgur.com/w17wpuh.jpg
   dtReleased: "2026-04-25"
   dtModified: "2026-04-28"
+  fancy_name: Hoverboard Mage
   aetherPower: dodge
   lb1:
     power: 1388
