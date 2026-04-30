@@ -74,4 +74,45 @@ costume:
     attack: 1079
     defense: 1104
     health: 2581
+costume2:
+  design: toon
+  bonuses: 90/90/90/5
+  class: Paladin
+  power: 1342
+  attack: 1248
+  defense: 1411
+  health: 2755
+  skill: Might of Toon Ares
+  effects:
+  - All allies get +55% attack for 4 turns. This status effect is undispellable and
+    lasts 2 turns longer on Fire characters.
+  - All allies get +50% critical chance for 4 turns. This status effect is undispellable
+    and lasts 2 turns longer on Fire characters.
+  - All allies regenerate 1000 HP over 4 turns. This status effect is undispellable
+    and lasts 2 turns longer on Fire characters.
+  - Element Link gives all Fire allies +15% attack and +15% defense for 6 turns. This
+    effect can't be dispelled.
+  types:
+  - Attack Buff All
+  - Critical Chance Buff All
+  - HoT All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  - 'Cleanse on Special Skill: When this character casts their Special Skill, they
+    cleanse the newest status ailment from all allies.'
+  image: https://imgur.com/q5rcvU4.jpg
+  dtReleased: "2026-04-30"
+  dtModified: ""
+  aetherPower: defense_up
+  lb1:
+    power: 1437
+    attack: 1345
+    defense: 1521
+    health: 2967
+  lb2:
+    power: 1626
+    attack: 1539
+    defense: 1740
+    health: 3397
 ...

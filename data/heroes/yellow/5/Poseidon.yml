@@ -63,4 +63,41 @@ costume:
     attack: 1133
     defense: 1095
     health: 2228
+costume2:
+  design: toon
+  bonuses: 87/87/90/5
+  class: Fighter
+  power: 1348
+  attack: 1374
+  defense: 1370
+  health: 2563
+  skill: Toon of the Seas
+  effects:
+  - Deals 550% damage to the target.
+  - All allies are immune to new negative mana effects for 3 turns, and their mana
+    is increased by 20% each resisted effect.
+  - All allies are immune to new effects that prevent the use of Special Skills for
+    3 turns.
+  - Deals extra damage against Dark.
+  types:
+  - Hit 1
+  - Mana Debuff Immunity All
+  - SS Block Immunity All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/zR0chYx.jpg
+  dtReleased: "2026-04-30"
+  dtModified: ""
+  aetherPower: attack_up
+  lb1:
+    power: 1443
+    attack: 1481
+    defense: 1477
+    health: 2762
+  lb2:
+    power: 1633
+    attack: 1694
+    defense: 1690
+    health: 3159
 ...

@@ -64,4 +64,40 @@ costume:
     attack: 1146
     defense: 1168
     health: 2001
+costume2:
+  design: toon
+  bonuses: 87/87/90/5
+  class: Cleric
+  power: 1341
+  attack: 1348
+  defense: 1458
+  health: 2401
+  skill: Toontastic Protection
+  effects:
+  - Recovers 46% health for all allies.
+  - All allies get +40% mana generation for 4 turns. This status effect is undispellable
+    and lasts 2 turns onger on Ice characters. (Affects only mana gained from matching
+    tiles or mana gained by the defense team at the end of their turn.)
+  - Cleanses status ailments from all allies.
+  types:
+  - Healer All
+  - Mana Generation Buff All
+  - Cleanser All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/tXTk2O8.jpg
+  dtReleased: "2026-04-30"
+  dtModified: ""
+  aetherPower: defense_up
+  lb1:
+    power: 1435
+    attack: 1452
+    defense: 1572
+    health: 2589
+  lb2:
+    power: 1624
+    attack: 1662
+    defense: 1798
+    health: 2962
 ...
