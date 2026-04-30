@@ -15,9 +15,8 @@ effects:
 - Deals extra damage against Holy.
 - All Dark allies and enemies are immune to this attack.
 types:
-- Hit All
-- Hit All allies
-- Hits Ignore Dark
+- Hit All except Dark
+- Hit All allies except Dark
 image: https://i.imgur.com/f9fc9eh.jpg
 dtReleased: ""
 dtModified: "2026-04-11"
@@ -50,8 +49,10 @@ costume:
   - Deals extra damage against Holy.
   types:
   - Hit All
-  - Attack Buff All dark
-  - Attack Debuff All not dark
+  - Attack Buff All Dark
+  - Attack Buff All Dark enemies
+  - Attack Debuff All except Dark
+  - Attack Debuff All allies except Dark
   image: https://i.imgur.com/EOk0EO8.jpg
   dtReleased: "2023-02-06"
   dtModified: "2026-04-11"
@@ -67,4 +68,41 @@ costume:
     attack: 1158
     defense: 1057
     health: 2212
+costume2:
+  design: toon
+  bonuses: 87/87/90/5
+  class: Barbarian
+  power: 1343
+  attack: 1374
+  defense: 1265
+  health: 2739
+  skill: Toon Tide
+  effects:
+  - Deals 500% damage to all enemies.
+  - Deals 50% damage to all allies.
+  - All allies and enemies get -54% defense against Dark for 4 turns.
+  - Deals extra damage against Holy.
+  - All Dark allies and enemies are immune to this Special Skill.
+  types:
+  - Hit All except Dark
+  - Hit All allies except Dark
+  - Elemental Defense Buff All except Dark
+  - Elemental Defense Debuff All allies except Dark
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/SllRsIE.jpg
+  dtReleased: "2026-04-30"
+  dtModified: ""
+  aetherPower: rage
+  lb1:
+    power: 1438
+    attack: 1481
+    defense: 1365
+    health: 2952
+  lb2:
+    power: 1627
+    attack: 1694
+    defense: 1561
+    health: 3378
 ...

@@ -69,4 +69,42 @@ costume:
     attack: 1124
     defense: 1100
     health: 2467
+costume2:
+  design: toon
+  bonuses: 90/90/90/5
+  class: Sorcerer
+  power: 1343
+  attack: 1385
+  defense: 1322
+  health: 2597
+  skill: Skeletoon Summon
+  effects:
+  - Deals 410% damage to the target and nearby enemies.
+  - Summons an Undead Minion for the caster and nearby allies with 32% HP and 27%
+    attack inherited from the caster.
+  - Deals extra damage against Holy.
+  - Elemental Link gives +10% mana generation for all Dark allies for 4 turns. This
+    effect can't be dispelled.
+  types:
+  - Hit 3
+  - Summoner 3
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  - 'Dispel on Special Skill: When this character casts their Special Skill, they
+    dispel the newest status effect buff from all enemies.'
+  image: https://imgur.com/1XooKHj.jpg
+  dtReleased: "2026-04-30"
+  dtModified: ""
+  aetherPower: revive
+  lb1:
+    power: 1437
+    attack: 1491
+    defense: 1425
+    health: 2800
+  lb2:
+    power: 1627
+    attack: 1708
+    defense: 1630
+    health: 3203
 ...
