@@ -65,7 +65,7 @@ costume:
     attack: 1171
     defense: 1123
     health: 2027
-costume3:
+costume2:
   design: toon
   bonuses: 87/87/90/5
   class: Barbarian
