@@ -60,4 +60,37 @@ costume:
     attack: 829
     defense: 896
     health: 1396
+costume2:
+  design: toon
+  bonuses: 30/30/35/5
+  class: Cleric
+  power: 825
+  attack: 902
+  defense: 786
+  health: 1462
+  skill: Toon Wave
+  effects:
+  - Deals 220% damage to all enemies.
+  - All allies get +54% defense against Nature for 4 turns.
+  - Deals extra damage against Fire.
+  types:
+  - Hit All
+  - Elemental Defense Buff All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/oQQAWgD.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: boosted_regen
+  lb1:
+    power: 890
+    attack: 981
+    defense: 855
+    health: 1588
+  lb2:
+    power: 1018
+    attack: 1137
+    defense: 990
+    health: 1842
 ...

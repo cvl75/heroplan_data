@@ -58,4 +58,36 @@ costume:
     attack: 909
     defense: 827
     health: 1464
+costume2:
+  design: toon
+  bonuses: 30/30/30/5
+  class: Monk
+  power: 836
+  attack: 933
+  defense: 813
+  health: 1407
+  skill: Toon Magma Boulders
+  effects:
+  - Deals 265% damage to all enemies. Each hit has 85% accuracy.
+  - The damage is increased by 75% per each defeated enemy.
+  - Deals extra damage against Nature.
+  types:
+  - Hit All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/fZTLcMl.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: counterattack
+  lb1:
+    power: 901
+    attack: 1014
+    defense: 885
+    health: 1530
+  lb2:
+    power: 1031
+    attack: 1175
+    defense: 1025
+    health: 1774
 ...

@@ -66,4 +66,40 @@ costume:
     attack: 1130
     defense: 1120
     health: 2142
+costume2:
+  design: toon
+  bonuses: 87/87/90/5
+  class: Barbarian
+  power: 1341
+  attack: 1389
+  defense: 1338
+  health: 2538
+  skill: Toon Annihilation
+  effects:
+  - Deals 320% damage to all enemies.
+  - The more mana the enemies have, the more damage they will receive, up to 440%.
+  - If the caster is defeated during the next 5 turns they are resurrected in the
+    beginning of their next turn with 45% health. All status effects and stacks are
+    removed when the caster is defeated. This effect can't be dispelled.
+  - Deals extra damage against Ice.
+  types:
+  - Hit All
+  - Self Resurrection
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/Ctfd708.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: rage
+  lb1:
+    power: 1436
+    attack: 1497
+    defense: 1443
+    health: 2736
+  lb2:
+    power: 1624
+    attack: 1712
+    defense: 1651
+    health: 3131
 ...

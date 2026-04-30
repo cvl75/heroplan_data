@@ -65,4 +65,39 @@ costume:
     attack: 651
     defense: 639
     health: 1230
+costume2:
+  design: toon
+  bonuses: 25/25/25/5
+  class: Monk
+  power: 563
+  attack: 575
+  defense: 542
+  health: 1036
+  skill: Dual Toon Slash
+  effects:
+  - Deals 230% damage to the target.
+  - Deals 410% damage to a random different enemy. Deals extra damage if the target
+    is Holy. (This effect targets the same enemy as the first hit if there are no
+    other valid targets.)
+  - Deals extra damage against Holy.
+  types:
+  - Hit 1
+  - Hit Random 1
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/RDebsEx.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: attack_up
+  lb1:
+    power: 629
+    attack: 652
+    defense: 615
+    health: 1173
+  lb2:
+    power: 763
+    attack: 806
+    defense: 760
+    health: 1451
 ...

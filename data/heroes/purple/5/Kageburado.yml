@@ -65,4 +65,38 @@ costume:
     attack: 1171
     defense: 1123
     health: 2027
+costume2:
+  design: toon
+  bonuses: 87/87/90/5
+  class: Barbarian
+  power: 1342
+  attack: 1479
+  defense: 1312
+  health: 2375
+  skill: Toon Strike
+  effects:
+  - Safely dispels buffs from the target.
+  - Deals 275% damage to the target.
+  - If the target has more than 50% health remaining, deals 550% damage instead.
+  - Deals extra damage against Holy.
+  types:
+  - Safe Dispel 1 Buff 1
+  - Hit 1
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/npAVCOc.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: dodge
+  lb1:
+    power: 1437
+    attack: 1593
+    defense: 1415
+    health: 2559
+  lb2:
+    power: 1626
+    attack: 1823
+    defense: 1619
+    health: 2927
 ...

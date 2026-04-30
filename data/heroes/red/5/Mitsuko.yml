@@ -70,4 +70,42 @@ costume:
     attack: 1104
     defense: 1066
     health: 2354
+costume2:
+  design: toon
+  bonuses: 87/87/90/5
+  class: Sorcerer
+  power: 1347
+  attack: 1316
+  defense: 1342
+  health: 2755
+  skill: Toon Mirror
+  effects:
+  - Deals 255% damage to the target and nearby enemies.
+  - Reduces the mana of the target and nearby enemies by 50%.
+  - All allies reflect all status effects and 160% damage back to the attacker and
+    block other negative effects from enemies' Ice Special Skills for 4 turns. (Status
+    effects cast by characters, Minions and Fiends on the same side cannot be reflected.)
+  - Deals extra damage against Nature.
+  types:
+  - Hit 3
+  - Mana Reduction 3
+  - Elemental Reflect All
+  - Elemental Counterattack All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/VPsq6eb.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: special_boost
+  lb1:
+    power: 1442
+    attack: 1419
+    defense: 1447
+    health: 2967
+  lb2:
+    power: 1632
+    attack: 1623
+    defense: 1656
+    health: 3397
 ...

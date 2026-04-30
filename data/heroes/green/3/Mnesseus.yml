@@ -60,4 +60,37 @@ costume:
     attack: 701
     defense: 614
     health: 1003
+costume2:
+  design: toon
+  bonuses: 28/28/30/5
+  class: Cleric
+  power: 558
+  attack: 619
+  defense: 540
+  health: 898
+  skill: Atlantean Toon Spear
+  effects:
+  - Deals 330% damage to the target.
+  - Deals extra damage against Ice.
+  - Dispels buffs from all enemies.
+  types:
+  - Hit 1
+  - Dispeller All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/jwON68p.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: attack_up
+  lb1:
+    power: 624
+    attack: 702
+    defense: 611
+    health: 1019
+  lb2:
+    power: 756
+    attack: 869
+    defense: 756
+    health: 1258
 ...

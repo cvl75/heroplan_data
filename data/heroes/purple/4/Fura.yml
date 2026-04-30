@@ -67,4 +67,41 @@ costume:
     attack: 945
     defense: 788
     health: 1435
+costume2:
+  design: toon
+  bonuses: 30/30/30/5
+  class: Wizard
+  power: 833
+  attack: 916
+  defense: 820
+  health: 1419
+  skill: Toonglade Pollen
+  effects:
+  - Deals 180% damage to all enemies.
+  - Reduces max health of all enemies by 150. The effect is stronger against targets
+    with boosted health. (Max health can't get lower than 30% of the original max
+    health. Any boosted health is reduced by an additional 150.)
+  - All enemies get -55% decrease for any healing received for 4 turns.
+  - Deals extra damage against Holy.
+  types:
+  - Hit All
+  - Max Health Reduction All
+  - Healing Debuff All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/nlHwD1Y.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: attack_up
+  lb1:
+    power: 898
+    attack: 995
+    defense: 890
+    health: 1541
+  lb2:
+    power: 1028
+    attack: 1154
+    defense: 1033
+    health: 1787
 ...

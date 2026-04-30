@@ -65,4 +65,39 @@ costume:
     attack: 772
     defense: 909
     health: 1506
+costume2:
+  design: toon
+  bonuses: 30/30/35/5
+  class: Druid
+  power: 825
+  attack: 820
+  defense: 884
+  health: 1474
+  skill: Toon Bash
+  effects:
+  - Deals 195% damage to the target and minor damage to nearby enemies.
+  - The caster and nearby allies get +50% attack for 4 turns.
+  - The caster and nearby allies regenerate 812 HP over 4 turns.
+  - Deals extra damage against Ice.
+  types:
+  - Hit 3
+  - Attack Buff 3
+  - HoT 3
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/dm1dpnl.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: fiend_resist
+  lb1:
+    power: 889
+    attack: 890
+    defense: 959
+    health: 1601
+  lb2:
+    power: 1017
+    attack: 1033
+    defense: 1112
+    health: 1856
 ...

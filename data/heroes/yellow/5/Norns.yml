@@ -63,4 +63,39 @@ costume:
     attack: 1310
     defense: 1134
     health: 2050
+costume2:
+  design: toon
+  bonuses: 84/84/84/5
+  class: Sorcerer
+  power: 1347
+  attack: 1420
+  defense: 1317
+  health: 2546
+  skill: Twist of Toon Fate
+  effects:
+  - Deals 330% damage to the target and nearby enemies.
+  - The target and nearby enemies become weak against the element they are strong
+    against for 5 turns. They stay weak against the element they are normally weak
+    against.
+  - Deals extra damage against Dark.
+  types:
+  - Hit 3
+  - Weaker Defense 3
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/fVZ8XqN.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: special_boost
+  lb1:
+    power: 1442
+    attack: 1530
+    defense: 1420
+    health: 2743
+  lb2:
+    power: 1632
+    attack: 1751
+    defense: 1624
+    health: 3139
 ...

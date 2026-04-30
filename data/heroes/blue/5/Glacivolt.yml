@@ -13,7 +13,7 @@ effects:
 - Deals 280% damage to all enemies.
 - All enemies get -30% defense, and a further -5% decrease per each Ice shield on
   the board for 3 turns, up to -55% defense.
-- All enemies receive 456 Frost damage over 3 turns.
+- All enemies receive 579 Frost damage over 3 turns.
 types:
 - Hit All
 - Defense Debuff All
