@@ -68,7 +68,7 @@ costume:
     health: 1699
 costume2:
   design: toon
-  bonuses: 30/30/35/5
+  bonuses: 30/30/30/5
   class: Sorcerer
   power: 836
   attack: 811

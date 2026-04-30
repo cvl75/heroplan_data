@@ -68,4 +68,42 @@ costume:
     attack: 601
     defense: 621
     health: 1382
+costume2:
+  design: toon
+  bonuses: 25/25/25/5
+  class: Fighter
+  power: 562
+  attack: 536
+  defense: 533
+  health: 1148
+  skill: Toon Bees
+  effects:
+  - All allies get +54% defense against Dark for 3 turns. This status effect is undispellable
+    and lasts 2 turns longer on Holy characters.
+  - Summons a Bee Minion for each ally. The Bee Minion inherits 20% HP and 20% attack
+    from the caster.
+  - 'Each hit from a Bee Minion gives the target the following status ailments:'
+  - The target receives 62 Poison damage over 2 turns.
+  - The target can't receive new Minions for 4 turns.
+  types:
+  - Summoner All
+  - Minion with DoT
+  - Minion with Minion Block
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/hJG4009.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: defense_up
+  lb1:
+    power: 629
+    attack: 607
+    defense: 605
+    health: 1302
+  lb2:
+    power: 762
+    attack: 751
+    defense: 747
+    health: 1608
 ...

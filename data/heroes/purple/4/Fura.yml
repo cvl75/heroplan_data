@@ -69,7 +69,7 @@ costume:
     health: 1435
 costume2:
   design: toon
-  bonuses: 30/30/35/5
+  bonuses: 30/30/30/5
   class: Wizard
   power: 833
   attack: 916

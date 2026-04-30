@@ -61,4 +61,37 @@ costume:
     attack: 749
     defense: 569
     health: 993
+costume2:
+  design: toon
+  bonuses: 28/28/30/5
+  class: Druid
+  power: 561
+  attack: 657
+  defense: 506
+  health: 889
+  skill: Atlantean Toon Sword
+  effects:
+  - Deals 130% damage to all enemies.
+  - All allies get +36% critical chance for 4 turns.
+  - Deals extra damage against Dark.
+  types:
+  - Hit All
+  - Critical Chance Buff All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/qL8cAYd.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: attack_up
+  lb1:
+    power: 627
+    attack: 746
+    defense: 574
+    health: 1008
+  lb2:
+    power: 760
+    attack: 921
+    defense: 709
+    health: 1245
 ...

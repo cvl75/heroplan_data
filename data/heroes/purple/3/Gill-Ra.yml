@@ -64,4 +64,40 @@ costume:
     attack: 671
     defense: 619
     health: 1075
+costume2:
+  design: toon
+  bonuses: 28/28/30/5
+  class: Sorcerer
+  power: 559
+  attack: 535
+  defense: 613
+  health: 971
+  skill: Toon Lament
+  effects:
+  - All enemies get -34% defense for 4 turns. Against Holy characters, this status
+    effect becomes uncleansable and lasts 2 turns longer.
+  - All enemies get -34% attack for 4 turns. Against Holy characters, this status
+    effect becomes uncleansable and lasts 2 turns longer.
+  - Cleanses status ailments from all allies.
+  types:
+  - Defense Debuff All
+  - Attack Debuff All
+  - Cleanser All
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/akejq9b.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: counterattack
+  lb1:
+    power: 625
+    attack: 606
+    defense: 695
+    health: 1101
+  lb2:
+    power: 758
+    attack: 750
+    defense: 858
+    health: 1359
 ...

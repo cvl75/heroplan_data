@@ -60,7 +60,7 @@ costume:
     health: 1464
 costume2:
   design: toon
-  bonuses: 30/30/35/5
+  bonuses: 30/30/30/5
   class: Monk
   power: 836
   attack: 933

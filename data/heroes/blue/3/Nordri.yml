@@ -61,4 +61,37 @@ costume:
     attack: 669
     defense: 606
     health: 1264
+costume2:
+  design: toon
+  bonuses: 25/25/25/5
+  class: Barbarian
+  power: 564
+  attack: 612
+  defense: 505
+  health: 1025
+  skill: Toon Axes
+  effects:
+  - Deals 275% damage to the target and minor damage to nearby enemies.
+  - The target and nearby enemies get -55% defense against Ice for 4 turns.
+  - Deals extra damage against Fire.
+  types:
+  - Hit 3
+  - Elemental Defense Debuff 3
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/VPXlSp7.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: rage
+  lb1:
+    power: 630
+    attack: 693
+    defense: 573
+    health: 1161
+  lb2:
+    power: 764
+    attack: 857
+    defense: 708
+    health: 1435
 ...
