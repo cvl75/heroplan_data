@@ -60,4 +60,37 @@ costume:
     attack: 976
     defense: 700
     health: 1444
+costume2:
+  design: toon
+  bonuses: 30/30/35/5
+  class: Wizard
+  power: 828
+  attack: 908
+  defense: 791
+  health: 1456
+  skill: Toon of the Depths
+  effects:
+  - The target and nearby enemies receive 474 Poison damage over 3 turns.
+  - The target and nearby enemies can't gain mana for 3 turns.
+  - Deals extra damage against Holy.
+  types:
+  - DoT 3
+  - Mana Gain Freeze 3
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/dygwuFK.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: damage_reduction
+  lb1:
+    power: 892
+    attack: 986
+    defense: 860
+    health: 1582
+  lb2:
+    power: 1021
+    attack: 1144
+    defense: 998
+    health: 1834
 ...

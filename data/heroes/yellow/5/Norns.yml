@@ -85,7 +85,7 @@ costume2:
   - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
     and buff dispels. Gain 5% mana on each successful resist.'
   image: https://imgur.com/fVZ8XqN.jpg
-  dtReleased: "2026-04-30"
+  dtReleased: "2026-04-29"
   dtModified: ""
   aetherPower: special_boost
   lb1:

@@ -67,4 +67,41 @@ costume:
     attack: 818
     defense: 874
     health: 1492
+costume2:
+  design: toon
+  bonuses: 30/30/35/5
+  class: Fighter
+  power: 828
+  attack: 880
+  defense: 806
+  health: 1502
+  skill: Toon-Waza
+  effects:
+  - Deals 330% damage to the target.
+  - The caster counterattacks with 155% of the damage received for 5 turns.
+  - The caster regenerates a moderate amount of mana for each counterattack for 5
+    turns. The effect gets diminished for consecutive activations during the same
+    turn.
+  - Deals extra damage against Nature.
+  types:
+  - Hit 1
+  - Counterattack Self
+  - Mana Gain Self on counterattack
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/BPIuHII.jpg
+  dtReleased: "2026-04-29"
+  dtModified: ""
+  aetherPower: attack_up
+  lb1:
+    power: 893
+    attack: 956
+    defense: 876
+    health: 1632
+  lb2:
+    power: 1021
+    attack: 1108
+    defense: 1015
+    health: 1892
 ...

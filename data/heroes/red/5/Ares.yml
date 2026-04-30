@@ -102,7 +102,7 @@ costume2:
   - 'Cleanse on Special Skill: When this character casts their Special Skill, they
     cleanse the newest status ailment from all allies.'
   image: https://imgur.com/q5rcvU4.jpg
-  dtReleased: "2026-04-30"
+  dtReleased: "2026-04-29"
   dtModified: ""
   aetherPower: defense_up
   lb1:
