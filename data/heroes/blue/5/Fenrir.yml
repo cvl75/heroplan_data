@@ -68,4 +68,43 @@ costume:
     attack: 1251
     defense: 1144
     health: 2139
+costume2:
+  design: toon
+  bonuses: 84/84/84/5
+  class: Fighter
+  power: 1341
+  attack: 1438
+  defense: 1352
+  health: 2390
+  skill: Toontastic Bite
+  effects:
+  - Deals 375% damage to the target.
+  - If the target has less than 50% health remaining, deals 750% damage instead.
+  - If the target is defeated by the attack the caster gains + 50% mana. (After a
+    character has received 5 direct mana additions from Special Skill during a single
+    turn, all subsequent direct mana additions done by Special Skills will have reduced
+    power on that character.)
+  - Boosts the caster's health for 50% of damage dealt.
+  - Deals extra damage against Fire.
+  types:
+  - Hit 1
+  - Boost Mana Self on kill
+  - Heal Self
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://imgur.com/Z7JW8MM.jpg
+  dtReleased: "2026-04-30"
+  dtModified: ""
+  aetherPower: rage
+  lb1:
+    power: 1436
+    attack: 1551
+    defense: 1457
+    health: 2576
+  lb2:
+    power: 1625
+    attack: 1775
+    defense: 1667
+    health: 2947
 ...
