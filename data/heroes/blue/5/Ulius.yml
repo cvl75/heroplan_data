@@ -93,7 +93,7 @@ costume:
     get two stacks. An enemy can have up to 10 stacks. (Affects only mana generated
     from matching shields or mana gained by the defense team at the end of their turn.)'
   - 'Weaker Mega Minions: Enemy Mega Minions have -75% HP.'
-  image: https://imgur.com/4u9xwFi.jpg
+  image: https://i.imgur.com/4u9xwFi.jpg
   dtReleased: "2025-11-30"
   dtModified: "2026-07-12"
   fancy_name: Peculiar Arcane Buccaneer
