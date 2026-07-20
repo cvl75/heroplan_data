@@ -65,4 +65,39 @@ costume:
     attack: 738
     defense: 831
     health: 1789
+costume2:
+  design: toon
+  bonuses: 30/30/35/5
+  class: Druid
+  power: 831
+  attack: 747
+  defense: 830
+  health: 1803
+  skill: Toon Jaws
+  effects:
+  - Destroys all Minions from all enemies and damages Mega Minions.
+  - Deals 200% damage to all enemies.
+  - All allies recover 100 HP for each destroyed Minion.
+  - Deals extra damage against Ice.
+  types:
+  - Minion Destroyer All
+  - Hit All
+  - Heal All on minion destroyed
+  passives:
+  - 'Empowered Toon: 75% extra chance to resist all status ailments, mana reductions
+    and buff dispels. Gain 5% mana on each successful resist.'
+  image: https://i.imgur.com/HZNXohn.jpg
+  dtReleased: "2026-07-20"
+  dtModified: ""
+  aetherPower: fiend_resist
+  lb1:
+    power: 895
+    attack: 811
+    defense: 901
+    health: 1959
+  lb2:
+    power: 1025
+    attack: 941
+    defense: 1046
+    health: 2272
 ...

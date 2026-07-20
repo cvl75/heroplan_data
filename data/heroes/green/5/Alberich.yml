@@ -104,13 +104,13 @@ costume2:
   fancy_name: Seelie Toon
   aetherPower: defense_up
   lb1:
-    power: 1436
-    attack: 1453
-    defense: 1550
+    power: 1437
+    attack: 1454
+    defense: 1552
     health: 2635
   lb2:
     power: 1626
-    attack: 1664
-    defense: 1774
+    attack: 1663
+    defense: 1776
     health: 3015
 ...
