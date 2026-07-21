@@ -28,9 +28,9 @@ fancy_name: Courageous Musketeer
 aetherPower: attack_up
 lb1:
   power: 992
-  attack: 939
+  attack: 938
   defense: 976
-  health: 1895
+  health: 1896
 lb2:
   power: 1117
   attack: 1074
