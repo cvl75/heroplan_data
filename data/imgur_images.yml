@@ -1,4 +1,20 @@
 ---
+herocard:
+  ice3frame: https://i.imgur.com/ndr5G4X.png
+  ice4frame: https://i.imgur.com/YgPbj5P.png
+  ice5frame: https://i.imgur.com/hH4bd8F.png
+  nature3frame: https://i.imgur.com/S7ULnZ2.png
+  nature4frame: https://i.imgur.com/6HOj8Wv.png
+  nature5frame: https://i.imgur.com/9u9V61n.png
+  dark3frame: https://i.imgur.com/StyjF64.png
+  dark4frame: https://i.imgur.com/WlAP5Ou.png
+  dark5frame: https://i.imgur.com/7OQgTIC.png
+  fire3frame: https://i.imgur.com/bxqi4Rw.png
+  fire4frame: https://i.imgur.com/wtSmsl5.png
+  fire5frame: https://i.imgur.com/W0IIMfl.png
+  holy3frame: https://i.imgur.com/YorXPSh.png
+  holy4frame: https://i.imgur.com/CYDExtI.png
+  holy5frame: https://i.imgur.com/CmAGNeF.png
 resources:
   gem: https://i.imgur.com/A89uOhX.png
   adventurerKit: https://i.imgur.com/W9TqoRG.png
