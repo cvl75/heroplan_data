@@ -71,13 +71,13 @@ costume:
   fancy_name: Oblivious Explorer
   aetherPower: special_boost
   lb1:
-    power: 607
-    attack: 590
+    power: 606
+    attack: 588
     defense: 587
-    health: 1229
+    health: 1227
   lb2:
-    power: 735
-    attack: 728
-    defense: 726
-    health: 1518
+    power: 734
+    attack: 727
+    defense: 725
+    health: 1517
 ...
