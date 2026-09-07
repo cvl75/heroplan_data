@@ -38,7 +38,7 @@ lb2:
   health: 2006
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 37/37/38/5
   class: Cleric
   power: 1257
   attack: 1317
@@ -64,7 +64,7 @@ costume:
     500 Frost damage over 4 turns.'
   image: https://i.imgur.com/8ijqdEk.jpg
   dtReleased: "2025-12-01"
-  dtModified: ""
+  dtModified: "2026-09-07"
   fancy_name: Gnome Master of Gifts
   aetherPower: boosted_regen
   lb1:

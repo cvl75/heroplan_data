@@ -39,7 +39,7 @@ lb2:
   health: 1767
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 57/57/62/5
   class: Paladin
   power: 1212
   attack: 1028
@@ -63,7 +63,7 @@ costume:
     receive 452 Bleed damage over 4 turns.'
   image: https://i.imgur.com/yHVhyhO.jpg
   dtReleased: "2024-11-14"
-  dtModified: "2026-06-23"
+  dtModified: "2026-09-07"
   fancy_name: The Vanquisher
   aetherPower: defense_up
   lb1:
