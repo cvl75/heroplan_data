@@ -1,0 +1,41 @@
+---
+name: Kyrathis
+source: harvest
+family: harpies
+speed: Fast
+class: Sorcerer
+power: 1361
+attack: 1454
+defense: 1392
+health: 2416
+skill: Stormcaller Pact
+effects:
+- Deals 375% Talon damage to the target and nearby enemies. (Deals 475% damage to
+  enemies with 50% mana or more. The enemies also get -25% mana generation for 3 turns.)
+- The target and nearby enemies receive 780 Wind damage over 3 turns. The damage bypasses
+  defensive buffs, Minions and Mega Minions.
+- The target and nearby enemies take +50% increased damage from status ailments and
+  negative stacks for 3 turns.
+types:
+- Talon Hit 3
+- Bypassing DoT 3
+- Increased Damage from Ailments 3
+passives:
+- 'Swoop and Steal: Every 3 turns, this character steals 25% mana from the enemy with
+  the fastest mana speed.'
+image: https://i.imgur.com/imW1Yef.jpg
+dtReleased: "2026-09-07"
+dtModified: ""
+fancy_name: Stormcaller Harpy
+aetherPower: special_boost
+lb1:
+  power: 1458
+  attack: 1567
+  defense: 1500
+  health: 2604
+lb2:
+  power: 1650
+  attack: 1793
+  defense: 1716
+  health: 2980
+...
