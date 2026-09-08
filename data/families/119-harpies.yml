@@ -1,0 +1,16 @@
+---
+code: 119
+key: harpies
+image: https://i.imgur.com/VJxpkH0.png
+description: Vicious Harpies
+bonus:
+- 'Bonus for 1/2/3 Heroes:'
+- ' * The character deals 200%/225%/250% damage to the enemy with the fastest mana
+  speed when another ally casts their Special Skill.'
+- ' * The character gains Growth: 100 / 110 / 120 attack when another ally casts their
+  Special Skill.'
+- 'Limits for modified Ability Scores: Min 30% and max 170% of their original values.'
+bonusCostume-5star: ""
+bonusCostume-4star: ""
+bonusCostume-3star: ""
+...

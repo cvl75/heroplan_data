@@ -164,4 +164,39 @@ costume4:
     attack: 1661
     defense: 1287
     health: 3055
+costume5:
+  design: stylish
+  bonuses: 90/90/95/5
+  class: Paladin
+  power: 1335
+  attack: 1455
+  defense: 1141
+  health: 2730
+  skill: Style Judgement
+  effects:
+  - Deals 455% damage to all enemies.
+  - If the enemies have less than 50% health remaining, deals 605% damage instead.
+  - All enemies get -36% accuracy for 4 turns. (Chance to miss applies to offensive
+    Special Skills.)
+  types:
+  - Hit All
+  - Blind All
+  passives:
+  - 'Stylish!: 65% chance to replace incoming negative effects with matching positive
+    ones.'
+  image: https://i.imgur.com/YkCGb4E.jpg
+  dtReleased: "2026-09-04"
+  dtModified: ""
+  fancy_name: Stylish Ancient of Stone
+  aetherPower: defense_up
+  lb1:
+    power: 1429
+    attack: 1568
+    defense: 1229
+    health: 2942
+  lb2:
+    power: 1618
+    attack: 1794
+    defense: 1407
+    health: 3367
 ...

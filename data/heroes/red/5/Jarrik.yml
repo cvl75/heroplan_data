@@ -1,0 +1,42 @@
+---
+name: Jarrik
+source: harvest
+family: harpies
+speed: Average
+class: Fighter
+power: 1361
+attack: 1446
+defense: 1398
+health: 2424
+skill: Wuthering Whips
+effects:
+- Deals 440% damage to the target.
+- The attack chains through all the enemies who are adjacent to any hit enemy.
+- All hit targets receive 1240 Wind damage over 4 turns. The damage bypasses defensive
+  buffs, Minions and Mega Minions.
+- All hit targets cannot cast any new status effects on enemies or allies for 4 turns.
+  (This includes stacks. This only includes status effects cast with Special Skills.)
+types:
+- Hit 1
+- Chain Hit
+- Bypassing DoT on hit
+- Block Status Effects Cast on Hit
+passives:
+- 'Swoop and Steal: Every 3 turns, this character steals 25% mana from the enemy with
+  the fastest mana speed.'
+image: https://i.imgur.com/JXRRMzB.jpg
+dtReleased: "2026-09-07"
+dtModified: ""
+fancy_name: Cardinal Harpy Warrior
+aetherPower: attack_up
+lb1:
+  power: 1458
+  attack: 1558
+  defense: 1507
+  health: 2613
+lb2:
+  power: 1650
+  attack: 1783
+  defense: 1724
+  health: 2989
+...

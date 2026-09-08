@@ -122,4 +122,36 @@ costume3:
     attack: 846
     defense: 591
     health: 1233
+costume4:
+  design: stylish
+  bonuses: 25/25/30/5
+  class: Barbarian
+  power: 545
+  attack: 642
+  defense: 445
+  health: 934
+  skill: Stylish Rush
+  effects:
+  - Deals 310% damage to the target and minor damage to nearby enemies.
+  - Deals extra damage to enemies with less than 50% health remaining.
+  types:
+  - Hit 3
+  passives:
+  - 'Stylish!: 65% chance to replace incoming negative effects with matching positive
+    ones.'
+  image: https://i.imgur.com/oB2Bc2t.jpg
+  dtReleased: "2026-09-04"
+  dtModified: ""
+  fancy_name: Stylish Dwarf
+  aetherPower: rage
+  lb1:
+    power: 608
+    attack: 727
+    defense: 504
+    health: 1058
+  lb2:
+    power: 737
+    attack: 899
+    defense: 623
+    health: 1308
 ...

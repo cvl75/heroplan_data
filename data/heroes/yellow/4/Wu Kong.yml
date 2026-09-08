@@ -155,4 +155,38 @@ costume4:
     attack: 974
     defense: 1005
     health: 1642
+costume5:
+  design: stylish
+  bonuses: 30/30/30/5
+  class: Monk
+  power: 817
+  attack: 839
+  defense: 880
+  health: 1372
+  skill: Stylish Stance
+  effects:
+  - All allies get +183% attack with -32% accuracy for 5 turns. (Chance to miss also
+    applies to offensive special skills.)
+  - All allies regenerate 500 HP over 5 turns.
+  types:
+  - Titan Attack Buff All
+  - HoT All
+  passives:
+  - 'Stylish!: 65% chance to replace incoming negative effects with matching positive
+    ones.'
+  image: https://i.imgur.com/VWwxFSe.jpg
+  dtReleased: "2026-09-04"
+  dtModified: ""
+  fancy_name: Stylish Monkey
+  aetherPower: gamble
+  lb1:
+    power: 880
+    attack: 911
+    defense: 956
+    health: 1490
+  lb2:
+    power: 1007
+    attack: 1057
+    defense: 1109
+    health: 1729
 ...

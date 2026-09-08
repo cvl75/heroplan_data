@@ -26,15 +26,15 @@ lb1:
   power: 852
   attack: 834
   defense: 819
-  health: 1476
+  health: 1475
 lb2:
-  power: 958
-  attack: 955
+  power: 957
+  attack: 954
   defense: 937
-  health: 1689
+  health: 1688
 costume:
   design: costume1
-  bonuses: 5/5/10/5
+  bonuses: 57/57/62/5
   class: Druid
   power: 1196
   attack: 1157
@@ -51,20 +51,20 @@ costume:
   - Cleanser All
   passives:
   - 'Curse on Special Skill: When this character casts their Special Skill, all enemies
-    receive 461 Curse damage over 4 turns, starting low and increasing every turn.'
+    receive 60-185 increasing Curse damage each turn for 4 turns.'
   image: https://i.imgur.com/6ZuZX5t.jpg
   dtReleased: "2025-06-15"
-  dtModified: ""
+  dtModified: "2026-09-07"
   fancy_name: Sovereign of Flora
   aetherPower: special_armor
   lb1:
-    power: 1280
+    power: 1279
     attack: 1247
-    defense: 1415
-    health: 2305
+    defense: 1414
+    health: 2304
   lb2:
     power: 1446
     attack: 1427
-    defense: 1619
+    defense: 1618
     health: 2637
 ...

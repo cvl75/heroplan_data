@@ -1,0 +1,46 @@
+---
+name: Lumeire
+fancy_name: "Prodigious Hatching of Light"
+source: ancientUnderroot
+speed: Average
+power: 13300
+attack: 16377
+defense: 17304
+health: 14955
+skill: Light of the Wyrmspire
+effects:
+- Recover 5000 health for all allies.
+- All allies reduce all received damage by -36% for 4 turns.
+- All allies counterattack with 25% of the damage received for 4 turns.
+types:
+- Heal All
+- Damage Reduction All
+- Counterattack All
+passives:
+- 'Surgeback: When this character drops below 50% health, they gain 15% mana over
+  3 turns.'
+spiritBonus:
+  spiritClass: Paladin
+  all:
+    attack: "+250"
+    defense: "+200"
+    health: "+100"
+  elementalBond:
+    attack: "+35"
+    defense: "+30"
+    health: "+30"
+  classLink:
+    attack: "+35"
+    defense: "+30"
+    health: "+30"
+assist:
+  name: Draining Blaze
+  effects:
+  - Deals 410 damage to all enemies.
+  - Recovers 210 health for all allies.
+  - All enemies receive 1110 Burn damage over 5 turns.
+  - All enemies get -30% decrease for any healing received for 5 turns.
+image: https://i.imgur.com/vgD3T84.jpg
+dtReleased: "2026-09-01"
+dtModified: ""
+...

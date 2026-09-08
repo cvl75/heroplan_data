@@ -1,0 +1,44 @@
+---
+name: Caravita
+source: hotm
+family: "2026"
+speed: Average
+class: Cleric
+power: 1259
+attack: 1293
+defense: 1353
+health: 2167
+skill: Last Stand
+effects:
+- Deals 365% damage to the target and nearby enemies.
+- Damage bypasses target's Minions.
+- The damage is increased by 25% per each defeated ally.
+- All allies receive +40% defense for 4 turns. Defense is further increased by +5%
+  for each defeated ally.
+- Elemental Link recovers +5% health for all Dark  allies for 6 turns. This effect
+  can’t be dispelled.
+types:
+- Hit 3
+- Bypass Minions
+- Defense Buff All
+passives:
+- 'Boost Health on Enemy Special: When an enemy casts their Special Skill, this character
+  has a 50% chance to boost this character''s health by 100.'
+- 'Resist Special Skill Blocking: This character is immune to status ailments that
+  prevent the use of Special Skills.'
+image: https://i.imgur.com/oXyeDpH.jpg
+dtReleased: "2026-09-01"
+dtModified: ""
+fancy_name: Rider of Perdition
+aetherPower: defense_up
+lb1:
+  power: 1347
+  attack: 1393
+  defense: 1458
+  health: 2336
+lb2:
+  power: 1524
+  attack: 1594
+  defense: 1668
+  health: 2672
+...
