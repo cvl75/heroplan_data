@@ -21,7 +21,7 @@ dance_4:
   key: dance_4
   text: All allies except the caster dance the {dance} for {turns} turns.
   vars:
-    dance: Blazing Dave Dance
+    dance: Blazing Rave Dance
     turns: 3
   types:
   - '{dance} 4'
