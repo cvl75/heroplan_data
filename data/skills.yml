@@ -14,5 +14,15 @@ blazing_rave_dance:
   vars:
     def: +50%
     turns: 1 turn
-  types: Defense Buff while dancing;Extend Dance if hit by SS
+  types:
+  - Defense Buff while dancing
+  - Extend Dance if hit by SS
+dance_4:
+  key: dance_4
+  text: All allies except the caster dance the {dance} for {turns} turns.
+  vars:
+    dance: Blazing Dave Dance
+    turns: 3
+  types:
+  - '{dance} 4'
 ...
