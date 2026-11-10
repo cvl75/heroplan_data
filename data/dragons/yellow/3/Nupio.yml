@@ -20,7 +20,7 @@ types:
 - Healer 3
 - Gambler
 - Mana Generation Buff 3
-- Damage Drop to 1 Chance All
+- Damage Drop to 1 Chance 3
 spiritBonus:
   spiritClass: Monk
   all:
