@@ -32,4 +32,41 @@ lb2:
   attack: 939
   defense: 962
   health: 1821
+costume:
+  design: costume1
+  bonuses: 80/80/81/5
+  class: Cleric
+  power: 1372
+  attack: 1375
+  defense: 1411
+  health: 2649
+  skill: Fiendcrusher
+  effects:
+  - Destroys all Fiends from all allies and damages all Mega Fiends.
+  - Boosts health of all allies by 1300. Boosted health can exceed max HP.
+  - All allies are immune to new Fiends for 4 turns.
+  types:
+  - Fiend Destroyer All
+  - Boost Health All
+  - Fiend Immunity All
+  passives:
+  - 'Increased Status Effect Duration: Chance to increase the duration of cast status
+    effects.'
+  - ' * +1 turn: 75%'
+  - ' * +2 turns: 25%'
+  image: https://i.imgur.com/GYA1hgn.jpg
+  dtReleased: "2026-11-11"
+  dtModified: ""
+  fancy_name: Grand Abjurer of the Castle
+  aetherPower: boosted_regen
+  lb1:
+    power: 1469
+    attack: 1482
+    defense: 1521
+    health: 2855
+  lb2:
+    power: 1662
+    attack: 1695
+    defense: 1740
+    health: 3267
 ...
