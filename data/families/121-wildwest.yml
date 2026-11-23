@@ -1,0 +1,80 @@
+---
+code: 121
+key: wildwest
+image: https://i.imgur.com/C8WqBK7.png
+description: Wild West
+famDescText: Wild West Family
+bonus:
+- At the start of the battle, each member of this family puts a Bounty on a random
+  enemy for 6 turns. The effect cannot be cleansed.
+- 'Bonus for 1/2/3 Heroes:'
+- ' * Bounty activates if the enemy receives 2500/2250/2000 cumulative damage.'
+- ' * Bounty deals 1200 damage to the enemy when activated.'
+- When defending Heroes cast their Special Skills, they will prioritize enemies with
+  a Bounty. (Each enemy can only have one Bounty. If they would receive a new one,
+  the damage on activation is increased by 300 instead. Bounty will be removed when
+  it activates or once its duration ends.)
+bonusCostume-5star: ""
+bonusCostume-4star: ""
+bonusCostume-3star: ""
+costumebonus-ascension:
+  3:
+    1: ""
+    2: ""
+    3: ""
+    4: ""
+    5: ""
+    6: ""
+    7: ""
+    8: ""
+    9: ""
+    10: ""
+    11: ""
+    12: ""
+    13: ""
+    14: ""
+    15: ""
+  4:
+    1: ""
+    2: ""
+    3: ""
+    4: ""
+    5: ""
+    6: ""
+    7: ""
+    8: ""
+    9: ""
+    10: ""
+    11: ""
+    12: ""
+    13: ""
+    14: ""
+    15: ""
+    16: ""
+    17: ""
+    18: ""
+    19: ""
+    20: ""
+  5:
+    1: ""
+    2: ""
+    3: ""
+    4: ""
+    5: ""
+    6: ""
+    7: ""
+    8: ""
+    9: ""
+    10: ""
+    11: ""
+    12: ""
+    13: ""
+    14: ""
+    15: ""
+    16: ""
+    17: ""
+    18: ""
+    19: ""
+    20: ""
+zodiacAnimals: ""
+...
