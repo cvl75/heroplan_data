@@ -1,0 +1,44 @@
+---
+name: Stella
+source: blackfriday
+family: wildwest
+speed: Fast
+class: Ranger
+power: 1377
+attack: 1450
+defense: 1409
+health: 2504
+skill: '"Not So Fast, Fellas..."'
+effects:
+- This Special Skill never misses its targets.
+- Deals 2 hits of 550% damage randomly among the target and nearby enemies.
+- 'Stack (Max: 10): Each hit adds a Burn Stack, which deals 285 Burn damage per turn.
+  (Cleansing reduces negative stack by 1.)'
+- The caster and nearby allies get +50% attack, and a further 20% increase every time
+  they are hit during 3 turns, up to +150% attack.
+types:
+- Hit random 2
+- DoT Stack on hit
+- Attack Buff 3
+passives:
+- 'True Grit: This character gets more powerful the fewer allies there are on the
+  battlefield.'
+- 'Bonus for 5 / 4 / 3 / 2 / 1 remaining allies:'
+- ' * 0% / +20% / +30% / +40% / +50% attack.'
+- ' * 0% / +20% / +30% / +40% / +50% defense.'
+image: https://i.imgur.com/c4nVDoz.jpg
+dtReleased: "2026-11-23"
+dtModified: ""
+fancy_name: Renegade Ranger
+aetherPower: dodge
+lb1:
+  power: 1474
+  attack: 1563
+  defense: 1518
+  health: 2699
+lb2:
+  power: 1669
+  attack: 1788
+  defense: 1737
+  health: 3088
+...

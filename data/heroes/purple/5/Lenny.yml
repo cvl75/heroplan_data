@@ -1,0 +1,46 @@
+---
+name: Lenny
+source: blackfriday
+family: wildwest
+speed: Average
+class: Rogue
+power: 1377
+attack: 1456
+defense: 1388
+health: 2533
+skill: '"So Long, Suckers!"'
+effects:
+- Steals all dispellable buffs from the target and nearby enemies and randomly distributes
+  them on allies.
+- Deals 6 hits of 260% damage randomly among the target and nearby enemies.
+- 'Stack (Max: 10): Each hit adds a Bleed Stack, which deals 160 Bleed damage per
+  turn. (Cleansing reduces negative stack by 1.)'
+- All hit targets get -35% accuracy for 4 turns. (Chance to miss also applies to offensive
+  Special Skills.)
+types:
+- Buff Steal 3
+- Hit random 6
+- DoT Stack on hit
+- Blind on hit
+passives:
+- 'True Grit: This character gets more powerful the fewer allies there are on the
+  battlefield.'
+- 'Bonus for 5 / 4 / 3 / 2 / 1 remaining allies:'
+- ' * 0% / +20% / +30% / +40% / +50% attack.'
+- ' * 0% / +20% / +30% / +40% / +50% defense.'
+image: https://i.imgur.com/95kJuR4.jpg
+dtReleased: "2026-11-23"
+dtModified: ""
+fancy_name: Blazing Bandit
+aetherPower: attack_up
+lb1:
+  power: 1475
+  attack: 1569
+  defense: 1496
+  health: 2730
+lb2:
+  power: 1669
+  attack: 1795
+  defense: 1712
+  health: 3124
+...
