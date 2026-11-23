@@ -24,15 +24,18 @@ types:
 - Cleanse Immunity Debuff All
 passives:
 - 'Mana Buff on Status Ailment Received: Receives +24% mana generation for 3 turns
-  when this character receives a status ailment or a negative stack.'
-- 'Health Boost on Attempted Ally Cleanse: When an ally attempts to cleanse by using
-  Special Skill, all allies receive 300 boosted health. This effect can activate only
-  once per turn.'
-- 'Damage on Attempted Enemy Cleanse: When an enemy attempts to cleanse by using Special
-  Skill, all enemies receive 300 damage. This effect can activate only once per turn.'
+  when this character receives a status ailment or a negative stack. (Affects only
+  mana generated from matching shields or mana gained by the defense team at the end
+  of their turn.)'
+- 'Health Boost on Ally Cleanse: When an ally cleanses by using Special Skill, all
+  allies receive 300 boosted health. This effect can activate only once per turn.
+  It also activates on attempted cleanses.'
+- 'Damage on Enemy Cleanse: When an enemy cleanses ailments by using Special Skill,
+  all enemies receive 300 damage. This effect can activate only once per turn. It
+  also activates on attempted cleanses.'
 image: https://i.imgur.com/mxOSRGe.jpg
 dtReleased: "2024-03-08"
-dtModified: "2026-08-25"
+dtModified: "2026-11-22"
 fancy_name: Baseball Champion
 aetherPower: dodge
 lb1:

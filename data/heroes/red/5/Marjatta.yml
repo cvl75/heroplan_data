@@ -22,14 +22,15 @@ types:
 - Safely Cleanse All
 - Cleanse Immunity Debuff All
 passives:
-- 'Damage on Attempted Enemy Cleanse: When an enemy attempts to cleanse by using Special
-  Skill, all enemies receive 300 damage. This effect can activate only once per turn.'
-- 'Health Boost on Attempted Ally Cleanse: When an ally attempts to cleanse by using
-  Special Skill, all allies receive 300 boosted health. This effect can activate only
-  once per turn.'
+- 'Damage on Enemy Cleanse: When an enemy cleanses ailments by using Special Skill,
+  all enemies receive 300 damage. This effect can activate only once per turn. It
+  also activates on attempted cleanses.'
+- 'Health Boost on Ally Cleanse: When an ally cleanses by using Special Skill, all
+  allies receive 300 boosted health. This effect can activate only once per turn.
+  It also activates on attempted cleanses.'
 image: https://i.imgur.com/DuKqh8u.jpg
 dtReleased: "2026-10-26"
-dtModified: ""
+dtModified: "2026-11-22"
 fancy_name: Nordic Skittles Champion
 aetherPower: boosted_regen
 lb1:
