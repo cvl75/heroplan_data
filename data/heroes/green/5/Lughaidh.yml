@@ -12,16 +12,16 @@ skill: Transcendental Frame
 effects:
 - Cast Full Removal on the caster. (Full Removal removes all status effects, stacks
   and Growth and Wither effects. Removes even status effects and stacks that are otherwise
-  undispellable or uncleasable.)
-- The caster shifts into Ghost form for 4 turns.
-- While in Ghost form, Character can't gain mana and can't be healed by Special Skills,
-  but it is immune to normal attacks, Special Skill attacks, status effects and stacks.
-  Immune to new Growth and Wither effects.
-- While in Ghost form the caster can't gain mana and can't be healed by Special Skills,
-  but it is immune to normal attacks, Special Skill attacks, status effects and stacks.
+  Stubborn, undispellable or uncleasable.)
+- The caster shifts into Ghost form for 4 turns. This effect is Stubborn.  (While
+  in a Ghost form, character can't gain mana and can't be healed by Special Skills,
+  but it is immune to normal attacks, Special Skill attacks, damage dealing passives,
+  status effects and stacks. Immune to new Growth, Wither and Insanity effects. Each
+  attempt to dispel, cleanse or reallocate a Stubborn effect reduces the duration
+  by 1 turn or decreases activations left by 1.)
 - While in Ghost form, all allies except the caster get +75% defense.
-- While in Ghost form, all allies' except the caster's HP is boosted by 215 HP every
-  turn.
+- While in Ghost form, all allies except the caster regenerate 215 boosted health
+  every turn. Boosted health can exceed max HP.
 types:
 - Full Cleanser Self
 - Ghost
@@ -32,7 +32,7 @@ passives:
   by -20% for this character.'
 image: https://i.imgur.com/RFjr7Fi.jpg
 dtReleased: "2021-11-04"
-dtModified: "2026-11-02"
+dtModified: "2026-11-24"
 fancy_name: King of the Depths
 aetherPower: special_armor
 lb1:
@@ -55,13 +55,15 @@ costume:
   health: 1923
   skill: Transcendental Charge
   effects:
-  - Cast Full Removal on the caster. (Full Removal removes all status efects, stacks
+  - Cast Full Removal on the caster. (Full Removal removes all status effects, stacks
     and Growth and Wither effects. Removes even status effects and stacks that are
-    otherwise undispellable or uncleasable.)
-  - The caster shifts into Ghost form for 4 turns.
-  - While in Ghost form, Character can't gain mana and can't be healed by Special
-    Skills, but it is immune to normal attacks, Special Skill attacks, status effects
-    and stacks. Immune to new Growth and Wither effects.
+    otherwise Stubborn, undispellable or uncleasable.)
+  - The caster shifts into Ghost form for 4 turns. This effect is Stubborn. (While
+    in a Ghost form, character can't gain mana and can't be healed by Special Skills,
+    but it is immune to normal attacks, Special Skill attacks, damage dealing passives,
+    status effects and stacks. Immune to new Growth, Wither and Insanity effects.
+    Each attempt to dispel, cleanse or reallocate a Stubborn effect reduces the duration
+    by 1 turn or decreases activations left by 1.)
   - While in Ghost form, all allies except the caster have +65% defense.
   - While in Ghost form, all allies except the caster regenerate 360 boosted health
     every turn. Boosted health can exceed max HP.
@@ -72,12 +74,12 @@ costume:
   - Boosted HoT 4 while Ghost
   passives:
   - 'Special Skill Damage Reduction: Received damage from Special Skills is reduced
-    by -20% for this character.'
-  - 'Boost Health on Special Skill: When this characters casts their Special Skill,
-    they boost the health of all their allies by 10%.'
+    by -20% for the first 3 times this character receives damage from Special Skills.'
+  - 'Health Boost on Special Skill: When this character casts their Special Skill,
+    they boosts the health of all their allies by 10%.'
   image: https://i.imgur.com/EAwYCZr.jpg
   dtReleased: "2024-08-29"
-  dtModified: "2026-11-02"
+  dtModified: "2026-11-24"
   fancy_name: The Deathless King
   aetherPower: boosted_regen
   lb1:

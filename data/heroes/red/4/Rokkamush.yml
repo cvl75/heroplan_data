@@ -16,11 +16,11 @@ types:
 - Hit All
 - DoT on hit
 passives:
-- 'Decrease Ailment Duration: Duration of the first 3 status ailments this character
-  receives from Special Skill is decreased by 1 turn.'
+- 'Decrease Ailment Duration: Decreases the duration of the first 3 status ailments
+  this character receives from Special Skill. Number of turns decreased: 1.'
 image: https://i.imgur.com/dOWSQgd.jpg
 dtReleased: "2021-03-25"
-dtModified: "2026-11-02"
+dtModified: "2026-11-24"
 fancy_name: Ettin Smasher
 aetherPower: rage
 lb1:
@@ -49,11 +49,11 @@ costume:
   - Hit All
   - DoT on hit
   passives:
-  - 'Decrease Ailment Duration: Duration of the first 3 status ailments this character
-    receives from Special Skills. Number of turns decreased: 1.'
+  - 'Decrease Ailment Duration: Decreases the duration of the first 3 status ailments
+    this character receives from Special Skill. Number of turns decreased: 1.'
   image: https://i.imgur.com/AXlFl5t.jpg
   dtReleased: "2024-04-25"
-  dtModified: "2026-11-02"
+  dtModified: "2026-11-24"
   fancy_name: Ettin Mason
   aetherPower: attack_up
   lb1:

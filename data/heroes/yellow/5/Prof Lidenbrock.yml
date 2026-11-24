@@ -13,7 +13,7 @@ effects:
 - Cleanses status ailments from all allies.
 - Boosts health of all allies by 200. Boosted health can exceed max HP.
 - All allies regenerate 600 boosted health over 4 turns. Boosted health can exceed
-  max HP. The effect duration is reset if the target receives status ailments.
+  max HP. The effect duration resets if the target receives status ailments.
 types:
 - Cleanser All
 - Health Boost All
@@ -22,7 +22,7 @@ passives:
 - 'Start Battle with Mana: This character receives 20% mana at the start of the battle.'
 image: https://i.imgur.com/1q7ZFV3.jpg
 dtReleased: "2021-03-25"
-dtModified: "2026-04-20"
+dtModified: "2026-11-24"
 fancy_name: Sagacious Scientist
 aetherPower: heal_increase
 lb1:
@@ -48,7 +48,7 @@ costume:
   - Cleanses status ailments from all allies.
   - Boosts health of all allies by 500. Boosted health can exceed max HP.
   - All allies regenerate 400 boosted health over 4 turns. Boosted health can exceed
-    max HP. The effect duration is reset if the target receives status ailments.
+    max HP. The effect duration resets if the target receives status ailments.
   types:
   - Cleanser All
   - Boosted Heal All
@@ -56,11 +56,11 @@ costume:
   passives:
   - 'Start Battle with Mana: This character receives 20% mana at the start of the
     battle.'
-  - 'Health Boost on Special Skill: On Special Skill cast, boosts all allies'' HP
-    by 10%.'
+  - 'Health Boost on Special Skill: When this characters casts their Special Skill,
+    they boost the health of all their allies by 10%.'
   image: https://i.imgur.com/CwQ3ejX.jpg
   dtReleased: "2023-04-27"
-  dtModified: "2026-04-20"
+  dtModified: "2026-11-24"
   fancy_name: Sagacious Jeweler
   aetherPower: special_armor
   lb1:

@@ -21,11 +21,11 @@ types:
 - Heal Self on burn
 - Mana Steal All
 passives:
-- 'Special Skill Damage Reduction: Received damage is reduced by -20% for the first
-  3 times this character receives damage from Special Skills.'
+- 'Special Skill Damage Reduction: Received damage from Special Skills is reduced
+  by -20% for the first 3 times this character receives damage from Special Skills.'
 image: https://i.imgur.com/pr4mBGS.jpg
 dtReleased: "2022-12-08"
-dtModified: "2026-04-20"
+dtModified: "2026-11-24"
 fancy_name: Heiress of the Underworld
 aetherPower: attack_up
 lb1:
@@ -59,14 +59,14 @@ costume:
   - Heal Self on burn
   - Mana Steal All
   passives:
-  - 'Special Skill Damage Reduction: Received damage is reduced by -20% for the first
-    3 times this character receives damage from Special Skills'
+  - 'Special Skill Damage Reduction: Received damage from Special Skills is reduced
+    by -20% for the first 3 times this character receives damage from Special Skills.'
   - 'Increased Damage Against Boosted Health: After this character casts their Special
     Skill, all allies deal +70% increased normal attack and Special Skill damage against
     targets with boosted health for 4 turns.'
   image: https://i.imgur.com/QhwvGtU.jpg
   dtReleased: "2024-05-23"
-  dtModified: "2026-04-20"
+  dtModified: "2026-11-24"
   fancy_name: Heiress to the Flame
   aetherPower: counterattack
   lb1:

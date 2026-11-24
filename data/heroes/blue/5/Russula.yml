@@ -20,11 +20,11 @@ types:
 - Hit 1
 - Hiding Self
 passives:
-- 'Decrease Ailment Duration: Duration of the first 3 status ailments this character
-  receives from Special Skill is decreased by 1 turn.'
+- 'Decrease Ailment Duration: Decreases the duration of the first 3 status ailments
+  this character receives from Special Skill. Number of turns decreased: 1.'
 image: https://i.imgur.com/MqnrIZ3.jpg
 dtReleased: "2021-05-20"
-dtModified: "2026-04-20"
+dtModified: "2026-11-24"
 fancy_name: Eloi Rogue
 aetherPower: attack_up
 lb1:
@@ -57,14 +57,14 @@ costume:
   - Hit 1
   - Hiding Self
   passives:
-  - 'Decrease Ailment Duration: Duration of the first 3 status ailments this character
-    receives from Special Skill is decreased by 1 turn.'
+  - 'Decrease Ailment Duration: Decreases the duration of the first 3 status ailments
+    this character receives from Special Skill. Number of turns decreased: 1.'
   - 'Increased Damage Against Boosted Health: After this character casts their Special
     Skill cast, all allies'' normal attacks and Special Skills deal +70% damage against
     targets with boosted health for 3 turns.'
   image: https://i.imgur.com/KzLvPms.jpg
   dtReleased: "2024-01-04"
-  dtModified: "2026-04-20"
+  dtModified: "2026-11-24"
   fancy_name: Eloi Painter
   aetherPower: rage
   lb1:

@@ -10,10 +10,12 @@ defense: 782
 health: 1479
 skill: Pet Larva
 effects:
-- Summons a Larva Minion for each ally with 31% HP inheried from the caster. The Minion
-  recovers 11% health for its owner at the end of each turn.
+- Summons a Larva Minion for each ally with 31% HP inherited from the caster. The
+  Minion recovers 11% health for its owner at the end of each turn.
 - When summoned, the Larva Minion gives +24% mana generation for its owner for as
-  long as the owner has Larva Minions. This effect can't be dispelled.
+  long as the owner has Larva Minions. This effect can't be dispelled. (Affects only
+  mana generated from matching shields or mana gained by the defense team at the end
+  of their turn.)
 - When summoned, the Larva Minion gives +54% defense for is owner for as long as the
   owner has Larva Minions. This effect can't be dispelled.
 types:
@@ -25,7 +27,7 @@ passives:
   Special Skill is increased by 1 turn.'
 image: https://i.imgur.com/J9OOPtS.jpg
 dtReleased: "2022-03-24"
-dtModified: "2026-04-20"
+dtModified: "2026-11-24"
 fancy_name: Head of the Moles
 aetherPower: special_armor
 lb1:
@@ -51,7 +53,9 @@ costume:
   - Summons a Larva Minion for each ally with 36% HP inherited from the caster. The
     Minion recovers 15% health for its owner at the end of each turn.
   - When summoned, the Larva Minion gives +24% mana generation for its owner for as
-    long as the owner has Larva Minions. This effect can't be dispelled.
+    long as the owner has Larva Minions. This effect can't be dispelled. (Affects
+    only mana generated from matching shields or mana gained by the defense team at
+    the end of their turn.)
   - When summoned, the Larva Minion gives +50% defense for its owner for as long as
     the owner has Larva Minions. This effect can't be dispelled.
   types:
@@ -65,7 +69,7 @@ costume:
     they boost the health of all their allies by 10%.'
   image: https://i.imgur.com/sPMKsgr.jpg
   dtReleased: "2024-03-28"
-  dtModified: "2026-04-20"
+  dtModified: "2026-11-24"
   fancy_name: Head Nurse
   aetherPower: ailment_immunity
   lb1:

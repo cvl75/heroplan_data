@@ -12,7 +12,8 @@ skill: Swift Stingers
 effects:
 - Deals 300% damage to the target.
 - Deals 450% damage to a random target enemy. Deals extra damage if ther target is
-  Dark.
+  Dark. (This effect targets the same enemy as the first hit target if there are no
+  other valid targets.)
 - The target of the second hit gets -56% defense for 3 turns.
 types:
 - Hit 1
@@ -23,7 +24,7 @@ passives:
   Special Skill is increased by 1 turn.'
 image: https://i.imgur.com/hsqxizP.jpg
 dtReleased: "2021-12-02"
-dtModified: "2026-04-20"
+dtModified: "2026-11-24"
 fancy_name: Myriapod Prince
 aetherPower: dodge
 lb1:
@@ -48,7 +49,8 @@ costume:
   effects:
   - Deals 400% damage to the target.
   - Deals 400% damage to a random different enemy. Deals extra damage if the target
-    is Dark.
+    is Dark. (This effect targets the same enemy as the first hit target if there
+    are no other valid targets.)
   - The target of the second hit gets -56% defense for 3 turns.
   types:
   - Hit 1
@@ -62,7 +64,7 @@ costume:
     against targets with boosted health for 4 turns .'
   image: https://i.imgur.com/KswtgYH.jpg
   dtReleased: "2024-06-20"
-  dtModified: "2026-04-20"
+  dtModified: "2026-11-24"
   fancy_name: Apocynacid Prince
   aetherPower: special_armor
   lb1:

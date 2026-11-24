@@ -11,16 +11,17 @@ health: 1390
 skill: Spectre's Flail
 effects:
 - Deals 310% damage to 5 random enemies.
-- 'Stack (Max: 10): Each hit gives its target -9% attack.'
+- 'Stack (Max: 10): Each hit gives its target -9% attack. (Cleansing reduces negative
+  stacks by 1.)'
 types:
 - Hit Random 5
 - Attack Debuff stack on hit
 passives:
-- 'Special Skill Damage Reduction: Received damage from Special Skills is  reduced
-  by -20% for this character.'
+- 'Special Skill Damage Reduction: Received damage from Special Skills is reduced
+  by -20% for the first 3 times this character receives damage from Special Skills.'
 image: https://i.imgur.com/FKztylV.jpg
 dtReleased: "2022-01-27"
-dtModified: "2026-04-20"
+dtModified: "2026-11-24"
 fancy_name: Warrior of the Depths
 aetherPower: attack_up
 lb1:
@@ -44,19 +45,20 @@ costume:
   skill: Seaweed Flail
   effects:
   - Deals 325% damage to 5 random enemies.
-  - 'Stack (Max: 10): Each hit gives its target -8% attack.'
+  - 'Stack (Max: 10): Each hit gives its target -8% attack. (Cleansing reduces negative
+    stacks by 1.)'
   types:
   - Hit 5 random
   - Attack Debuff stack on hit
   passives:
   - 'Special Skill Damage Reduction: Received damage from Special Skills is reduced
-    by -20% for this character.'
+    by -20% for the first 3 times this character receives damage from Special Skills.'
   - 'Increased Damage Against Boosted Health: After this character casts their Special
     Skill, all allies deal +70% increased normal attack and Special Skill damage against
     targets with boosted health for 4 turns.'
   image: https://i.imgur.com/llQVrNB.jpg
   dtReleased: "2024-08-01"
-  dtModified: "2026-04-20"
+  dtModified: "2026-11-24"
   fancy_name: Warrior of Kelp
   aetherPower: regen
   lb1:
