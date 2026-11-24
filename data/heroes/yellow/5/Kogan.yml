@@ -1,0 +1,56 @@
+---
+name: Kogan
+source: ninja
+family: ronin
+speed: Charge
+class: Paladin
+power: 1375
+attack: 1419
+defense: 1460
+health: 2467
+skill: Strength of the Mountain
+effects:
+- 'Special Skill has a different effect when charged with 100% / 200% / 300% mana:'
+- 'x1 Mana Charge:'
+- Recovers 20% health for all allies.
+- All allies have a 20% chance to drop any received damage to 1 for 2 turns.
+- All allies are immune to buff dispels and reallocations for 2 turns. (This immunity
+  also includes this effect itself. Also includes Ransack.)
+- 'x2 Mana Charge:'
+- Recovers 40% health for all allies.
+- All allies have a 30% chance to drop any received damage to 1 for 3 turns.
+- All allies are immune to buff dispels and reallocations for 3 turns. (This immunity
+  also includes this effect itself. Also includes Ransack.)
+- 'x3 Mana Charge:'
+- Recovers 60% health for all allies.
+- All allies have a 40% chance to drop any received damage to 1 for 5 turns.
+- All allies are immune to buff dispels and reallocations for 5 turns. (This immunity
+  also includes this effect itself. Also includes Ransack.)
+types:
+- Charge
+- Healer All
+- Damage Drop to 1 Chance All
+- Buff Dispel Immunity All
+passives:
+- 'Weaker Minions: Enemy Minions have -50% HP.'
+- 'Prevent Boosted Healing: Enemies'' health cannot increase above their max health.'
+- 'Dishonorable Defeat: When this character is defeated by a Special Skill, they perform
+  the following actions:'
+- ' * The attacker receives 450% damage.'
+- ' * The attacker receives 1500 Bleed damage over 3 turns.'
+image: https://i.imgur.com/Hwhjkbb.jpg
+dtReleased: "2026-11-24"
+dtModified: ""
+fancy_name: Mountain Guardian of Horai-zan
+aetherPower: regen
+lb1:
+  power: 1472
+  attack: 1529
+  defense: 1573
+  health: 2659
+lb2:
+  power: 1667
+  attack: 1750
+  defense: 1800
+  health: 3042
+...
