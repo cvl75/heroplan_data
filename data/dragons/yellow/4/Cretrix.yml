@@ -1,0 +1,48 @@
+---
+name: Cretrix
+fancy_name: Shock-tail Eelwyrm
+source: ancientUnderroot
+speed: Fast
+power: 9555
+attack: 12161
+defense: 11647
+health: 10343
+skill: Voltaic Lash
+skillsObj:
+  special: ds_cretrix
+  passives: ""
+  assist: '@da_crackingBlaze#@'
+effects:
+- Deals 300% damage to the target.
+- The target receives 800-2400 Lightning damage each turn for 3 turns. (The amount
+  of damage dealt is randomized each turn.)
+- The target gets -3500 attack for 3 turns.
+types:
+- Hit 1
+- DoT 1
+- Attack Debuff 1
+spiritBonus:
+  spiritClass: Wizard
+  all:
+    attack: "+160"
+    defense: "+120"
+    health: "+45"
+  elementalBond:
+    attack: "+20"
+    defense: "+15"
+    health: "+15"
+  classLink:
+    attack: "+20"
+    defense: "+15"
+    health: "+15"
+assist:
+  name: Cracking Blaze
+  effects:
+  - Deals 210 damage to all enemies.
+  - Recovers 110 health for all allies.
+  - All enemies receive 360 Burn damage over 5 turns.
+  - All enemies get -15% defense for 5 turns.
+image: https://i.imgur.com/KoJWcfg.jpg
+dtReleased: "2026-11-24"
+dtModified: ""
+...

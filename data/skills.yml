@@ -1,4 +1,9 @@
 ---
+cleanserAll:
+  key: cleanserAll
+  text: Cleanses status ailments from all allies.
+  types:
+  - Cleanser All
 da_blazeUndying:
   key: da_blazeUndying
   title: Blaze of the Undying
@@ -14,6 +19,20 @@ da_dampeningBlaze:
     @hitAll#hit=1010@
     @healerAll#heal=210@
     @manaGenDebuff#mana=-10%;turns=5@
+ds_cretrix:
+  key: ds_cretrix
+  title: Voltaic Lash
+  text: |-
+    @hit1#hit=300%@
+    @dotRandomTurns#dot=800-2400;type=Lightning;turns=3@
+    @attackDebuff1#attdebuff=-3500;turns=3@
+ds_florin:
+  key: ds_florin
+  title: Bloomweave
+  text: |-
+    @healerAll#heal=7000@
+    @liftAilments#count=2@
+    @dropto1All#chance=20%;turns=4@
 ds_zhura:
   key: ds_zhura
   title: Overcharged Plunge
@@ -29,6 +48,14 @@ info_manaAdditions:
     Skills will have reduced power on that character.
   vars:
     count: 5
+attackDebuff1:
+  key: attackDebuff1
+  text: The target gets {attdebuff} attack for {turns} turns.
+  vars:
+    attdebuff: -3500
+    turns: 3
+  types:
+  - Attack Debuff 1
 blazingRaveDance:
   key: blazingRaveDance
   text: |-
@@ -56,6 +83,24 @@ cleanseImmunityAll:
     turns: 5
   types:
   - Cleanse Immunity Debuff All
+da_crackingBlaze:
+  key: da_crackingBlaze
+  icon: /img/skills/assist_dragon_cracking_blaze_cretrix.webp
+  title: Cracking Blaze
+  text: |-
+    @hitAll#hit=210@
+    @healerAll#heal=110@
+    @dotAll#dot=360;type=Burn;turns=5@
+    @defenseDebuffAll#defDebuff=-15%;turns=5@
+da_sacredFlame:
+  key: da_sacredFlame
+  icon: /img/skills/assist_dragon_sacred_flame_florin.webp
+  title: Sacred Flame
+  text: |-
+    @hitAll#hit=800@
+    @healerAll#heal=230@
+    @healFromDmgAll#healp=40%;turns=5@
+    @cleanserAll#@
 dance4:
   key: dance4
   text: All allies except the caster dance the {dance} for {turns} turns.
@@ -71,6 +116,14 @@ dealsExtra:
     elem: Nature
   types:
   - ""
+defenseDebuffAll:
+  key: defenseDebuffAll
+  text: All enemies get {defDebuff} defense for {turns} turns.
+  vars:
+    defDebuff: -15%
+    turns: 5
+  types:
+  - Defense Debuff All
 dotAll:
   key: dotAll
   text: All enemies receive {dot} {type} damage over {turns} turns.
@@ -80,6 +133,25 @@ dotAll:
     turns: 5
   types:
   - DoT All
+dotRandomTurns:
+  key: dotRandomTurns
+  text: The target receives {dot} {type} damage each turn for {turns} turns. (The
+    amount of damage dealt is randomized each turn.)
+  vars:
+    dot: 800-2400
+    type: Lightning
+    turns: 3
+  types:
+  - DoT 1
+dropto1All:
+  key: dropto1All
+  text: All allies have a {chance} chance to drop any received damage to 1 for {turns}
+    turns.
+  vars:
+    chance: 20%
+    turns: 4
+  types:
+  - Damage Drop to 1 Chance All
 ds_lurzaag:
   key: ds_lurzaag
   title: Soulfright Shrirek
@@ -162,6 +234,14 @@ gambler_1managen3_2dropto1:
   - Gambler
   - Mana Generation Buff 3
   - Damage Drop to 1 Chance 3
+healFromDmgAll:
+  key: healFromDmgAll
+  text: All allies heal {healp} of dealt normal damage for {turns} turns.
+  vars:
+    healp: 40%
+    turns: 5
+  types:
+  - Heal on damage dealt All
 healer3:
   key: healer3
   text: Recovers {heal} health for the caster and nearby allies.
@@ -205,6 +285,14 @@ hitAll:
     hit: 555%
   types:
   - Hit All
+liftAilments:
+  key: liftAilments
+  text: Lifts the latest {count} cleansable status ailments from all allies and randomly
+    distributes them on enemies.
+  vars:
+    count: 2
+  types:
+  - Lifts {count} Ailments All
 manaGenDebuff:
   key: manaGenDebuff
   text: All enemies get {mana} mana generation for {turns} turns.
@@ -260,6 +348,16 @@ test2:
     end
   vars:
     hit: 999
+dp_surgeback:
+  key: dp_surgeback
+  icon: /img/skills/passive_surgeback.webp
+  title: Surgeback
+  text: When this character drops below {hpleft} health, they gain {mana} mana over
+    {turns} turns.
+  vars:
+    hpleft: 50%
+    mana: 15%
+    turns: 3
 test:
   key: test
   title: '{name} Title'

@@ -1,0 +1,51 @@
+---
+name: Florin
+fancy_name: Whelping Bloomwarden
+source: ancientUnderroot
+speed: Average
+power: 13600
+attack: 16615
+defense: 17919
+health: 15268
+skill: Bloomweave
+skillsObj:
+  special: ds_florin
+  passives: '@dp_surgeback#hpleft=50%;mana=15%;turns=3@'
+  assist: da_sacredFlame
+effects:
+- Recovers 7000 health for all allies.
+- Lifts the latest 2 cleansable status ailments from all allies and randomly distributes
+  them on enemies.
+- All allies have a 20% chance to drop any received damage to 1 for 4 turns.
+types:
+- Healer All
+- Lifts 2 Ailments All
+- Damage Drop to 1 Chance All
+passives:
+- 'Surgeback: When this character drops below 50% health, they gain 15% mana over
+  3 turns.'
+spiritBonus:
+  spiritClass: Wizard
+  all:
+    attack: "+250"
+    defense: "+200"
+    health: "+100"
+  elementalBond:
+    attack: "+35"
+    defense: "+30"
+    health: "+30"
+  classLink:
+    attack: "+35"
+    defense: "+30"
+    health: "+30"
+assist:
+  name: Sacred Flame
+  effects:
+  - Deals 800 damage to all enemies.
+  - Recovers 230 health for all allies.
+  - All allies heal 40% of dealt normal damage for 5 turns.
+  - Cleanses status ailments from all allies.
+image: https://i.imgur.com/jZ0x8jv.jpg
+dtReleased: "2026-11-24"
+dtModified: ""
+...
