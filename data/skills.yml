@@ -1,14 +1,38 @@
 ---
-hit_all:
-  key: hit_all
-  text: Deals {hit} damage to all enemies.
+da_blazeUndying:
+  key: da_blazeUndying
+  title: Blaze of the Undying
+  text: |-
+    @hitAll#hit=410@
+    @healerAll#heal=210@
+    @dotAll#dot=910;type=Burn;turns=5@
+    @cleanseImmunityAll#turns=5@
+da_dampeningBlaze:
+  key: da_dampeningBlaze
+  title: Dampening Blaze
+  text: |-
+    @hitAll#hit=1010@
+    @healerAll#heal=210@
+    @manaGenDebuff#mana=-10%;turns=5@
+ds_zhura:
+  key: ds_zhura
+  title: Overcharged Plunge
+  text: |-
+    @hit1#hit=340%@
+    @boostManaSelfOnKill#mana=25%@
+    @ssExtraDmg3#extra=+40%;turns=3@
+    @extraElemDmg#elem=Dark@
+info_manaAdditions:
+  key: info_manaAdditions
+  text: After a character has received {count} direct mana additions from Special
+    Skill during a single turn, all subsequent direct mana additions done by Special
+    Skills will have reduced power on that character.
   vars:
-    hit: 200%
-  types: Hit All
-blazing_rave_dance:
-  key: blazing_rave_dance
-  title: Blazing Rave Dance
-  text: |2-
+    count: 5
+blazingRaveDance:
+  key: blazingRaveDance
+  text: |-
+    Blazing Rave Dance
      * {def} defense.
      * If any dancer is hit with direct damage from Special Skill, Blazing Rave Dance is extended by {turns} for all dancers. The dance can only be extended once per turn. (All existing status effect will be removed when a dance status effect is added. Dance gives immunity to new status effects. New dance status effect will replace this effect. Dance effect cannot be dispelled. The effect is removed when the caster is defeated.)
   vars:
@@ -17,12 +41,255 @@ blazing_rave_dance:
   types:
   - Defense Buff while dancing
   - Extend Dance if hit by SS
-dance_4:
-  key: dance_4
+boostManaSelfOnKill:
+  key: boostManaSelfOnKill
+  text: If the target is defeated by the attack, the caster gains {mana} mana. (@info_manaAdditions@)
+  vars:
+    mana: 25%
+  types:
+  - Boost Mana Self on kill
+cleanseImmunityAll:
+  key: cleanseImmunityAll
+  text: All enemies can't get their status ailments cleansed or reallocated by Special
+    Skills for {turns} turns.
+  vars:
+    turns: 5
+  types:
+  - Cleanse Immunity Debuff All
+dance4:
+  key: dance4
   text: All allies except the caster dance the {dance} for {turns} turns.
   vars:
     dance: Blazing Rave Dance
     turns: 3
   types:
   - '{dance} 4'
+dealsExtra:
+  key: dealsExtra
+  text: Deals extra damage against {elem}.
+  vars:
+    elem: Nature
+  types:
+  - ""
+dotAll:
+  key: dotAll
+  text: All enemies receive {dot} {type} damage over {turns} turns.
+  vars:
+    dot: 999
+    type: Burn
+    turns: 5
+  types:
+  - DoT All
+ds_lurzaag:
+  key: ds_lurzaag
+  title: Soulfright Shrirek
+  text: |-
+    @hit3#hit=310%@
+    @fear3@
+  types:
+  - ""
+ds_nupio:
+  key: ds_nupio
+  title: Sacred Hatchlight
+  text: |-
+    @healer3#heal=4000@
+    @gambler_1managen3_2dropto1#managen=+20%;manaturns=3;dropchance=20%;dropturns=3@
+  types:
+  - ""
+elemDefDebuff1:
+  key: elemDefDebuff1
+  text: The target gets {def} defense against {elem} for {turns} turns.
+  vars:
+    def: -5000
+    elem: Fire
+    turns: 4
+  types:
+  - Elemental Defense Debuff 1
+extraElemDmg:
+  key: extraElemDmg
+  text: Deals extra damage against {elem}.
+  vars:
+    elem: Dark
+  types:
+  - Extra Elemental Damage
+fear3:
+  key: fear3
+  text: The target and nearby enemies succumb to Fear for {turns} turns. (The target
+    gets {def} defense. Removes all dispellable buffs and Growth effects when a Fear
+    status effect is added. The target cannot gain new buffs or Growth effects for
+    the duration. Target with Fear deals {hit} damage to a random ally each time any
+    other ally casts their Special Skill. Each character can trigger this effect once
+    per turn.)
+  vars:
+    turns: 5
+    def: -40%
+    hit: 250%
+  types:
+  - Fear 3
+fiendAbsorbs:
+  key: fiendAbsorbs
+  text: The {fiendName} Fiend absorbs healing. It disappears after absorbing a healing
+    amount equal to {absorbs} of its target’s max health.
+  vars:
+    fiendName: ""
+    absorbs: 40%
+  types:
+  - ""
+fiendSkillBlind:
+  key: fiendSkillBlind
+  text: When summoned, the {fiendName} Fiend gives {blind} accuracy for its owner
+    as long as the target has {fiendName} Fiends. This effect can’t be cleansed. (Chance
+    to miss also applies to offensive Special Skills.)
+  vars:
+    fiendName: ""
+    blind: -35%
+  types:
+  - Accuracy Debuff Fiend
+gambler_1managen3_2dropto1:
+  key: gambler_1managen3_2dropto1
+  text: |-
+    Randomly casts one of the following alternatives:
+    Alternative 1:
+    The caster and nearby allies get {managen} mana generation for {manaturns} turns.
+    Alternative 2:
+    The caster and nearby allies have a {dropchance} chance to drop any received damage to 1 for {dropturns} turns.
+  vars:
+    managen: +20%
+    manaturns: 3
+    dropchance: 20%
+    dropturns: 3
+  types:
+  - Gambler
+  - Mana Generation Buff 3
+  - Damage Drop to 1 Chance 3
+healer3:
+  key: healer3
+  text: Recovers {heal} health for the caster and nearby allies.
+  vars:
+    heal: 4000
+  types:
+  - Healer 3
+healerAll:
+  key: healerAll
+  text: Recovers {heal} health for all allies.
+  vars:
+    heal: 999
+  types:
+  - Healer All
+hit1:
+  key: hit1
+  text: Deals {hit} damage to the target.
+  vars:
+    hit: 555%
+  types:
+  - Hit 1
+hit1MinorAll:
+  key: hit1MinorAll
+  text: Deals {hit1} damage to the target and {hit2} damage to all other enemies.
+  vars:
+    hit1: 300%
+    hit2: 130%
+  types:
+  - Hit All
+hit3:
+  key: hit3
+  text: Deals {hit} damage to the target and nearby enemies.
+  vars:
+    hit: 333%
+  types:
+  - Hit 3
+hitAll:
+  key: hitAll
+  text: Deals {hit} damage to all enemies.
+  vars:
+    hit: 555%
+  types:
+  - Hit All
+manaGenDebuff:
+  key: manaGenDebuff
+  text: All enemies get {mana} mana generation for {turns} turns.
+  vars:
+    mana: -10%
+    turns: 5
+  types:
+  - Mana Generation Debuff All
+p_decreaseAilmentsDuration:
+  key: p_decreaseAilmentsDuration
+  title: Decrease Ailment Duration
+  text: Duration of the first {count} status ailments this character receives from
+    Special Skill is decreased by {turns}.
+  vars:
+    count: 3
+    turns: 1 turn
+spreadingDOT1:
+  key: spreadingDOT1
+  text: The target receives {dot} {type} damage over {turns} turns. This effect spreads
+    to nearby enemies.
+  vars:
+    dot: 6000
+    type: Burn
+    turns: 4
+  types:
+  - Spreading DoT 1
+ssExtraDmg3:
+  key: ssExtraDmg3
+  text: The caster and nearby allies' Special Skills deal an additional {extra} damage
+    for {turns} turns.
+  vars:
+    extra: +40%
+    turns: 3
+  types:
+  - SS Increased Damage Buff 3
+summonFiend3:
+  key: summonFiend3
+  text: Summons {fiend} Fiend to the target and nearby enemies. The Fiend damage the
+    enemies with {hit} attack every turn.
+  vars:
+    fiend: an Angry Kitten
+    hit: 80%
+  types:
+  - Fiend Summoner 3
+test2:
+  key: test2
+  title: test 2 tittle
+  text: |-
+    start
+     - @hitAll@
+     *** @hit3@
+    @test#prefix=444@
+    end
+  vars:
+    hit: 999
+test:
+  key: test
+  title: '{name} Title'
+  text: |-
+    test line 1, with {name} and {name}:
+    @hitAll#hit=444%@
+    @hit3#hit=445;proc=-44%;prefix=888@
+    end test
+  vars:
+    hit: 446
+    name: Jean Valjean
+  types:
+  - '{name} test1'
+test3:
+  key: test3
+  title: titlu cu var={nume}
+  text: "@hit1#prefix= - @ (@info_manaAdditions@) \n@test@"
+  vars:
+    nume: asd
+  types:
+  - ""
+dp_CracklingHatching:
+  key: dp_CracklingHatching
+  icon: /img/skills/passive_crackling_hatchling.webp
+  title: Crackling Hatching
+  text: At the start of each turn, each enemy has {chance} chance to receive {dmg}
+    damage.
+  vars:
+    chance: 25%
+    dmg: 350
+  types:
+  - ""
 ...
