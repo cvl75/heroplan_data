@@ -1,4 +1,10 @@
 ---
+chainHit:
+  key: chainHit
+  text: The attack chains through all the enemies who are adjacent to any hit enemy
+    and deals minor damage.
+  types:
+  - Chain Hit
 cleanserAll:
   key: cleanserAll
   text: Cleanses status ailments from all allies.
@@ -11,6 +17,14 @@ da_dampeningBlaze:
     @hitAll#hit=1010@
     @healerAll#heal=210@
     @manaGenDebuff#mana=-10%;turns=5@
+da_drainingBlaze:
+  key: da_drainingBlaze
+  title: Draining Blaze
+  text: |-
+    @hitAll#hit=410@
+    @healerAll#heal=210@
+    @dotAll#dot=1110;type=Burn;turns=5@
+    @healingDebuff#debuff=-30%;turns=5@
 ds_cretrix:
   key: ds_cretrix
   title: Voltaic Lash
@@ -41,6 +55,13 @@ ds_fylo:
     @elemDefDebuff1#def=-5000;elem=Fire;turns=4@
     @spreadingDOT1#dot=6000;type=Burn;turns=4@
     @dealsExtra#elem=Nature@
+ds_lumeire:
+  key: ds_lumeire
+  title: Light of the Wyrmspire
+  text: |-
+    @healerAll#heal=5000@
+    @dmgReductBuffAll#reduce=-36%;turns=4@
+    @counterattackAll#counter=25%;counterTurns=4@
 ds_lurzaag:
   key: ds_lurzaag
   title: Soulfright Shriek
@@ -68,6 +89,14 @@ ds_primula:
     @healerAll#heal=8800@
     @defBuffAll#def=+3600;turns=5@
     @dispellImmunAll#turns=5@
+ds_voltina:
+  key: ds_voltina
+  title: Erratic Lightning
+  text: |-
+    @hit1#hit=250%@
+    @chainHit@
+    @dotOnHitEachTurn#randomDoT=700-2100;dotType=Lightning ;turns=3@
+    @dealsExtra#elem=Holy@
 ds_zhura:
   key: ds_zhura
   title: Overcharged Plunge
@@ -88,6 +117,11 @@ info_manaAdditions:
     Skills will have reduced power on that character.
   vars:
     count: 5
+    display: inlineParenthesis
+info_randomDmg:
+  key: info_randomDmg
+  text: The amount of damage dealt is randomized each turn.
+  vars:
     display: inlineParenthesis
 info_triggerOnce:
   key: info_triggerOnce
@@ -160,6 +194,15 @@ cleanseImmunityAll:
     turns: 5
   types:
   - Cleanse Immunity Debuff All
+counterattackAll:
+  key: counterattackAll
+  text: All allies counterattack with {counter} of the damage received for {counterTurns}
+    turns.
+  vars:
+    counter: 25%
+    counterTurns: 4
+  types:
+  - Counterattack All
 da_blazeUndying:
   key: da_blazeUndying
   icon: /img/skills/assist_dragon_blaze_of_the_undying_lurzaag.webp
@@ -196,6 +239,15 @@ da_sacredFlame:
     @healerAll#heal=230@
     @healFromDmgAll#healp=40%;turns=5@
     @cleanserAll#@
+da_shockingBlaze:
+  key: da_shockingBlaze
+  icon: /img/skills/assist_dragon_shocking_blaze.webp
+  title: Shocking Blaze
+  text: |-
+    @hitAll#hit=420@
+    @healerAll#heal=220@
+    @maxHealthReductAll#reduce=460@
+    @defenseDebuffAll#defDebuff=-20%;turns=5@
 da_springBreath:
   key: da_springBreath
   icon: /img/skills/assist_dragon_spring_breath_blue.webp
@@ -251,6 +303,14 @@ dispellImmunAll:
     turns: 5
   types:
   - Dispel Immunity Buff All
+dmgReductBuffAll:
+  key: dmgReductBuffAll
+  text: All allies reduce all received damage by {reduce} for {turns} turns.
+  vars:
+    reduce: -36%
+    turns: 4
+  types:
+  - Damage Reduction Buff All
 dotAll:
   key: dotAll
   text: All enemies receive {dot} {type} damage over {turns} turns.
@@ -260,16 +320,33 @@ dotAll:
     turns: 5
   types:
   - DoT All
+dotOnHitEachTurn:
+  key: dotOnHitEachTurn
+  text: All hit targets receive {randomDoT} {dotType}damage each turn for {turns}
+    turns. (The amount of damage dealt is randomized each turn.
+  vars:
+    randomDoT: 700-2100
+    dotType: Lightning
+    turns: 3
+  types:
+  - Random DoT on hit
 dotRandomTurns:
   key: dotRandomTurns
-  text: The target receives {dot} {type} damage each turn for {turns} turns. (The
-    amount of damage dealt is randomized each turn.)
+  text: The target receives {dot} {type} damage each turn for {turns} turns. @info_randomDmg@
   vars:
     dot: 800-2400
     type: Lightning
     turns: 3
   types:
   - DoT 1
+dp_CracklingHatchling:
+  key: dp_CracklingHatchling
+  title: Crackling Hatchling
+  text: At the start of each turn, each enemy has a {chance} chance to receive {dmg}
+    damage.
+  vars:
+    chance: 25%
+    dmg: 350
 dropto1All:
   key: dropto1All
   text: All allies have a {chance} chance to drop any received damage to 1 for {turns}
@@ -382,6 +459,14 @@ healerAll:
     heal: 999
   types:
   - Healer All
+healingDebuff:
+  key: healingDebuff
+  text: All enemies get {debuff} decrease for any healing received for {turns} turns.
+  vars:
+    debuff: -30%
+    turns: 5
+  types:
+  - Healing Debuff All
 hit1:
   key: hit1
   text: Deals {hit} damage to the target.
@@ -459,6 +544,14 @@ manaGenDebuff:
     turns: 5
   types:
   - Mana Generation Debuff All
+maxHealthReductAll:
+  key: maxHealthReductAll
+  text: Reduces max health of all enemies by {reduce}. The effect is stronger against
+    targets with boosted health.
+  vars:
+    reduce: 460
+  types:
+  - Max Health Reduction All
 soulConnBuffAll:
   key: soulConnBuffAll
   text: All allies become Soul Connected for {turns} turns. Soul Connected allies
