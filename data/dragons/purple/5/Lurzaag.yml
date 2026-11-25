@@ -8,6 +8,10 @@ attack: 17246
 defense: 16869
 health: 15079
 skill: Soulfright Shriek
+skillsObj:
+  special: ds_lurzaag
+  passives: '@p_decreaseAilmentsDuration#count=5;turns=2@'
+  assist: da_blazeUndying
 effects:
 - Deals 310% damage to the target and nearby enemies.
 - The target and nearby enemies succumb to Fear for 4 turns. (The target gets -40%
@@ -19,8 +23,8 @@ types:
 - Hit 3
 - Fear 3
 passives:
-- 'Decrease Ailment Duration: Duration of the first 5 status ailments this character
-  receives from Special Skills. Number of turns decreased: 2.'
+- 'Decrease Ailment Duration: Decreases the duration of the first 5 status ailments
+  this character receives from Special Skills. Number of turns decreased:  2.'
 spiritBonus:
   spiritClass: Sorcerer
   all:
@@ -45,5 +49,5 @@ assist:
     Skills for 5 turns.
 image: https://i.imgur.com/1j01xLg.jpg
 dtReleased: "2026-10-27"
-dtModified: ""
+dtModified: "2026-11-25"
 ...

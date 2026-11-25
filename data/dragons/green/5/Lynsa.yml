@@ -8,6 +8,10 @@ attack: 17421
 defense: 16206
 health: 14893
 skill: Wind-Swift Mischief
+skillsObj:
+  special: ds_lynsa
+  passives: dp_CracklingHatching
+  assist: da_weakeningBlaze
 effects:
 - Steals all dispellable buffs from the enemies on the edges of the enemy formation
   and randomly distributes them on allies.
@@ -15,7 +19,7 @@ effects:
   only one enemy, the damage is doubled.
 - Deals extra damage against Ice.
 types:
-- Buff Steal 2
+- Steal Buffs 2
 - Hit 2
 passives:
 - 'Crackling Hatching: At the start of each turn, each enemy has 25% chance to receive
@@ -42,5 +46,5 @@ assist:
   - All enemies get -20% attack for 5 turns.
 image: https://i.imgur.com/CaRdoAa.jpg
 dtReleased: "2026-09-15"
-dtModified: ""
+dtModified: "2026-11-25"
 ...

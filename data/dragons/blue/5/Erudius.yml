@@ -8,17 +8,22 @@ attack: 15557
 defense: 15754
 health: 14032
 skill: Bound by Knowledge
+skillsObj:
+  special: ds_erudius
+  passives: ""
+  assist: da_springBreath
 effects:
 - Recovers 6000 health for all allies.
 - All allies regenerate 6000 HP over 5 turns.
-- 'Stack (Max: 10): All allies get +20% defense'
-- All allies become Soul Connected for 5 turns. Soul Connectioned allies share received
+- 'Stack (Max: 10): All allies get +20% defense. (Dispelling reduces positive stacks
+  by 1.)'
+- All allies become Soul Connected for 5 turns. Soul Connected allies share received
   damage.
 types:
 - Healer All
 - HoT All
 - Defense Buff Stack All
-- Allies Damage Share All
+- Allies Damage Share
 spiritBonus:
   spiritClass: Sorcerer
   all:
@@ -41,5 +46,5 @@ assist:
   - All allies get +10% mana generation for 5 turns.
 image: https://i.imgur.com/ZGuM8nS.jpg
 dtReleased: "2026-01-06"
-dtModified: ""
+dtModified: "2026-11-25"
 ...

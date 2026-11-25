@@ -4,14 +4,6 @@ cleanserAll:
   text: Cleanses status ailments from all allies.
   types:
   - Cleanser All
-da_blazeUndying:
-  key: da_blazeUndying
-  title: Blaze of the Undying
-  text: |-
-    @hitAll#hit=410@
-    @healerAll#heal=210@
-    @dotAll#dot=910;type=Burn;turns=5@
-    @cleanseImmunityAll#turns=5@
 da_dampeningBlaze:
   key: da_dampeningBlaze
   title: Dampening Blaze
@@ -26,6 +18,14 @@ ds_cretrix:
     @hit1#hit=300%@
     @dotRandomTurns#dot=800-2400;type=Lightning;turns=3@
     @attackDebuff1#attdebuff=-3500;turns=3@
+ds_erudius:
+  key: ds_erudius
+  title: Bound by Knowledge
+  text: |-
+    @healerAll#heal=6000@
+    @hotAll#hot=6000 HP;turns=5@
+    @stackDefBuff#defP=+20%@
+    @soulConnBuffAll#turns=5@
 ds_florin:
   key: ds_florin
   title: Bloomweave
@@ -33,6 +33,41 @@ ds_florin:
     @healerAll#heal=7000@
     @liftAilments#count=2@
     @dropto1All#chance=20%;turns=4@
+ds_fylo:
+  key: ds_fylo
+  title: Little Cataclysm
+  text: |
+    @hitAllLess4#hit1=300%;hitRest=130%@
+    @elemDefDebuff1#def=-5000;elem=Fire;turns=4@
+    @spreadingDOT1#dot=6000;type=Burn;turns=4@
+    @dealsExtra#elem=Nature@
+ds_lurzaag:
+  key: ds_lurzaag
+  title: Soulfright Shriek
+  text: |-
+    @hit3#hit=310%@
+    @fear3#turns=4@
+ds_lynsa:
+  key: ds_lynsa
+  title: Wind-Swift Mischief
+  text: |-
+    @stealBuffs2#@
+    @hit2Edge#hit=240%@
+    @dealsExtra#elem=Ice@
+ds_pluna:
+  key: ds_pluna
+  title: Whirlpool of Renewal
+  text: |
+    @boostHealAll#boostedHealth=4000@
+    @growthAttAll#grow=2000@
+    @boostHealAllOnSS#turns=4;boostHealthT=2000@
+ds_primula:
+  key: ds_primula
+  title: Pie of Protection
+  text: |
+    @healerAll#heal=8800@
+    @defBuffAll#def=+3600;turns=5@
+    @dispellImmunAll#turns=5@
 ds_zhura:
   key: ds_zhura
   title: Overcharged Plunge
@@ -41,6 +76,11 @@ ds_zhura:
     @boostManaSelfOnKill#mana=25%@
     @ssExtraDmg3#extra=+40%;turns=3@
     @extraElemDmg#elem=Dark@
+info_dispelStack:
+  key: info_dispelStack
+  text: Dispelling reduces positive stacks by 1.
+  vars:
+    display: inlineParenthesis
 info_manaAdditions:
   key: info_manaAdditions
   text: After a character has received {count} direct mana additions from Special
@@ -48,6 +88,26 @@ info_manaAdditions:
     Skills will have reduced power on that character.
   vars:
     count: 5
+    display: inlineParenthesis
+info_triggerOnce:
+  key: info_triggerOnce
+  text: Each character can trigger this effect once per turn.
+  vars:
+    display: inlineParenthesis
+stealBuffs2:
+  key: stealBuffs2
+  text: Steals all dispellable buffs from the enemies on the edges of the enemy formation
+    and randomly distributes them on allies.
+  types:
+  - Steal Buffs 2
+attDebuffAll:
+  key: attDebuffAll
+  text: All enemies get {debuff} attack for {turns} turns.
+  vars:
+    debuff: -20%
+    turns: 5
+  types:
+  - Attack Debuff All
 attackDebuff1:
   key: attackDebuff1
   text: The target gets {attdebuff} attack for {turns} turns.
@@ -68,9 +128,26 @@ blazingRaveDance:
   types:
   - Defense Buff while dancing
   - Extend Dance if hit by SS
+boostHealAll:
+  key: boostHealAll
+  text: Boosts health of all allies by {boostedHealth}. Boosted health can exceed
+    max HP.
+  vars:
+    boostedHealth: 4000
+  types:
+  - Boosts Health All
+boostHealAllOnSS:
+  key: boostHealAllOnSS
+  text: For the next {turns} turns, this character recovers {boostHealthT} boosted
+    health to all allies each time any other ally casts their Special Skill. @info_triggerOnce@
+  vars:
+    turns: 4
+    boostHealthT: 2000
+  types:
+  - Boosts Health All on ally SS
 boostManaSelfOnKill:
   key: boostManaSelfOnKill
-  text: If the target is defeated by the attack, the caster gains {mana} mana. (@info_manaAdditions@)
+  text: If the target is defeated by the attack, the caster gains {mana} mana. @info_manaAdditions@
   vars:
     mana: 25%
   types:
@@ -83,6 +160,15 @@ cleanseImmunityAll:
     turns: 5
   types:
   - Cleanse Immunity Debuff All
+da_blazeUndying:
+  key: da_blazeUndying
+  icon: /img/skills/assist_dragon_blaze_of_the_undying_lurzaag.webp
+  title: Blaze of the Undying
+  text: |-
+    @hitAll#hit=410@
+    @healerAll#heal=210@
+    @dotAll#dot=910;type=Burn;turns=5@
+    @cleanseImmunityAll#turns=5@
 da_crackingBlaze:
   key: da_crackingBlaze
   icon: /img/skills/assist_dragon_cracking_blaze_cretrix.webp
@@ -92,6 +178,15 @@ da_crackingBlaze:
     @healerAll#heal=110@
     @dotAll#dot=360;type=Burn;turns=5@
     @defenseDebuffAll#defDebuff=-15%;turns=5@
+da_cripplingBlaze:
+  key: da_cripplingBlaze
+  icon: /img/skills/assist_dragon_crippling_blaze_blue.webp
+  title: Crippling Blaze
+  text: |-
+    @hitAll#hit=410@
+    @healerAll#heal=210@
+    @dotAll#dot=1120;type=Burn;turns=5@
+    @manaGenDebuff#mana=-10%;turns=5@
 da_sacredFlame:
   key: da_sacredFlame
   icon: /img/skills/assist_dragon_sacred_flame_florin.webp
@@ -101,6 +196,22 @@ da_sacredFlame:
     @healerAll#heal=230@
     @healFromDmgAll#healp=40%;turns=5@
     @cleanserAll#@
+da_springBreath:
+  key: da_springBreath
+  icon: /img/skills/assist_dragon_spring_breath_blue.webp
+  title: Spring Breath
+  text: |
+    @healerAll#heal=855@
+    @hitAll#hit=400@
+    @manaGenBuffAll#manaP=+10%;turns=5@
+da_weakeningBlaze:
+  key: da_weakeningBlaze
+  icon: /img/skills/assist_dragon_weakening_blaze.webp
+  title: Weakening Blaze
+  text: |-
+    @hitAll#hit=840@
+    @healerAll#heal=210@
+    @attDebuffAll#debuff=-20%;turns=5@
 dance4:
   key: dance4
   text: All allies except the caster dance the {dance} for {turns} turns.
@@ -116,6 +227,14 @@ dealsExtra:
     elem: Nature
   types:
   - ""
+defBuffAll:
+  key: defBuffAll
+  text: All allies get {def} defense for {turns} turns.
+  vars:
+    def: "+3600"
+    turns: 5
+  types:
+  - Defense Buff All
 defenseDebuffAll:
   key: defenseDebuffAll
   text: All enemies get {defDebuff} defense for {turns} turns.
@@ -124,6 +243,14 @@ defenseDebuffAll:
     turns: 5
   types:
   - Defense Debuff All
+dispellImmunAll:
+  key: dispellImmunAll
+  text: All allies are immune to buff dispels and reallocations for {turns} turns.
+    (The immunity also includes this effect itself. Also includes Ransack.)
+  vars:
+    turns: 5
+  types:
+  - Dispel Immunity Buff All
 dotAll:
   key: dotAll
   text: All enemies receive {dot} {type} damage over {turns} turns.
@@ -152,14 +279,6 @@ dropto1All:
     turns: 4
   types:
   - Damage Drop to 1 Chance All
-ds_lurzaag:
-  key: ds_lurzaag
-  title: Soulfright Shrirek
-  text: |-
-    @hit3#hit=310%@
-    @fear3@
-  types:
-  - ""
 ds_nupio:
   key: ds_nupio
   title: Sacred Hatchlight
@@ -234,6 +353,13 @@ gambler_1managen3_2dropto1:
   - Gambler
   - Mana Generation Buff 3
   - Damage Drop to 1 Chance 3
+growthAttAll:
+  key: growthAttAll
+  text: 'Growth: All allies get {grow} attack.'
+  vars:
+    grow: 2000
+  types:
+  - Attack Growth All
 healFromDmgAll:
   key: healFromDmgAll
   text: All allies heal {healp} of dealt normal damage for {turns} turns.
@@ -271,6 +397,14 @@ hit1MinorAll:
     hit2: 130%
   types:
   - Hit All
+hit2Edge:
+  key: hit2Edge
+  text: Deals {hit} damage to the enemies on the edges of the enemy formation. If
+    there is only one enemy, the damage is doubled.
+  vars:
+    hit: 999%
+  types:
+  - Hit 2
 hit3:
   key: hit3
   text: Deals {hit} damage to the target and nearby enemies.
@@ -285,6 +419,22 @@ hitAll:
     hit: 555%
   types:
   - Hit All
+hitAllLess4:
+  key: hitAllLess4
+  text: Deals {hit1} damage to the target and {hitRest} damage to all other enemies.
+  vars:
+    hit1: 300%
+    hitRest: 130%
+  types:
+  - Hit All
+hotAll:
+  key: hotAll
+  text: All allies regenerate {hot} over {turns} turns.
+  vars:
+    hot: 6000 HP
+    turns: 5
+  types:
+  - HoT All
 liftAilments:
   key: liftAilments
   text: Lifts the latest {count} cleansable status ailments from all allies and randomly
@@ -293,6 +443,14 @@ liftAilments:
     count: 2
   types:
   - Lifts {count} Ailments All
+manaGenBuffAll:
+  key: manaGenBuffAll
+  text: All allies get {manaP} mana generation for {turns} turns.
+  vars:
+    manaP: +10%
+    turns: 5
+  types:
+  - Mana Generation Buff All
 manaGenDebuff:
   key: manaGenDebuff
   text: All enemies get {mana} mana generation for {turns} turns.
@@ -301,14 +459,14 @@ manaGenDebuff:
     turns: 5
   types:
   - Mana Generation Debuff All
-p_decreaseAilmentsDuration:
-  key: p_decreaseAilmentsDuration
-  title: Decrease Ailment Duration
-  text: Duration of the first {count} status ailments this character receives from
-    Special Skill is decreased by {turns}.
+soulConnBuffAll:
+  key: soulConnBuffAll
+  text: All allies become Soul Connected for {turns} turns. Soul Connected allies
+    share received damage.
   vars:
-    count: 3
-    turns: 1 turn
+    turns: 5
+  types:
+  - Allies Damage Share
 spreadingDOT1:
   key: spreadingDOT1
   text: The target receives {dot} {type} damage over {turns} turns. This effect spreads
@@ -328,6 +486,15 @@ ssExtraDmg3:
     turns: 3
   types:
   - SS Increased Damage Buff 3
+stackDefBuff:
+  key: stackDefBuff
+  text: 'Stack {stackInc}(Max: {stackMax}): All allies get {defP} defense. @info_dispelStack@'
+  vars:
+    stackInc: ""
+    stackMax: 10
+    defP: +20%
+  types:
+  - Defense Buff Stack All
 summonFiend3:
   key: summonFiend3
   text: Summons {fiend} Fiend to the target and nearby enemies. The Fiend damage the
@@ -358,6 +525,15 @@ dp_surgeback:
     hpleft: 50%
     mana: 15%
     turns: 3
+p_decreaseAilmentsDuration:
+  key: p_decreaseAilmentsDuration
+  icon: /img/skills/ability_decrease_debuff_duration.webp
+  title: Decrease Ailment Duration
+  text: 'Decreases the duration of the first {count} status ailments this character
+    receives from Special Skills. Number of turns decreased:  {turns}.'
+  vars:
+    count: 3
+    turns: 1
 test:
   key: test
   title: '{name} Title'

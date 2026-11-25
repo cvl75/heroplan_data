@@ -8,15 +8,19 @@ attack: 14220
 defense: 14347
 health: 12685
 skill: Pie of Protection
+skillsObj:
+  special: ds_primula
+  passives: ""
+  assist: '@da_springBreath#heal=850@'
 effects:
 - Recovers 8800 health for all allies.
 - All allies get +3600 defense for 5 turns.
 - All allies are immune to buff dispels and reallocations for 5 turns. (The immunity
-  also includes this effect itself.)
+  also includes this effect itself. Also includes Ransack.)
 types:
 - Healer All
 - Defense Buff All
-- Dispell Immunity All
+- Dispel Immunity Buff All
 spiritBonus:
   spiritClass: Cleric
   all:
@@ -39,5 +43,5 @@ assist:
   - All allies get +10% mana generation for 5 turns.
 image: https://i.imgur.com/fNgNi9V.jpg
 dtReleased: "2025-04-01"
-dtModified: ""
+dtModified: "2026-11-25"
 ...

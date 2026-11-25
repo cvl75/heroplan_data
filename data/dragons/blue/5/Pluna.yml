@@ -8,6 +8,10 @@ attack: 16313
 defense: 17650
 health: 15136
 skill: Whirlpool of Renewal
+skillsObj:
+  special: ds_pluna
+  passives: '@dp_surgeback#hpleft=50%;mana=15%;turns=3@'
+  assist: da_cripplingBlaze
 effects:
 - Boosts health of all allies by 4000. Boosted health can exceed max HP.
 - 'Growth: All allies get 2000 attack.'
@@ -15,9 +19,9 @@ effects:
   each time any other ally casts their Special Skill. (Each character can trigger
   this effect once per turn.)
 types:
-- Boost Health All
+- Boosts Health All
 - Attack Growth All
-- Boost Health All on Allies SS
+- Boosts Health All on ally SS
 passives:
 - 'Surgeback: When this character drops below 50% health, they gain 15% mana over
   3 turns.'
@@ -44,5 +48,5 @@ assist:
   - All enemies get -10% mana generation for 5 turns.
 image: https://i.imgur.com/W6FkJwF.jpg
 dtReleased: "2026-09-29"
-dtModified: ""
+dtModified: "2026-11-25"
 ...
