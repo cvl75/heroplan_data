@@ -94,10 +94,12 @@ costume2:
     and Growth and Wither effects. Removes even status effects and stacks that are
     otherwise Stubborn, undispellable or uncleansable.)
   - The caster shifts into Ghost Form for 4 turns.
-  - While in Ghost form the caster gains +95% attack. (While in Ghost form Character
-    can't gain mana and can't be healed by Special Skills, but is immune to normal
-    attacks, Special Skill attacks, damage dealing passives, status effects and stacks.
-    Immune to new Growth, Wither and Insanity effects.)
+  - While in Ghost form the caster gains +95% attack. This effect is Stubborn. (While
+    in Ghost form Character can't gain mana and can't be healed by Special Skills,
+    but is immune to normal attacks, Special Skill attacks, damage dealing passives,
+    status effects and stacks. Immune to new Growth, Wither and Insanity effects.
+    Each attempt to dispel, cleanse or reallocate a Stubborn effect reduces the duration
+    by 1 turn or decreases activations left by 1.)
   - All allies except the caster get +54% defense against Holy for 4 turns.
   types:
   - Full Removal Self
@@ -109,7 +111,7 @@ costume2:
     dispels.'
   image: https://i.imgur.com/ZzDvGTw.jpg
   dtReleased: "2026-06-28"
-  dtModified: "2026-11-02"
+  dtModified: "2026-11-26"
   fancy_name: Lone Toon Ghost
   aetherPower: special_armor
   lb1:
