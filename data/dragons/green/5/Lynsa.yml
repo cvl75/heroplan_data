@@ -10,7 +10,7 @@ health: 14893
 skill: Wind-Swift Mischief
 skillsObj:
   special: ds_lynsa
-  passives: dp_CracklingHatching
+  passives: dp_CracklingHatchling
   assist: da_weakeningBlaze
 effects:
 - Steals all dispellable buffs from the enemies on the edges of the enemy formation
@@ -22,8 +22,8 @@ types:
 - Steal Buffs 2
 - Hit 2
 passives:
-- 'Crackling Hatching: At the start of each turn, each enemy has 25% chance to receive
-  350 damage.'
+- 'Crackling Hatchling: At the start of each turn, each enemy has a 25% chance to
+  receive 350 damage.'
 spiritBonus:
   spiritClass: Rogue
   all:

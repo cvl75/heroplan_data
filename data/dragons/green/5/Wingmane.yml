@@ -8,6 +8,10 @@ attack: 16362
 defense: 16131
 health: 14481
 skill: Aerial Revenge
+skillsObj:
+  special: ds_wingmane
+  passives: ""
+  assist: da_corrosiveBlaze
 effects:
 - Deals 185% damage to all enemies.
 - The damage is increased by 70% per each defeated ally.
@@ -37,5 +41,5 @@ assist:
   - All enemies get -20% defense for 5 turns.
 image: https://i.imgur.com/HnYwX8m.jpg
 dtReleased: "2026-05-12"
-dtModified: ""
+dtModified: "2026-11-26"
 ...

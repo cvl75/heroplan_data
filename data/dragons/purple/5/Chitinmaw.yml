@@ -1,6 +1,6 @@
 ---
 name: Chitinmaw
-fancy_name: "Scale-Eating, Chitinous Wyrm"
+fancy_name: Scale-Eating, Chitinous Wyrm
 source: ancientUnderroot
 speed: Fast
 power: 13000
@@ -8,6 +8,10 @@ attack: 16640
 defense: 16109
 health: 14543
 skill: Dreadbite
+skillsObj:
+  special: ds_chitinmaw
+  passives: ""
+  assist: da_crushingBlaze
 effects:
 - This Special Skill never misses its targets.
 - Deals 340% damage to the target.
@@ -15,6 +19,7 @@ effects:
   or gain mana and receive +50% increased damage. Once Paralyzed, the effect can't
   be cleansed. Bosses, Titans and Mythic Titans are not affected by this status effect.)
 types:
+- Never Miss
 - Hit 1
 - Delayed Paralyze 1
 spiritBonus:
@@ -39,5 +44,5 @@ assist:
   - All damage all enemies receive is increased by +20% for 5 turns.
 image: https://i.imgur.com/QhtyteZ.jpg
 dtReleased: "2026-06-09"
-dtModified: ""
+dtModified: "2026-11-26"
 ...

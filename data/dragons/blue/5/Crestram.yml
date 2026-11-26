@@ -1,6 +1,6 @@
 ---
 name: Crestram
-fancy_name: "Serpent Selenomancer"
+fancy_name: Serpent Selenomancer
 source: ancientUnderroot
 speed: Average
 power: 13050
@@ -8,6 +8,10 @@ attack: 16648
 defense: 16228
 health: 14640
 skill: Moonfury
+skillsObj:
+  special: ds_crestram
+  passives: ""
+  assist: da_blazeTorment
 effects:
 - Deals 320% damage to the target and 260% damage to nearby enemies.
 - The target can't revive their allies or themself for 4 turns.
@@ -19,7 +23,7 @@ effects:
 types:
 - Hit 3
 - Revive Block 1
-- Soul Bond 1
+- Soul Bound 1
 spiritBonus:
   spiritClass: Wizard
   all:
@@ -42,5 +46,5 @@ assist:
   - Reduces the mana of all enemies by 20%.
 image: https://i.imgur.com/grQTsxe.jpg
 dtReleased: "2026-06-23"
-dtModified: ""
+dtModified: "2026-11-25"
 ...

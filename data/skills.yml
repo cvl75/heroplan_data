@@ -1,4 +1,12 @@
 ---
+dispel3:
+  key: dispel3
+  text: Dispels buffs from the target and nearby enemies.
+bypass:
+  key: bypass
+  text: The attack bypasses counterattacks and reflection.
+  types:
+  - Bypass
 chainHit:
   key: chainHit
   text: The attack chains through all the enemies who are adjacent to any hit enemy
@@ -25,6 +33,33 @@ da_drainingBlaze:
     @healerAll#heal=210@
     @dotAll#dot=1110;type=Burn;turns=5@
     @healingDebuff#debuff=-30%;turns=5@
+da_esotericFlame:
+  key: da_esotericFlame
+  title: Esoteric Flame
+  text: |-
+    @hitAll#hit=420@
+    @healerAll#heal=220@
+    @manaIncreaseAll#increase=20%@
+    @hotAll#hot=260 HP;turns=5@
+dmgIncreaseDeadAlly:
+  key: dmgIncreaseDeadAlly
+  text: The damage is increased by {dmgIncr} per each defeated ally.
+  vars:
+    dmgIncr: 70%
+ds_chitinmaw:
+  key: ds_chitinmaw
+  title: Dreadbite
+  text: |-
+    @ssNeverMiss#@
+    @hit1#hit=340%@
+    @delayedParalyze1#delay=1 turn;turns=2@
+ds_crestram:
+  key: ds_crestram
+  title: Moonfury
+  text: |-
+    @hit3Minor#hit1=320%;hit2=260%@
+    @reviveBlock1#reviveT=4@
+    @soulBound1#boundT=4@
 ds_cretrix:
   key: ds_cretrix
   title: Voltaic Lash
@@ -32,6 +67,14 @@ ds_cretrix:
     @hit1#hit=300%@
     @dotRandomTurns#dot=800-2400;type=Lightning;turns=3@
     @attackDebuff1#attdebuff=-3500;turns=3@
+ds_cryonia:
+  key: ds_cryonia
+  title: Spellfrost Breath
+  text: |-
+    @hit3#hit=300%@
+    @manaReduct3#reduce=25%@
+    @buffImmun3#imunTurns=4@
+    @dealsExtra#elem=Fire@
 ds_erudius:
   key: ds_erudius
   title: Bound by Knowledge
@@ -75,6 +118,13 @@ ds_lynsa:
     @stealBuffs2#@
     @hit2Edge#hit=240%@
     @dealsExtra#elem=Ice@
+ds_nuyza:
+  key: ds_nuyza
+  title: Disenchanting Breath
+  text: |-
+    @dispel3#@
+    @hit3#hit=250%@
+    @blind3#blind=-40%;turns=3@
 ds_pluna:
   key: ds_pluna
   title: Whirlpool of Renewal
@@ -97,6 +147,21 @@ ds_voltina:
     @chainHit@
     @dotOnHitEachTurn#randomDoT=700-2100;dotType=Lightning ;turns=3@
     @dealsExtra#elem=Holy@
+ds_vzaakh:
+  key: ds_vzaakh
+  title: Frenzied Swoop
+  text: |-
+    @hit1#hit=340%@
+    @increaseHitOnSelfHP#maxHit=440%@
+    @dot1#dot=5100;dotType=Bleed;turns=3@
+    @elemDefDebuff1#def=-5000;elem=Holy;turns=3@
+ds_wingmane:
+  key: ds_wingmane
+  title: Aerial Revenge
+  text: |-
+    @hitAll#hit=185%@
+    @dmgIncreaseDeadAlly#dmgIncr=70%@
+    @bypass#@
 ds_zhura:
   key: ds_zhura
   title: Overcharged Plunge
@@ -105,6 +170,19 @@ ds_zhura:
     @boostManaSelfOnKill#mana=25%@
     @ssExtraDmg3#extra=+40%;turns=3@
     @extraElemDmg#elem=Dark@
+ds_zoostrog:
+  key: ds_zoostrog
+  title: Rise for a New Day
+  text: |-
+    @healer3#heal=10000@
+    @reviveRandom1#hp=6000@ @info_revivedBySS#display=inlineParenthesis@
+    @reflectAilmDmg3#reflect=70%;reflectTurns=4@
+increaseHitOnSelfHP:
+  key: increaseHitOnSelfHP
+  text: The less HP the caster has before dealing damage, the more damage they will
+    deal, up to {maxHit}.
+  vars:
+    maxHit: 440%
 info_dispelStack:
   key: info_dispelStack
   text: Dispelling reduces positive stacks by 1.
@@ -118,9 +196,24 @@ info_manaAdditions:
   vars:
     count: 5
     display: inlineParenthesis
+info_paralyzed:
+  key: info_paralyzed
+  text: |-
+    Paralyzed enemies can't attack or gain mana and receive {increase} increased damage.
+    Once Paralyzed, the effect can't be cleansed.
+    Bosses, Titans and Mythic Titans are not affected by this status effect.
+  vars:
+    display: inlineParenthesis
+    increase: +50%
 info_randomDmg:
   key: info_randomDmg
   text: The amount of damage dealt is randomized each turn.
+  vars:
+    display: inlineParenthesis
+info_revivedBySS:
+  key: info_revivedBySS
+  text: After a character has been revived by a Special Skill, their HP is -50% less
+    on each subsequent Special Skill revive.
   vars:
     display: inlineParenthesis
 info_triggerOnce:
@@ -128,6 +221,11 @@ info_triggerOnce:
   text: Each character can trigger this effect once per turn.
   vars:
     display: inlineParenthesis
+ssNeverMiss:
+  key: ssNeverMiss
+  text: This Special Skill never misses its targets.
+  types:
+  - Never Miss
 stealBuffs2:
   key: stealBuffs2
   text: Steals all dispellable buffs from the enemies on the edges of the enemy formation
@@ -162,6 +260,15 @@ blazingRaveDance:
   types:
   - Defense Buff while dancing
   - Extend Dance if hit by SS
+blind3:
+  key: blind3
+  text: The target and nearby enemies get {blind} accuracy for {turns} turns. (Chance
+    to miss also applies to offensive Special Skills.)
+  vars:
+    blind: -40%
+    turns: 3
+  types:
+  - Blind 3
 boostHealAll:
   key: boostHealAll
   text: Boosts health of all allies by {boostedHealth}. Boosted health can exceed
@@ -186,6 +293,14 @@ boostManaSelfOnKill:
     mana: 25%
   types:
   - Boost Mana Self on kill
+buffImmun3:
+  key: buffImmun3
+  text: The target and nearby enemies are immune to new status effect buffs for {imunTurns}
+    turns.
+  vars:
+    imunTurns: 4
+  types:
+  - Buff Immunity 3
 cleanseImmunityAll:
   key: cleanseImmunityAll
   text: All enemies can't get their status ailments cleansed or reallocated by Special
@@ -203,6 +318,14 @@ counterattackAll:
     counterTurns: 4
   types:
   - Counterattack All
+da_blazeTorment:
+  key: da_blazeTorment
+  icon: /img/skills/assist_dragon_blaze_of_torment.webp
+  title: Blaze of Torment
+  text: |-
+    @hitAll#hit=810@
+    @healerAll#heal=210@
+    @manaReductAll#reduce=20%@
 da_blazeUndying:
   key: da_blazeUndying
   icon: /img/skills/assist_dragon_blaze_of_the_undying_lurzaag.webp
@@ -212,6 +335,22 @@ da_blazeUndying:
     @healerAll#heal=210@
     @dotAll#dot=910;type=Burn;turns=5@
     @cleanseImmunityAll#turns=5@
+da_breathRevival:
+  key: da_breathRevival
+  icon: /img/skills/assist_dragon_breath_of_revival.webp
+  title: Breath of Revival
+  text: |-
+    @healerAll#heal=860@
+    @hitAll#hit=410@
+    @reviveChanceAll#chance=15%;revHP=15%@
+da_corrosiveBlaze:
+  key: da_corrosiveBlaze
+  icon: /img/skills/assist_dragon_corrosive_blaze.webp
+  title: Corrosive Blaze
+  text: |-
+    @hitAll#hit=810@
+    @healerAll#heal=210@
+    @defenseDebuffAll#defDebuff=-20%;turns=5@
 da_crackingBlaze:
   key: da_crackingBlaze
   icon: /img/skills/assist_dragon_cracking_blaze_cretrix.webp
@@ -230,6 +369,14 @@ da_cripplingBlaze:
     @healerAll#heal=210@
     @dotAll#dot=1120;type=Burn;turns=5@
     @manaGenDebuff#mana=-10%;turns=5@
+da_crushingBlaze:
+  key: da_crushingBlaze
+  icon: /img/skills/assist_dragon_crushing_blaze.webp
+  title: Crushing Blaze
+  text: |-
+    @hitAll#hit=860@
+    @healerAll#heal=210@
+    @dmgIncDebuffAll#dmgInc=+20%;incT=5@
 da_sacredFlame:
   key: da_sacredFlame
   icon: /img/skills/assist_dragon_sacred_flame_florin.webp
@@ -295,6 +442,14 @@ defenseDebuffAll:
     turns: 5
   types:
   - Defense Debuff All
+delayedParalyze1:
+  key: delayedParalyze1
+  text: After {delay} the target gets Paralyzed for {turns} turns. @info_paralyzed#display=inlineParenthesis@
+  vars:
+    delay: 1 turn
+    turns: 2
+  types:
+  - Delayed Paralyze 1
 dispellImmunAll:
   key: dispellImmunAll
   text: All allies are immune to buff dispels and reallocations for {turns} turns.
@@ -303,6 +458,14 @@ dispellImmunAll:
     turns: 5
   types:
   - Dispel Immunity Buff All
+dmgIncDebuffAll:
+  key: dmgIncDebuffAll
+  text: All damage all enemies receive is increased by {dmgInc} for {incT} turns.
+  vars:
+    dmgInc: +20%
+    incT: 5
+  types:
+  - Damage Increased Debuff All
 dmgReductBuffAll:
   key: dmgReductBuffAll
   text: All allies reduce all received damage by {reduce} for {turns} turns.
@@ -311,6 +474,15 @@ dmgReductBuffAll:
     turns: 4
   types:
   - Damage Reduction Buff All
+dot1:
+  key: dot1
+  text: The target receives {dot} {dotType} damage over {turns} turns.
+  vars:
+    dot: 999
+    dotType: Bleed
+    turns: 3
+  types:
+  - DoT 1
 dotAll:
   key: dotAll
   text: All enemies receive {dot} {type} damage over {turns} turns.
@@ -339,14 +511,6 @@ dotRandomTurns:
     turns: 3
   types:
   - DoT 1
-dp_CracklingHatchling:
-  key: dp_CracklingHatchling
-  title: Crackling Hatchling
-  text: At the start of each turn, each enemy has a {chance} chance to receive {dmg}
-    damage.
-  vars:
-    chance: 25%
-    dmg: 350
 dropto1All:
   key: dropto1All
   text: All allies have a {chance} chance to drop any received damage to 1 for {turns}
@@ -497,6 +661,14 @@ hit3:
     hit: 333%
   types:
   - Hit 3
+hit3Minor:
+  key: hit3Minor
+  text: Deals {hit1} damage to the target and {hit2} damage to nearby enemies.
+  vars:
+    hit1: 320%
+    hit2: 260%
+  types:
+  - Hit 3
 hitAll:
   key: hitAll
   text: Deals {hit} damage to all enemies.
@@ -544,6 +716,27 @@ manaGenDebuff:
     turns: 5
   types:
   - Mana Generation Debuff All
+manaIncreaseAll:
+  key: manaIncreaseAll
+  text: Increases the mana of all allies by {increase}.
+  vars:
+    increase: 20%
+  types:
+  - Mana Increase All
+manaReduct3:
+  key: manaReduct3
+  text: Reduces the mana of the target and nearby enemies by {reduce}.
+  vars:
+    reduce: 25%
+  types:
+  - Mana Reduction 3
+manaReductAll:
+  key: manaReductAll
+  text: Reduces the mana of all enemies by {reduce}.
+  vars:
+    reduce: 20%
+  types:
+  - Mana Reduction All
 maxHealthReductAll:
   key: maxHealthReductAll
   text: Reduces max health of all enemies by {reduce}. The effect is stronger against
@@ -552,6 +745,46 @@ maxHealthReductAll:
     reduce: 460
   types:
   - Max Health Reduction All
+reflectAilmDmg3:
+  key: reflectAilmDmg3
+  text: The caster and nearby allies reflect {reflect} of the damage received from
+    their status ailments and negative stacks to all enemies for {reflectTurns} turns.
+  vars:
+    reflect: 70%
+    reflectTurns: 4
+  types:
+  - Reflect Damage from Ailments 3
+reviveBlock1:
+  key: reviveBlock1
+  text: The target can't revive their allies or themself for {reviveT} turns.
+  vars:
+    reviveT: 4
+  types:
+  - Revive Block 1
+reviveChanceAll:
+  key: reviveChanceAll
+  text: Each defeated ally has a {chance} chance to get revived with {revHP} HP.
+  vars:
+    chance: 15%
+    revHP: 15%
+  types:
+  - Reviver All
+reviveRandom1:
+  key: reviveRandom1
+  text: Revives a random defeated ally with {hp} HP.
+  vars:
+    hp: 9999
+  types:
+  - Reviver Random 1
+soulBound1:
+  key: soulBound1
+  text: |-
+    The target gets Soul Bound for {boundT} turns. This effect can't be cleansed. (This effect will always bypass reflection.)
+    All damage received by the caster is also dealt to all Soul Bound enemies. (Damage is shared between all Soul Bound enemies. This effect will not share damage coming from other shared damage sources or counterattacks.)
+  vars:
+    boundT: 4
+  types:
+  - Soul Bound 1
 soulConnBuffAll:
   key: soulConnBuffAll
   text: All allies become Soul Connected for {turns} turns. Soul Connected allies
@@ -608,6 +841,15 @@ test2:
     end
   vars:
     hit: 999
+dp_CracklingHatchling:
+  key: dp_CracklingHatchling
+  icon: /img/skills/passive_crackling_hatchling.webp
+  title: Crackling Hatchling
+  text: At the start of each turn, each enemy has a {chance} chance to receive {dmg}
+    damage.
+  vars:
+    chance: 25%
+    dmg: 350
 dp_surgeback:
   key: dp_surgeback
   icon: /img/skills/passive_surgeback.webp
@@ -646,17 +888,6 @@ test3:
   text: "@hit1#prefix= - @ (@info_manaAdditions@) \n@test@"
   vars:
     nume: asd
-  types:
-  - ""
-dp_CracklingHatching:
-  key: dp_CracklingHatching
-  icon: /img/skills/passive_crackling_hatchling.webp
-  title: Crackling Hatching
-  text: At the start of each turn, each enemy has {chance} chance to receive {dmg}
-    damage.
-  vars:
-    chance: 25%
-    dmg: 350
   types:
   - ""
 ...

@@ -1,6 +1,6 @@
 ---
 name: Vzaakh
-fancy_name: "Ravenous Bat-Drake"
+fancy_name: Ravenous Bat-Drake
 source: ancientUnderroot
 speed: Fast
 power: 13100
@@ -8,8 +8,12 @@ attack: 16908
 defense: 16109
 health: 14584
 skill: Frenzied Swoop
+skillsObj:
+  special: ds_vzaakh
+  passives: ""
+  assist: '@da_esotericFlame#hit=410;heal=210;hot=255 HP@'
 effects:
-- Deals 340% to the target.
+- Deals 340% damage to the target.
 - The less HP the caster has before dealing damage, the more damage they will deal,
   up to 440%.
 - The target receives 5100 Bleed damage over 3 turns.
@@ -41,5 +45,5 @@ assist:
   - All allies regenerate 255 HP over 5 turns.
 image: https://i.imgur.com/Uvxed2u.jpg
 dtReleased: "2026-07-07"
-dtModified: ""
+dtModified: "2026-11-25"
 ...

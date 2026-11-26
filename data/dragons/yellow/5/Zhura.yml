@@ -10,7 +10,7 @@ health: 15060
 skill: Overcharged Plunge
 skillsObj:
   special: ds_zhura
-  passives: '@dp_CracklingHatching#chance=25%;dmg=350@'
+  passives: '@dp_CracklingHatchling#chance=25%;dmg=350@'
   assist: '@da_dampeningBlaze#@'
 effects:
 - Deals 340% damage to the target.
@@ -27,8 +27,8 @@ types:
 - SS Increased Damage Buff 3
 - Extra Elemental Damage
 passives:
-- 'Crackling Hatching: At the start of each turn, each enemy has 25% chance to receive
-  350 damage.'
+- 'Crackling Hatchling: At the start of each turn, each enemy has a 25% chance to
+  receive 350 damage.'
 spiritBonus:
   spiritClass: Fighter
   all:
@@ -51,5 +51,5 @@ assist:
   - All enemies get -10% mana generation for 5 turns.
 image: https://i.imgur.com/9u3I032.jpg
 dtReleased: "2026-11-24"
-dtModified: ""
+dtModified: "2026-11-25"
 ...
