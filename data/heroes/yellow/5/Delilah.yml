@@ -71,4 +71,42 @@ costume:
     attack: 1129
     defense: 1115
     health: 2433
+costume2:
+  design: toon
+  bonuses: 90/90/90/5
+  class: Fighter
+  power: 1348
+  attack: 1407
+  defense: 1330
+  health: 2559
+  skill: Summon Toon Guardians
+  effects:
+  - Recovers 47% health for all allies.
+  - Summons a Guardian Minion for each ally with 25% HP and 30% attack inherited from
+    the caster.
+  - All allies get +40% defense against Dark for 4 turns.
+  - Element Link gives +10% mana generation for all Holy allies for 4 turns. This
+    effect can't be dispelled.
+  types:
+  - Healer All
+  - Summoner All
+  - Elemental Defense Buff All
+  passives:
+  - 'Toon: 75% extra chance to resist all status ailments, mana reductions and buff
+    dispels.'
+  image: https://i.imgur.com/QnqlkM8.jpg
+  dtReleased: "2026-11-26"
+  dtModified: ""
+  fancy_name: Hero of Toon Island
+  aetherPower: defense_up
+  lb1:
+    power: 1442
+    attack: 1516
+    defense: 1433
+    health: 2758
+  lb2:
+    power: 1633
+    attack: 1735
+    defense: 1640
+    health: 3156
 ...

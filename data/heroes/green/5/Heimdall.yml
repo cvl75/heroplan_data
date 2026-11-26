@@ -71,4 +71,43 @@ costume:
     attack: 1026
     defense: 1355
     health: 2327
+costume2:
+  design: toon
+  bonuses: 84/84/84/5
+  class: Paladin
+  power: 1349
+  attack: 1219
+  defense: 1541
+  health: 2614
+  skill: Toon Boon of Gjallarhorn
+  effects:
+  - Boosts health of all allies by 1000. Boosted health can exceed max HP.
+  - Each defeated ally has a 45% chance to get revived with 35% HP. (After a character
+    has been revived by a Special Skill, their HP is -50% less on each subsequent
+    Special Skill revive. After a character has been revived by a Special Skill, the
+    chance for them to be revived is -50% on each subsequent Special Skill revive.)
+  - All allies get +50% attack for 4 turns. This status effect is undispellable and
+    lasts 2 turns longer on Nature characters.
+  types:
+  - Health Boost All
+  - Reviver
+  - Attack Buff All
+  passives:
+  - 'Toon: 75% extra chance to resist all status ailments, mana reductions and buff
+    dispels.'
+  image: https://i.imgur.com/xm7NgBC.jpg
+  dtReleased: "2026-11-26"
+  dtModified: ""
+  fancy_name: Vigilant Toon
+  aetherPower: heal_increase
+  lb1:
+    power: 1444
+    attack: 1314
+    defense: 1661
+    health: 2817
+  lb2:
+    power: 1634
+    attack: 1503
+    defense: 1900
+    health: 3224
 ...
