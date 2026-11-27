@@ -8,6 +8,10 @@ attack: 16274
 defense: 15845
 health: 14201
 skill: Acorn Bombardment
+skillsObj:
+  special: ds_qillix
+  passives: ""
+  assist: da_shockingBlaze#hit=410;heal=210;reduce=450
 effects:
 - Deals 200% damage to 4 random enemies.
 - The caster gets an additional +40% attack power of the next Special Skill they cast.
@@ -16,8 +20,8 @@ effects:
 - The caster get +35% chance to dodge Special Skills that deal damage for 3 turns.
 types:
 - Hit Random 4
-- SS Attack Buff Self
-- Dodge Chance Self
+- SS Increased Attack Buff Self
+- SS Dodge Chance Self
 spiritBonus:
   spiritClass: Druid
   all:
@@ -42,5 +46,5 @@ assist:
   - All enemies get -20% defense for 5 turns.
 image: https://i.imgur.com/zxM4hEc.jpg
 dtReleased: "2026-03-31"
-dtModified: ""
+dtModified: "2026-11-27"
 ...

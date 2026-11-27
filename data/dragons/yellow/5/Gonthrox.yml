@@ -8,6 +8,10 @@ attack: 15686
 defense: 15775
 health: 14022
 skill: Aerial Ram
+skillsObj:
+  special: ds_gonthrox
+  passives: ""
+  assist: da_weakeningBlaze#hit=830;heal=200
 effects:
 - Deals 300% damage to the target.
 - If the target has less than 50% health before receiving damage, targets another
@@ -18,8 +22,9 @@ effects:
 - Hit enemies get -4400 attack for 4 turns.
 types:
 - Hit 1
+- Hit random 1 if less 50% HP
+- Attack Debuff on hit
 - Chain Hit
-- Attack Debuff on Hit
 spiritBonus:
   spiritClass: Paladin
   all:
@@ -42,5 +47,5 @@ assist:
   - All enemies get -20% attack for 5 turns.
 image: https://i.imgur.com/WcrhbCt.jpg
 dtReleased: "2026-01-20"
-dtModified: ""
+dtModified: "2026-11-27"
 ...

@@ -18,6 +18,7 @@ effects:
 - The target and nearby enemies get -40% accuracy for 3 turns. (Chance to miss also
   applies to offensive Special Skills.)
 types:
+- Dispel 3
 - Hit 3
 - Blind 3
 spiritBonus:
@@ -43,5 +44,5 @@ assist:
   - Cleanses status ailments from all allies.
 image: https://i.imgur.com/n4aWqnm.jpg
 dtReleased: "2026-07-21"
-dtModified: "2026-11-25"
+dtModified: "2026-11-27"
 ...

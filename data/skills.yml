@@ -2,6 +2,8 @@
 dispel3:
   key: dispel3
   text: Dispels buffs from the target and nearby enemies.
+  types:
+  - Dispel 3
 bypass:
   key: bypass
   text: The attack bypasses counterattacks and reflection.
@@ -24,7 +26,7 @@ da_dampeningBlaze:
   text: |-
     @hitAll#hit=1010@
     @healerAll#heal=210@
-    @manaGenDebuff#mana=-10%;turns=5@
+    @manaGenDebuffAll#mana=-10%;turns=5@
 da_drainingBlaze:
   key: da_drainingBlaze
   title: Draining Blaze
@@ -300,7 +302,7 @@ buffImmun3:
   vars:
     imunTurns: 4
   types:
-  - Buff Immunity 3
+  - Buff Immunity Debuff 3
 cleanseImmunityAll:
   key: cleanseImmunityAll
   text: All enemies can't get their status ailments cleansed or reallocated by Special
@@ -368,7 +370,7 @@ da_cripplingBlaze:
     @hitAll#hit=410@
     @healerAll#heal=210@
     @dotAll#dot=1120;type=Burn;turns=5@
-    @manaGenDebuff#mana=-10%;turns=5@
+    @manaGenDebuffAll#mana=-10%;turns=5@
 da_crushingBlaze:
   key: da_crushingBlaze
   icon: /img/skills/assist_dragon_crushing_blaze.webp
@@ -708,8 +710,8 @@ manaGenBuffAll:
     turns: 5
   types:
   - Mana Generation Buff All
-manaGenDebuff:
-  key: manaGenDebuff
+manaGenDebuffAll:
+  key: manaGenDebuffAll
   text: All enemies get {mana} mana generation for {turns} turns.
   vars:
     mana: -10%
@@ -890,4 +892,287 @@ test3:
     nume: asd
   types:
   - ""
+dispel1:
+  key: dispel1
+  text: Dispels buffs from the target.
+  types:
+  - Dispel 1
+ds_thenzar:
+  key: ds_thenzar
+  title: The Scent of Blood
+  text: |-
+    @dispel1#@
+    @hit1#hit=375%@
+    @extraDmgPerSE#extraDmg=50%;maxDmg=525%@
+extraDmgPerSE:
+  key: extraDmgPerSE
+  text: Deals additional {extraDmg} damage per removed status effect, up to {maxDmg}
+    damage in total.
+  vars:
+    extraDmg: 50%
+    maxDmg: 525%
+da_wreckingBlaze:
+  key: da_wreckingBlaze
+  icon: /img/skills/assist_wrecking_blaze.webp
+  title: Wrecking Blaze
+  text: |-
+    @hitAll#hit=870@
+    @healerAll#heal=220@
+    @resistMinionsAll#resTurns=5@
+resistMinionsAll:
+  key: resistMinionsAll
+  text: All enemies resist new Minions for {resTurns} turns.
+  vars:
+    resTurns: 5
+  types:
+  - Resist Minions All
+ds_velmuthraal:
+  key: ds_velmuthraal
+  title: Rite of Protection
+  text: |-
+    @hit3#hit=300%@
+    @healerSelfDmg#healP=35%@
+    @taunt#tauntTurns=4@
+    @dmgReductBuffSelf#reduceDmg=-50%;turns=4@
+healerSelfDmg:
+  key: healerSelfDmg
+  text: Heals the caster for {healP} of damage dealt.
+  vars:
+    healP: 35%
+  types:
+  - Heal Self
+taunt:
+  key: taunt
+  text: The caster gets Taunt that prevents enemies from using Special Skills on the
+    caster's allies for {tauntTurns} turns.
+  vars:
+    tauntTurns: 4
+  types:
+  - Taunt
+dmgReductBuffSelf:
+  key: dmgReductBuffSelf
+  text: The caster reduces all received damage by {reduceDmg} for {turns} turns.
+  vars:
+    reduceDmg: -50%
+    turns: 4
+  types:
+  - Damage Reduction Buff Self
+hitRandom:
+  key: hitRandom
+  text: Deals {hitP} damage to {count} random enemies.
+  vars:
+    hitP: 200%
+    count: 4
+  types:
+  - Hit Random {count}
+ssExtraDmgIncrSelf:
+  key: ssExtraDmgIncrSelf
+  text: The caster gets an additional {extraP} attack power of the next Special Skill
+    they cast. The additional attack power increases {incrP} each turn, up to a maximum
+    of {incrMax} in total.
+  vars:
+    extraP: +40%
+    incrP: +20%
+    incrMax: +100%
+  types:
+  - SS Increased Attack Buff Self
+ssDodgeChanceSelf:
+  key: ssDodgeChanceSelf
+  text: The caster get {dodgeP} chance to dodge Special Skills that deal damage for
+    {turns} turns.
+  vars:
+    dodgeP: +35%
+    turns: 3
+  types:
+  - SS Dodge Chance Self
+ds_qillix:
+  key: ds_qillix
+  title: Acorn Bombardment
+  text: |-
+    @hitRandom#hitP=200%;count=4@
+    @ssExtraDmgIncrSelf#extraP=+40%;incrP=+20%;incrMax=+100%@
+    @ssDodgeChanceSelf#dodgeP=+35%;turns=3@
+manaGenDebuff1:
+  key: manaGenDebuff1
+  text: The target gets {manaP1} mana generation for {turns1} turns. @info_manaGen@
+  vars:
+    manaP1: -35%
+    turns1: 3
+  types:
+  - Mana Generation Debuff 1
+info_manaGen:
+  key: info_manaGen
+  text: Affects only mana generated from matching shields or mana gained by the defense
+    team at the end of their turn.
+  vars:
+    display: inlineParenthesis
+ds_froastyx:
+  key: ds_froastyx
+  title: Claws of the North
+  text: |-
+    @hit1#hit=300%@
+    @manaGenDebuff1#manaP1=-35%;turns1=3@
+    @dot1#dot=4500;dotType=Frost;turns=3@
+da_woundingBlaze:
+  key: da_woundingBlaze
+  icon: /img/skills/assist_dragon_wounding_blaze.webp
+  title: Wounding Blaze
+  text: |-
+    @hitAll#hit=910@
+    @healerAll#heal=200@
+    @healingDebuff#debuff=-30%;turns=5@
+healerLessHP:
+  key: healerLessHP
+  text: Recovers {healHP} health for all allies who have less than {healLess} health.
+  vars:
+    healHP: 999
+    healLess: 50%
+  types:
+  - Healer All less {healLess} HP
+ailmentsImmAll:
+  key: ailmentsImmAll
+  text: All allies are immune to new status ailments for {immTurns} turns.
+  vars:
+    immTurns: 4
+  types:
+  - Ailments Immunity Buff All
+ds_preenakh:
+  key: ds_preenakh
+  title: Feathered Embrace
+  text: |-
+    @healerLessHP#healHP=10000;healLess=50%@
+    @hotAll#hot=4000 HP;turns=4@
+    @ailmentsImmAll#immTurns=4@
+da_blazingStorm:
+  key: da_blazingStorm
+  icon: /img/skills/assist_dragon_blazing_storm.webp
+  title: Blazing Storm
+  text: |-
+    @hitAll#hit=400@
+    @healerAll#heal=200@
+    @dotAll#dot=1300;type=Burn;turns=5@
+    @dispelAll#@
+dispelAll:
+  key: dispelAll
+  text: Dispels buffs from all enemies.
+  types:
+  - Dispel 3
+ds_gallakhran:
+  key: ds_gallakhran
+  title: Oceanic Torrent
+  text: |-
+    @hit3#hit=230%@
+    @healingResist3#resistDmg=2000;resistTurns=3@
+    @manaGenDebuff3#manaGen3=-34%;manaTurns3=3@
+healingResist3:
+  key: healingResist3
+  text: The target and nearby enemies resist healing and receive {resistDmg} damage
+    per each resisted healing for {resistTurns} turns.
+  vars:
+    resistDmg: 2000
+    resistTurns: 3
+  types:
+  - Healing Resist Debuff 3
+  - Damage on each Resisted Healing 3
+manaGenDebuff3:
+  key: manaGenDebuff3
+  text: The target and nearby enemies get {manaGen3} mana generation for {manaTurns3}
+    turns. @info_manaGen@
+  vars:
+    manaGen3: -34%
+    manaTurns3: 4
+  types:
+  - Mana Generation Debuff 3
+da_cleansingFlame:
+  key: da_cleansingFlame
+  icon: /img/skills/assist_dragon_cleansing_flame.webp
+  title: Cleansing Flame
+  text: |-
+    @hitAll#hit=400@
+    @healerAll#heal=200@
+    @hotAll#hot=520 HP;turns=5@
+    @cleanserAll#@
+ds_belzaas:
+  key: ds_belzaas
+  title: Deafening Parade
+  text: |-
+    @hit1HighHPMinorAll#hitHigh=300%;hitRest=130%@
+    @bypassBuffs#@
+    @manaReductAll#reduce=10%@
+hit1HighHPMinorAll:
+  key: hit1HighHPMinorAll
+  text: Deals {hitHigh} damage to the enemy with the highest remaining HP. Deals {hitRest}
+    damage to all other enemies.
+  vars:
+    hitHigh: 300%
+    hitRest: 130%
+  types:
+  - Hit All
+bypassBuffs:
+  key: bypassBuffs
+  text: The attack bypasses defensive buffs. @info_inclCounterattacks@
+  types:
+  - Bypass Buffs
+info_inclCounterattacks:
+  key: info_inclCounterattacks
+  text: This includes counterattacks.
+  vars:
+    display: inlineParenthesis
+ds_gonthrox:
+  key: ds_gonthrox
+  title: Aerial Ram
+  text: |-
+    @hit1#hit=300%@
+    @hitExtra1LessHP#lessHP=50%@
+    @attackDebuffOnHit#attP=-4400;debTurns=4@
+hitExtra1LessHP:
+  key: hitExtra1LessHP
+  text: If the target has less than {lessHP} health before receiving damage, targets
+    another enemy who had less than {lessHP} health before receiving any damage from
+    this Special Skill. If none of the other enemies have less than {lessHP} health,
+    targets a random enemy. The damage is reduced on each consecutive hit. Each enemy
+    can only be hit once.
+  vars:
+    lessHP: 50%
+  types:
+  - Hit random 1 if less {lessHP} HP
+attackDebuffOnHit:
+  key: attackDebuffOnHit
+  text: Hit enemies get {attP} attack for {debTurns} turns.
+  vars:
+    attP: -999
+    debTurns: 4
+  types:
+  - Attack Debuff on hit
+  - Chain Hit
+stealBuffs1:
+  key: stealBuffs1
+  text: Steals all dispellable buffs from the target and randomly distributes them
+    on allies.
+  types:
+  - Steal Buffs 1
+ds_rangifer:
+  key: ds_rangifer
+  title: Urgent Gift Delivery
+  text: |-
+    @hit1MinorAll#hit1=330%;hit2=140%@
+    @stealBuffs1#@
+    @buffImmun1#immun1Turns=5@
+    @healingDebuff1#debuff1=-70%;debuff1Turns=5@
+buffImmun1:
+  key: buffImmun1
+  text: The target is immune to new status effects buffs for {immun1Turns} turns.
+  vars:
+    immun1Turns: 5
+  types:
+  - Buff Immunity Debuff 1
+healingDebuff1:
+  key: healingDebuff1
+  text: The target gets {debuff1} decrease for any healing received for {debuff1Turns}
+    turns.
+  vars:
+    debuff1: -70%
+    debuff1Turns: 5
+  types:
+  - Healing Debuff 1
 ...

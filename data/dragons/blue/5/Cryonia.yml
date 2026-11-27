@@ -20,7 +20,7 @@ effects:
 types:
 - Hit 3
 - Mana Reduction 3
-- Buff Immunity 3
+- Buff Immunity Debuff 3
 passives:
 - 'Crackling Hatchling: At the start of each turn, each enemy has a 25% chance to
   receive 350 damage.'
@@ -47,5 +47,5 @@ assist:
   - All allies regenerate 260 HP over 5 turns.
 image: https://i.imgur.com/Ay1T8RY.jpg
 dtReleased: "2026-08-04"
-dtModified: "2026-11-25"
+dtModified: "2026-11-27"
 ...

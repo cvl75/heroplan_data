@@ -8,14 +8,18 @@ attack: 15791
 defense: 16045
 health: 14294
 skill: Feathered Embrace
+skillsObj:
+  special: ds_preenakh
+  passives: ""
+  assist: da_blazingStorm
 effects:
 - Recovers 10000 health for all allies who have less than 50% health.
 - All allies regenerate 4000 HP over 4 turns.
 - All allies are immune to new status ailments for 4 turns.
 types:
-- Healer All
+- Healer All less 50% HP
 - HoT All
-- Ailments Immunity All
+- Ailments Immunity Buff All
 spiritBonus:
   spiritClass: Druid
   all:
@@ -39,5 +43,5 @@ assist:
   - Dispels buffs from all enemies.
 image: https://i.imgur.com/jx8wFUH.jpg
 dtReleased: "2026-03-03"
-dtModified: ""
+dtModified: "2026-11-27"
 ...

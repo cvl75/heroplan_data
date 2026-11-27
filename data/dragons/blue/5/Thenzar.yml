@@ -8,12 +8,16 @@ attack: 16255
 defense: 16103
 health: 14448
 skill: The Scent of Blood
+skillsObj:
+  special: ds_thenzar
+  passives: ""
+  assist: da_wreckingBlaze
 effects:
 - Dispels buffs from the target.
 - Deals 375% damage to the target.
 - Deals additional 50% damage per removed status effect, up to 525% damage in total.
 types:
-- Dispeller 1
+- Dispel 1
 - Hit 1
 spiritBonus:
   spiritClass: Barbarian
@@ -37,5 +41,5 @@ assist:
   - All enemies resist new Minions for 5 turns.
 image: https://i.imgur.com/zzMJlN5.jpg
 dtReleased: "2026-04-28"
-dtModified: ""
+dtModified: "2026-11-26"
 ...
