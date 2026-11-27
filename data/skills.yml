@@ -34,7 +34,7 @@ da_drainingBlaze:
     @hitAll#hit=410@
     @healerAll#heal=210@
     @dotAll#dot=1110;type=Burn;turns=5@
-    @healingDebuff#debuff=-30%;turns=5@
+    @healingDebuffAll#debuff=-30%;turns=5@
 da_esotericFlame:
   key: da_esotericFlame
   title: Esoteric Flame
@@ -625,8 +625,8 @@ healerAll:
     heal: 999
   types:
   - Healer All
-healingDebuff:
-  key: healingDebuff
+healingDebuffAll:
+  key: healingDebuffAll
   text: All enemies get {debuff} decrease for any healing received for {turns} turns.
   vars:
     debuff: -30%
@@ -1020,7 +1020,7 @@ da_woundingBlaze:
   text: |-
     @hitAll#hit=910@
     @healerAll#heal=200@
-    @healingDebuff#debuff=-30%;turns=5@
+    @healingDebuffAll#debuff=-30%;turns=5@
 healerLessHP:
   key: healerLessHP
   text: Recovers {healHP} health for all allies who have less than {healLess} health.
@@ -1175,4 +1175,159 @@ healingDebuff1:
     debuff1Turns: 5
   types:
   - Healing Debuff 1
+ailmentsIncDebuffAll:
+  key: ailmentsIncDebuffAll
+  text: All enemies take {ailmP} increased damage form status ailments for {ailmTurns}
+    turns.
+  vars:
+    ailmP: +25%
+    ailmTurns: 4
+  types:
+  - Increased Damage from Ailments All
+ds_ceestraze:
+  key: ds_ceestraze
+  title: Cheese Wheel Rampage
+  text: |-
+    @hitAll#hit=200%@
+    @dotAll#dot=4000;type=Poison;turns=4@
+    @ailmentsIncDebuffAll#ailmP=+25%;ailmTurns=4@
+ds_wildheart:
+  key: ds_wildheart
+  title: Doomrend
+  text: |-
+    @hit2Edge#hit=300%@
+    @spreadingDot2#dot2=5600;dot2Type=Bleed;dot2Turns=4@
+spreadingDot2:
+  key: spreadingDot2
+  text: The enemies on the edges of the enemy formation receive {dot2} {dot2Type}
+    damage over {dot2Turns} turns. This effect spreads to nearby enemies.
+  vars:
+    dot2: 999
+    dot2Type: Bleed
+    dot2Turns: 4
+  types:
+  - Spreading DoT 2
+da_blindingBlaze:
+  key: da_blindingBlaze
+  icon: /img/skills/assist_dragon_blinding_blaze.webp
+  title: Blinding Blaze
+  text: |-
+    @hitAll#hit=820@
+    @healerAll#heal=200@
+    @blindAll#blindAll=-20%;blindAllTurns=5@
+blindAll:
+  key: blindAll
+  text: All enemies get {blindAll} accuracy for {blindAllTurns} turns.
+  vars:
+    blindAll: -20%
+    blindAllTurns: 5
+  types:
+  - Blind All
+boostHeal3:
+  key: boostHeal3
+  text: Boosts health of the caster and nearby allies by {boost3}. Boosted health
+    can exceed max HP.
+  vars:
+    boost3: 999
+  types:
+  - Boosts Health 3
+counterattack3:
+  key: counterattack3
+  text: The caster and nearby allies counterattack with {counter3} of the damage received
+    for {counter3Turns} turns.
+  vars:
+    counter3: 99%
+    counter3Turns: 4
+  types:
+  - Counterattack 3
+reflectAilm3:
+  key: reflectAilm3
+  text: The caster and nearby allies reflect status ailments and negative stacks for
+    {reflect3} turns. (Status effects cast by characters, Minions and Fiends on the
+    same side cannot be refreshed.)
+  vars:
+    reflect3: 4
+  types:
+  - Reflect Ailments Buff 3
+ds_trezoro:
+  key: ds_trezoro
+  title: Gleaming Gemstones
+  text: |-
+    @boostHeal3#boost3=5000@
+    @counterattack3#counter3=100%;counter3Turns=4@
+    @reflectAilm3#reflect3=4@
+da_rallyingBreath:
+  key: da_rallyingBreath
+  icon: /img/skills/assist_dragon_rallying_breath.webp
+  title: Rallying Breath
+  text: |-
+    @hitAll#hit=400@
+    @healerAll#heal=200@
+    @boostHealAll#boostedHealth=455@
+    @attackIncreaseBuffAll#buff=+15%;incrP=1%;incrTurns=5;incrMax=+25%@
+attackIncreaseBuffAll:
+  key: attackIncreaseBuffAll
+  text: All allies get {buff} attack and a further {incrP} increase every time they
+    are hit during {incrTurns} turns, up to {incrMax} attack.
+  vars:
+    buff: +99%
+    incrP: 1%
+    incrTurns: 5
+    incrMax: +25%
+  types:
+  - Increasing Attack Buff All
+ds_ashenheart:
+  key: ds_ashenheart
+  title: Ancient Dragon Sword
+  text: |-
+    @hit1#hit=300%@
+    @chainHit#@
+    @elemDefDebuffOnHit#hitDebuffP=-3000;hitDebuffElem=Ice;hitDebuffTurns=5@
+elemDefDebuffOnHit:
+  key: elemDefDebuffOnHit
+  text: All hit targets get {hitDebuffP} defense against {hitDebuffElem} for {hitDebuffTurns}
+    turns.
+  vars:
+    hitDebuffP: 999
+    hitDebuffElem: Ice
+    hitDebuffTurns: 5
+  types:
+  - Elemental Defense Debuff on hit
+ds_fantomo:
+  key: ds_fantomo
+  title: Orchestra of Candles
+  text: |-
+    @hit1MinorAll#hit1=300%;hit2=110%@
+    @elemDefDebuff1MinorAll#def=-3500;elem=Dark;turns=4;minorDef=-1050@
+elemDefDebuff1MinorAll:
+  key: elemDefDebuff1MinorAll
+  text: The target gets {def} defense against {elem} and all other enemies get {minorDef}
+    defense against {elem} for {turns} turns.
+  vars:
+    def: -999
+    elem: Fire
+    turns: 4
+    minorDef: -999
+  types:
+  - Elemental Defense Debuff All
+da_autumnBlaze:
+  key: da_autumnBlaze
+  icon: /img/skills/assist_dragon_autumn_blaze.webp
+  title: Autumn Blaze
+  text: |-
+    @hitAll#hit=400@
+    @healerAll#heal=200@
+    @dotAll#dot=1100;type=Burn;turns=5@
+    @DefIncreaseDebuffAll#debuffP=-15%;debuffIncrP=-1%;debuffTurns=5;debuffPMax=-25%@
+DefIncreaseDebuffAll:
+  key: DefIncreaseDebuffAll
+  text: All enemies get {debuffP} defense, and a further {debuffIncrP} decrease every
+    time they are hit during {debuffTurns} turns, up to {debuffPMax} defense.
+  vars:
+    debuffP: -99%
+    debuffIncrP: -1%
+    debuffTurns: 5
+    debuffPMax: -99%
+  types:
+  - Increasing Defense Debuff All
 ...

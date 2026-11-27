@@ -8,6 +8,10 @@ attack: 15441
 defense: 15501
 health: 13754
 skill: Doomrend
+skillsObj:
+  special: ds_wildheart
+  passives: ""
+  assist: da_blindingBlaze
 effects:
 - Deals 300% damage to the enemies on the edges of the enemy formation. If there is
   only one enemy, the damage is doubled.
@@ -35,8 +39,8 @@ assist:
   effects:
   - Deals 820 damage to all enemies.
   - Recovers 200 health for all allies.
-  - All enemies get -20% accuracy for  5 turns.
+  - All enemies get -20% accuracy for 5 turns.
 image: https://i.imgur.com/DES0Py0.jpg
 dtReleased: "2025-11-28"
-dtModified: ""
+dtModified: "2026-11-27"
 ...

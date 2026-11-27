@@ -8,6 +8,10 @@ attack: 15295
 defense: 15371
 health: 13666
 skill: Ancient Dragon Sword
+skillsObj:
+  special: ds_ashenheart
+  passives: ""
+  assist: da_weakeningBlaze#hit=820;heal=200
 effects:
 - Deals 300% damage to the target.
 - The attack chains through all the enemies who are adjacent to any hit enemy and
@@ -16,7 +20,7 @@ effects:
 types:
 - Hit 1
 - Chain Hit
-- Elemental Defense Debuff on hit enemy
+- Elemental Defense Debuff on hit
 spiritBonus:
   spiritClass: Barbarian
   all:
@@ -39,5 +43,5 @@ assist:
   - All enemies get -20% attack for 5 turns.
 image: https://i.imgur.com/Fop1AxI.jpg
 dtReleased: "2025-11-11"
-dtModified: ""
+dtModified: "2026-11-27"
 ...

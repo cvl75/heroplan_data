@@ -8,6 +8,10 @@ attack: 15499
 defense: 15573
 health: 13824
 skill: Cheese Wheel Rampage
+skillsObj:
+  special: ds_ceestraze
+  passives: ""
+  assist: da_woundingBlaze#hit=905;heal=200
 effects:
 - Deals 200% damage to all enemies.
 - All enemies receive 4000 Poison damage over 4 turns.
@@ -33,10 +37,10 @@ spiritBonus:
 assist:
   name: Wounding Blaze
   effects:
-  - Deals 900 damage to all enemies.
+  - Deals 905 damage to all enemies.
   - Recovers 200 health for all allies.
   - All enemies get -30% decrease for any healing received for 5 turns.
 image: https://i.imgur.com/0dxgAvD.jpg
 dtReleased: "2025-12-09"
-dtModified: ""
+dtModified: "2026-11-27"
 ...
